@@ -1,0 +1,14 @@
+{
+  "en": {
+    "label": "English",
+    "dir": "ltr",
+    "font": "'Inter', 'Noto Sans', sans-serif",
+    "fontUrl": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+  },
+  "ar": {
+    "label": "العربية",
+    "dir": "rtl",
+    "font": "'Noto Naskh Arabic', 'Traditional Arabic', serif",
+    "fontUrl": "https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap"
+  }
+}

@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Clear answers to common doubts about Islam — powered by authentic Islamic sources.">
+  <title>Discover Islam</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Source+Sans+3:wght@300;400;500;600;700&family=Amiri:ital,wght@0,400;0,700;1,400&family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    /* Hero Quran Verse Styling */
+    .hero-verse {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem;
+      background: linear-gradient(135deg, var(--color-bg) 0%, var(--color-surface) 100%);
+      position: relative;
+    }
+    .hero-verse__ornament {
+      font-size: 1.5rem;
+      color: var(--color-accent);
+      margin-bottom: 2rem;
+      letter-spacing: 1rem;
+      opacity: 0.7;
+    }
+    .hero-verse__arabic {
+      font-family: 'Amiri', 'Noto Naskh Arabic', serif;
+      font-size: clamp(2rem, 6vw, 4rem);
+      color: var(--color-accent);
+      line-height: 1.8;
+      margin-bottom: 1.5rem;
+      font-weight: 400;
+      text-shadow: 0 2px 20px rgba(0,0,0,0.1);
+    }
+    .hero-verse__translation {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.2rem, 3vw, 1.8rem);
+      font-style: italic;
+      color: var(--color-text);
+      max-width: 700px;
+      line-height: 1.7;
+      margin-bottom: 1rem;
+      opacity: 0.9;
+    }
+    .hero-verse__ref {
+      font-size: 1rem;
+      color: var(--color-muted);
+      margin-top: 0.5rem;
+    }
+    .hero-verse__scroll {
+      position: absolute;
+      bottom: 2rem;
+      left: 50%;
+      transform: translateX(-50%);
+      animation: bounce 2s infinite;
+      color: var(--color-accent);
+      opacity: 0.7;
+    }
+    @keyframes bounce {
+      0%, 20%, 50%, 80%, 100% { transform: translateX(-50%) translateY(0); }
+      40% { transform: translateX(-50%) translateY(-10px); }
+      60% { transform: translateX(-50%) translateY(-5px); }
+    }
+
+    /* Emotional Speech Section */
+    .speech-section {
+      padding: 5rem 2rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .speech-section__title {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.8rem, 4vw, 2.5rem);
+      color: var(--color-accent);
+      text-align: center;
+      margin-bottom: 3rem;
+      font-weight: 600;
+    }
+    .speech-section p {
+      font-size: 1.15rem;
+      line-height: 1.9;
+      color: var(--color-text);
+      margin-bottom: 1.8rem;
+      text-align: justify;
+    }
+    .speech-section__quote {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.4rem;
+      font-style: italic;
+      text-align: center;
+      color: var(--color-accent);
+      padding: 2rem;
+      margin: 2.5rem 0;
+      border-left: 4px solid var(--color-accent);
+      border-right: 4px solid var(--color-accent);
+      background: var(--color-surface);
+      border-radius: 8px;
+    }
+    .speech-section__quote-ref {
+      display: block;
+      font-size: 0.95rem;
+      color: var(--color-muted);
+      margin-top: 0.8rem;
+      font-style: normal;
+    }
+
+    /* Purpose Section */
+    .purpose-section {
+      padding: 5rem 2rem;
+      background: var(--color-surface);
+    }
+    .purpose-section__inner {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .purpose-section__title {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.8rem, 4vw, 2.5rem);
+      color: var(--color-accent);
+      text-align: center;
+      margin-bottom: 3rem;
+      font-weight: 600;
+    }
+    .purpose-section p {
+      font-size: 1.15rem;
+      line-height: 1.9;
+      color: var(--color-text);
+      margin-bottom: 1.8rem;
+      text-align: justify;
+    }
+
+    /* Explore Section */
+    .explore-section {
+      padding: 5rem 2rem;
+    }
+    .explore-section__title {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.8rem, 4vw, 2.5rem);
+      color: var(--color-accent);
+      text-align: center;
+      margin-bottom: 1rem;
+      font-weight: 600;
+    }
+    .explore-section__subtitle {
+      font-size: 1.1rem;
+      color: var(--color-muted);
+      text-align: center;
+      margin-bottom: 3rem;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .explore-section__cta {
+      display: block;
+      text-align: center;
+      margin-top: 3rem;
+    }
+    .explore-section__cta a {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 1rem 2.5rem;
+      background: var(--color-accent);
+      color: white;
+      text-decoration: none;
+      border-radius: 50px;
+      font-weight: 600;
+      font-size: 1.1rem;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .explore-section__cta a:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    }
+    .explore-section__cta svg {
+      width: 20px;
+      height: 20px;
+    }
+
+    /* Section Divider */
+    .section-divider {
+      text-align: center;
+      padding: 2rem;
+      color: var(--color-accent);
+      font-size: 1.5rem;
+      letter-spacing: 1rem;
+      opacity: 0.5;
+    }
+  </style>
+</head>
+<body>
+  <!-- Animated Background Canvas -->
+  <canvas id="bg-canvas"></canvas>
+
+  <!-- Floating Acrylic Navigation -->
+  <nav class="site-nav">
+    <div class="site-nav__inner">
+      <a href="index.html" class="site-nav__brand" id="nav-brand">Discover Islam</a>
+      <div class="site-nav__links">
+        <a href="index.html" class="active" id="nav-home"></a>
+        <a href="browse.html" id="nav-browse"></a>
+        <span class="nav-separator"></span>
+        <a href="" class="nav-icon-btn" id="nav-github" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+        </a>
+        <button type="button" class="nav-icon-btn" id="theme-toggle" aria-label="Toggle theme">&#x2600;</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero: Quran Verse -->
+  <section class="hero-verse reveal">
+    <div class="hero-verse__ornament">&#x2726;  &#x2726;  &#x2726;</div>
+    <p class="hero-verse__arabic" id="hero-verse-arabic"></p>
+    <p class="hero-verse__translation" id="hero-verse-translation"></p>
+    <p class="hero-verse__ref" id="hero-verse-ref"></p>
+    <div class="hero-verse__scroll">
+      <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+    </div>
+  </section>
+
+  <!-- Emotional Speech Section -->
+  <section class="speech-section">
+    <div class="section-divider reveal">&#x2726;</div>
+    <h2 class="speech-section__title reveal" id="speech-title"></h2>
+    <p class="reveal" id="speech-p1"></p>
+    <p class="reveal" id="speech-p2"></p>
+    <p class="reveal" id="speech-p3"></p>
+    <p class="reveal" id="speech-p4"></p>
+    <blockquote class="speech-section__quote reveal">
+      <span id="speech-quote"></span>
+      <span class="speech-section__quote-ref" id="speech-quote-ref"></span>
+    </blockquote>
+    <p class="reveal" id="speech-p5"></p>
+  </section>
+
+  <!-- Purpose Section -->
+  <section class="purpose-section">
+    <div class="purpose-section__inner">
+      <div class="section-divider reveal">&#x2726;</div>
+      <h2 class="purpose-section__title reveal" id="purpose-title"></h2>
+      <p class="reveal" id="purpose-p1"></p>
+      <p class="reveal" id="purpose-p2"></p>
+      <p class="reveal" id="purpose-p3"></p>
+    </div>
+  </section>
+
+  <!-- Explore Questions Section -->
+  <section class="explore-section">
+    <div class="section-divider reveal">&#x2726;</div>
+    <h2 class="explore-section__title reveal" id="explore-title"></h2>
+    <p class="explore-section__subtitle reveal" id="explore-subtitle"></p>
+    <div class="popular-questions__grid" id="popular-grid"></div>
+    <div class="explore-section__cta reveal">
+      <a href="browse.html" id="explore-cta">
+        <span id="explore-cta-text"></span>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p class="site-footer__label" id="footer-lang-label"></p>
+    <div class="lang-switcher" id="lang-switcher"></div>
+    <p class="site-footer__copyright" id="footer-copyright"></p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/theme.js"></script>
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/data.js"></script>
+  <script>
+    (function () {
+      /* ---- Background Canvas ---- */
+      (function () {
+        var canvas = document.getElementById('bg-canvas');
+        if (!canvas) return;
+        var ctx = canvas.getContext('2d');
+        var shapes = [], w, h;
+        function resize() { w = canvas.width = window.innerWidth; h = canvas.height = window.innerHeight; }
+        resize(); window.addEventListener('resize', resize);
+        for (var i = 0; i < 12; i++) {
+          shapes.push({ x: Math.random()*(w||1200), y: Math.random()*(h||800), size: 20+Math.random()*60, speed: 0.15+Math.random()*0.3, angle: Math.random()*Math.PI*2, rotSpeed: (Math.random()-0.5)*0.003, opacity: 0.02+Math.random()*0.03, sides: Math.random()>0.5?6:8 });
+        }
+        function draw(cx,cy,r,sides,rot) { ctx.beginPath(); for(var j=0;j<=sides;j++){var a=rot+(j*2*Math.PI/sides);var px=cx+r*Math.cos(a);var py=cy+r*Math.sin(a);j===0?ctx.moveTo(px,py):ctx.lineTo(px,py);} ctx.closePath(); }
+        function animate() {
+          ctx.clearRect(0,0,w,h);
+          var col=document.documentElement.getAttribute('data-theme')==='dark'?'212,175,55':'27,67,50';
+          shapes.forEach(function(s){s.y-=s.speed;s.angle+=s.rotSpeed;if(s.y<-s.size){s.y=h+s.size;s.x=Math.random()*w;}ctx.save();ctx.globalAlpha=s.opacity;ctx.strokeStyle='rgba('+col+',0.6)';ctx.lineWidth=0.5;draw(s.x,s.y,s.size,s.sides,s.angle);ctx.stroke();ctx.restore();});
+          requestAnimationFrame(animate);
+        }
+        animate();
+      })();
+
+      /* ---- Scroll Reveal ---- */
+      (function () {
+        var els = document.querySelectorAll('.reveal');
+        if (!('IntersectionObserver' in window)) { els.forEach(function(el){el.classList.add('revealed');}); return; }
+        var obs = new IntersectionObserver(function(entries){ entries.forEach(function(e){ if(e.isIntersecting){e.target.classList.add('revealed');obs.unobserve(e.target);} }); }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
+        els.forEach(function(el){ obs.observe(el); });
+      })();
+
+      function escapeHtml(str) { var d=document.createElement('div'); d.textContent=str; return d.innerHTML; }
+
+      function reobserveReveal() {
+        var newR = document.querySelectorAll('.reveal:not(.revealed)');
+        if ('IntersectionObserver' in window) {
+          var obs2 = new IntersectionObserver(function(ents){ ents.forEach(function(e){ if(e.isIntersecting){e.target.classList.add('revealed');obs2.unobserve(e.target);} }); }, {threshold:0.1});
+          newR.forEach(function(el){ obs2.observe(el); });
+        } else { newR.forEach(function(el){ el.classList.add('revealed'); }); }
+      }
+
+      /* ---- Data & i18n ---- */
+      DataStore.loadAll().then(function (data) {
+        var lang = I18n.init(data.uiStrings, data.languages, data.config.defaultLang);
+
+        // Nav
+        document.getElementById('nav-brand').textContent = I18n.t('title');
+        document.getElementById('nav-home').textContent = I18n.t('back_home');
+        document.getElementById('nav-browse').textContent = I18n.t('browse');
+        document.getElementById('nav-github').href = data.config.githubUrl || '#';
+        document.getElementById('explore-cta').href = 'browse.html?lang=' + lang + '&browse=1';
+        document.title = I18n.t('title');
+
+        // Hero Verse
+        document.getElementById('hero-verse-arabic').textContent = I18n.t('hero_quran_verse');
+        document.getElementById('hero-verse-translation').textContent = I18n.t('hero_quran_translation');
+        document.getElementById('hero-verse-ref').textContent = I18n.t('hero_quran_ref');
+
+        // Speech Section
+        document.getElementById('speech-title').textContent = I18n.t('speech_title');
+        document.getElementById('speech-p1').textContent = I18n.t('speech_p1');
+        document.getElementById('speech-p2').textContent = I18n.t('speech_p2');
+        document.getElementById('speech-p3').textContent = I18n.t('speech_p3');
+        document.getElementById('speech-p4').textContent = I18n.t('speech_p4');
+        document.getElementById('speech-quote').textContent = I18n.t('speech_quote');
+        document.getElementById('speech-quote-ref').textContent = I18n.t('speech_quote_ref');
+        document.getElementById('speech-p5').textContent = I18n.t('speech_p5');
+
+        // Purpose Section
+        document.getElementById('purpose-title').textContent = I18n.t('purpose_title');
+        document.getElementById('purpose-p1').textContent = I18n.t('purpose_p1');
+        document.getElementById('purpose-p2').textContent = I18n.t('purpose_p2');
+        document.getElementById('purpose-p3').textContent = I18n.t('purpose_p3');
+
+        // Explore Section
+        document.getElementById('explore-title').textContent = I18n.t('explore_title');
+        document.getElementById('explore-subtitle').textContent = I18n.t('explore_subtitle');
+        document.getElementById('explore-cta-text').textContent = I18n.t('welcome_cta');
+
+        // Popular Questions
+        var entries = DataStore.getEntries(data.entries, lang, data.config.defaultLang);
+        var popularIds = [1, 3, 4, 7, 6, 9];
+        var grid = document.getElementById('popular-grid');
+        popularIds.forEach(function (id) {
+          var entry = null;
+          for (var i = 0; i < entries.length; i++) { if (entries[i].id === id) { entry = entries[i]; break; } }
+          if (!entry) return;
+          var card = document.createElement('a');
+          card.className = 'popular-card reveal';
+          card.href = 'article.html?id=' + entry.id + '&lang=' + lang;
+          var html = '<div class="popular-card__question">' + escapeHtml(entry.question) + '</div>';
+          if (entry.tags && entry.tags.length) { html += '<div class="popular-card__tags">'; entry.tags.forEach(function(tag){ html += '<span class="tag">' + escapeHtml(tag) + '</span>'; }); html += '</div>'; }
+          html += '<span class="popular-card__arrow">&rarr;</span>';
+          card.innerHTML = html;
+          grid.appendChild(card);
+        });
+        reobserveReveal();
+
+        // Footer
+        document.getElementById('footer-lang-label').textContent = I18n.t('languages');
+        document.getElementById('footer-copyright').textContent = I18n.t('footer_no_copyright');
+        var switcher = document.getElementById('lang-switcher');
+        Object.keys(I18n.getLanguages()).forEach(function (code) {
+          var a = document.createElement('a');
+          a.href = 'index.html?lang=' + code;
+          a.textContent = I18n.getLanguages()[code].label;
+          if (code === lang) a.classList.add('active');
+          switcher.appendChild(a);
+        });
+
+        Theme.init();
+      });
+    })();
+  </script>
+</body>
+</html>

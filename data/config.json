@@ -1,0 +1,7 @@
+{
+  "siteName": "Discover Islam",
+  "defaultLang": "en",
+  "perPageOptions": [5, 10, 25, 50, 100],
+  "defaultPerPage": 10,
+  "githubUrl": "https://github.com"
+}

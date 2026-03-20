@@ -1,40 +1,73 @@
-Anti Shuboohat - plain HTML Q&A
+Anti Shuboohat — Static Islamic Q&A Platform
 
-What's here
-- index.php: public search page with multilingual UI buttons, search bar, and a "Browse" button for recent entries.
-- admin.php: admin console for managing entries, translations, UI strings, and available languages.
-- qa.sqlite: SQLite database created automatically beside the PHP files.
+A fully static, zero-dependency website for Islamic questions and answers.
+No PHP, no database, no server required — just open index.html in a browser
+or deploy to any static hosting (GitHub Pages, Netlify, Vercel, etc.).
 
-Language
-- UI language is selected via on-page buttons (pulled from the Languages list). Arabic renders right-to-left.
-- Admin can add new languages (code + label + direction). Once added and translated, they appear as buttons on the public page.
-- Admin can edit UI strings per language (title, tagline, search labels, etc.) so the public UI becomes fully translated.
-- Only entries available in the selected language are shown. If a translation is missing for that language, the entry is hidden until translated.
-- Search works inside the selected language only (English searches originals; other languages search their translations).
-- Everything is stored and served as UTF-8; keep new translations in UTF-8 text.
+Project Structure
+  index.html         Landing/welcome page
+  browse.html        Search & browse Q&A entries
+  article.html       Individual article view with voting
+  data/
+    config.json      Site configuration (name, defaults, pagination options)
+    entries.json     All Q&A entries with translations
+    languages.json   Language definitions (code, label, direction, fonts)
+    ui-strings.json  All UI text translations per language
+  assets/
+    css/style.css    Main stylesheet (dark/light themes, responsive)
+    js/i18n.js       Internationalization module
+    js/theme.js      Dark/light theme toggle
+    js/data.js       Data loading, search, and pagination
+    js/votes.js      localStorage-based voting
 
-Public page
-- Search bar + "Search" button for keyword lookups, plus a "Browse" button to page through all entries.
-- Language buttons reflect the configured languages; admin access is a button too.
-- Results list question and answer blocks with minimal separators; no technical details are shown.
-- Pagination: user-selectable page size (5/10/25/50/100) with previous/next navigation.
+How It Works
+  - All content is stored in JSON files under data/
+  - JavaScript loads these files and renders everything client-side
+  - Search is done in-browser with instant filtering
+  - Voting is saved in the browser's localStorage
+  - Language switching is fully client-side with RTL support
+  - Theme preference (dark/light) persists in localStorage
 
-Admin console (admin.php)
-- Monolingual (English only) admin page.
-- Default admin credentials: username admin / password admin.
-- Manage languages: add code/label/direction; UI becomes aware immediately.
-- Manage UI strings: select a language and save translations for all visible UI text keys.
-- Filter entries by keyword and sort by updated date, created date, or question text (ASC/DESC).
-- Actions per entry: Edit, Delete, Translate. Edit view lets you edit existing translations (pick a language that already exists, including the default). Translate view only adds new translations for languages that are still missing.
-- "Available languages" column includes the default English plus any saved translations.
-- Editing updates the "Updated" timestamp; deleting also removes translations for that entry.
-- "Add new entry" form is available to admins; add new translations from Translate, edit existing translations from Edit.
+Adding/Editing Content
+  - To add a new Q&A entry, edit data/entries.json
+  - To add a new language, edit data/languages.json and data/ui-strings.json
+  - To modify the UI text, edit data/ui-strings.json
+  - To change site settings, edit data/config.json
+  - All files are standard JSON — no build step required
 
-Data model
-- qa: id, question, answer, created_at, updated_at (timestamps use SQLite CURRENT_TIMESTAMP).
-- qa_translations: id, qa_id, lang (e.g., en, ar, fr), question, answer, created_at, updated_at; unique per qa_id + lang.
-- Answers are stored fully; the admin list shows a truncated preview only.
+Entry Format (data/entries.json)
+  Each entry has:
+    id            Unique integer
+    question      The question text
+    answer        The answer in Markdown format
+    tags          Array of tag strings
+    created_at    Date string (YYYY-MM-DD)
+    translations  Object keyed by language code, each with question + answer
 
-Seeding and storage
-- If qa is empty, a batch of sample rows (40+ items) is inserted automatically to exercise pagination.
-- All content is stored locally in qa.sqlite; back it up if needed.
+Language Format (data/languages.json)
+  Each language has:
+    label         Display name (e.g., "English", "العربية")
+    dir           Text direction: "ltr" or "rtl"
+    font          CSS font-family string
+    fontUrl       Google Fonts URL (or empty string)
+
+Features
+  - Beautiful, modern design with Islamic aesthetic
+  - Dark/light theme with system preference detection
+  - Full multilingual support (LTR + RTL)
+  - Client-side search with instant results
+  - Pagination with configurable page sizes
+  - Markdown rendering for answers (via marked.js)
+  - XSS protection in markdown rendering
+  - localStorage-based voting (no server needed)
+  - Responsive design (mobile-first)
+  - Smooth animations and transitions
+  - Modular architecture — edit JSON files to customize everything
+  - Zero build step — pure HTML, CSS, and JavaScript
+
+Deployment
+  Upload all files to any static hosting provider. No server configuration needed.
+  For local development, use any static file server:
+    npx serve .
+    python -m http.server
+    php -S localhost:8000

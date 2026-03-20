@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "question": "What is Islam?",
+    "answer": "Islam is an Arabic word meaning **submission** and **peace**. It is the religion of submitting one's will to the One True God (Allah in Arabic). Islam is not named after a person or a tribe — it is named after the very act of devotion to God.\n\nIslam teaches that there is only **one God**, who has no partners, no sons, and no equals. He is the Creator of the heavens and the earth, and everything in between.\n\n> *\"Say: He is Allah, the One. Allah, the Eternal Refuge. He neither begets nor is born. Nor is there to Him any equivalent.\"* — Quran 112:1-4\n\nMuslims believe in all the prophets sent by God — including Adam, Noah, Abraham, Moses, Jesus, and Muhammad (peace be upon them all). Muhammad ﷺ is the final messenger, and the Quran is the final revelation.",
+    "tags": ["basics", "theology"],
+    "created_at": "2025-01-15",
+    "translations": {
+      "ar": {
+        "question": "ما هو الإسلام؟",
+        "answer": "الإسلام كلمة عربية تعني **الاستسلام** و**السلام**. هو دين الخضوع لإرادة الله الواحد الأحد. لم يُسمَّ الإسلام باسم شخص أو قبيلة — بل سُمّي بفعل التعبد لله.\n\nيُعلّم الإسلام أن هناك **إلهًا واحدًا** فقط، لا شريك له ولا ولد ولا مثيل. هو خالق السماوات والأرض وما بينهما.\n\n> *\"قُلْ هُوَ اللَّهُ أَحَدٌ ۝ اللَّهُ الصَّمَدُ ۝ لَمْ يَلِدْ وَلَمْ يُولَدْ ۝ وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ\"* — سورة الإخلاص\n\nيؤمن المسلمون بجميع الأنبياء الذين أرسلهم الله — بما في ذلك آدم ونوح وإبراهيم وموسى وعيسى ومحمد عليهم الصلاة والسلام. محمد ﷺ هو خاتم الرسل، والقرآن هو الوحي الأخير."
+      }
+    }
+  },
+  {
+    "id": 2,
+    "question": "What are the Five Pillars of Islam?",
+    "answer": "The Five Pillars of Islam are the foundation of a Muslim's life. They are:\n\n1. **Shahada (Declaration of Faith)** — Testifying that there is no god but Allah and that Muhammad is His messenger.\n2. **Salah (Prayer)** — Performing the five daily prayers at their prescribed times.\n3. **Zakat (Charity)** — Giving 2.5% of one's savings annually to those in need.\n4. **Sawm (Fasting)** — Fasting during the month of Ramadan from dawn to sunset.\n5. **Hajj (Pilgrimage)** — Making the pilgrimage to Makkah at least once in a lifetime, if physically and financially able.\n\nThese pillars represent the core acts of worship and are obligatory for every Muslim who is able.",
+    "tags": ["basics", "pillars", "worship"],
+    "created_at": "2025-01-16",
+    "translations": {
+      "ar": {
+        "question": "ما هي أركان الإسلام الخمسة؟",
+        "answer": "أركان الإسلام الخمسة هي أساس حياة المسلم:\n\n1. **الشهادة** — أشهد أن لا إله إلا الله وأن محمدًا رسول الله.\n2. **الصلاة** — أداء الصلوات الخمس في أوقاتها.\n3. **الزكاة** — إخراج 2.5% من المدخرات سنويًا للمحتاجين.\n4. **الصوم** — صيام شهر رمضان من الفجر حتى المغرب.\n5. **الحج** — أداء فريضة الحج إلى مكة مرة واحدة في العمر لمن استطاع.\n\nهذه الأركان تمثل العبادات الأساسية وهي واجبة على كل مسلم قادر."
+      }
+    }
+  },
+  {
+    "id": 3,
+    "question": "Does Islam promote violence?",
+    "answer": "**Absolutely not.** Islam explicitly condemns the killing of innocent people and promotes peace, justice, and mercy.\n\nThe Quran states:\n\n> *\"Whoever kills a soul — unless for a soul or for corruption in the land — it is as if he had slain mankind entirely. And whoever saves one, it is as if he had saved mankind entirely.\"* — Quran 5:32\n\nThe Prophet Muhammad ﷺ said:\n\n> *\"The Muslim is the one from whose tongue and hand the people are safe.\"* — Sahih al-Bukhari\n\nVerses about fighting in the Quran were revealed in **specific historical contexts** — during war when Muslims were being persecuted, driven from their homes, and attacked. Even then, Islam set strict rules of engagement:\n\n- Do not harm civilians, women, children, or the elderly\n- Do not destroy crops or trees\n- Do not force anyone to convert\n- Stop fighting when the enemy seeks peace\n\nTaking verses out of context to paint Islam as violent is intellectually dishonest and ignores the vast majority of Quranic teachings about mercy, kindness, and coexistence.",
+    "tags": ["misconceptions", "peace", "jihad"],
+    "created_at": "2025-01-17",
+    "translations": {
+      "ar": {
+        "question": "هل يدعو الإسلام إلى العنف؟",
+        "answer": "**بالتأكيد لا.** الإسلام يحرّم صراحةً قتل الأبرياء ويدعو إلى السلام والعدل والرحمة.\n\nيقول القرآن الكريم:\n\n> *\"مَن قَتَلَ نَفْسًا بِغَيْرِ نَفْسٍ أَوْ فَسَادٍ فِي الْأَرْضِ فَكَأَنَّمَا قَتَلَ النَّاسَ جَمِيعًا وَمَنْ أَحْيَاهَا فَكَأَنَّمَا أَحْيَا النَّاسَ جَمِيعًا\"* — سورة المائدة: 32\n\nوقال النبي محمد ﷺ:\n\n> *\"المسلم من سلم المسلمون من لسانه ويده\"* — صحيح البخاري\n\nالآيات المتعلقة بالقتال في القرآن نزلت في **سياقات تاريخية محددة** — أثناء الحرب حين كان المسلمون يُضطهدون ويُطردون من ديارهم ويُهاجمون."
+      }
+    }
+  },
+  {
+    "id": 4,
+    "question": "What does Islam say about women's rights?",
+    "answer": "Islam **elevated the status of women** at a time when they had virtually no rights in the world.\n\nOver 1,400 years ago, Islam granted women:\n\n- **The right to own property** and conduct business independently\n- **The right to inheritance** (explicitly stated in the Quran)\n- **The right to education** — the Prophet ﷺ said: *\"Seeking knowledge is an obligation upon every Muslim\"* (male and female)\n- **The right to choose their spouse** and to refuse a marriage\n- **The right to divorce** (known as khul')\n- **The right to keep their own earnings** and name after marriage\n\nThe Quran says:\n\n> *\"And for women are rights over men similar to those of men over women.\"* — Quran 2:228\n\nThe Prophet ﷺ said:\n\n> *\"The best of you are those who are best to their women.\"* — Sunan al-Tirmidhi\n\nCultural practices in some Muslim-majority countries that oppress women are **contradictions of Islamic teachings**, not reflections of them.",
+    "tags": ["women", "rights", "misconceptions"],
+    "created_at": "2025-01-18",
+    "translations": {
+      "ar": {
+        "question": "ماذا يقول الإسلام عن حقوق المرأة؟",
+        "answer": "الإسلام **رفع مكانة المرأة** في وقت لم يكن لها فيه أي حقوق تقريبًا في العالم.\n\nمنذ أكثر من 1400 عام، منح الإسلام المرأة:\n\n- **حق التملك** وممارسة التجارة باستقلالية\n- **حق الميراث** (منصوص عليه صراحة في القرآن)\n- **حق التعليم** — قال النبي ﷺ: *\"طلب العلم فريضة على كل مسلم\"*\n- **حق اختيار الزوج** ورفض الزواج\n- **حق الطلاق** (المعروف بالخلع)\n- **حق الاحتفاظ بأرباحها** واسمها بعد الزواج"
+      }
+    }
+  },
+  {
+    "id": 5,
+    "question": "Who is Prophet Muhammad ﷺ?",
+    "answer": "Prophet Muhammad ﷺ (peace be upon him) is the **final messenger of God**, sent to all of humanity. He was born in Makkah (modern-day Saudi Arabia) around 570 CE.\n\nKey facts about the Prophet ﷺ:\n\n- He was known as **\"Al-Amin\" (The Trustworthy)** even before his prophethood\n- He received the first revelation from God through Angel Gabriel at age 40\n- He preached the message of monotheism (Tawheed) for 23 years\n- He was illiterate, yet delivered the Quran — a literary masterpiece that remains unmatched\n- He established a just society based on equality, mercy, and rule of law\n- He freed slaves, fed the poor, and stood up for the oppressed\n\nThe Prophet ﷺ said:\n\n> *\"I was sent to perfect good character.\"* — Al-Muwatta\n\nEven non-Muslim historians like Michael Hart ranked him as the **most influential person in history** for his lasting impact on civilization, law, ethics, and human rights.",
+    "tags": ["prophet", "seerah", "basics"],
+    "created_at": "2025-01-19",
+    "translations": {
+      "ar": {
+        "question": "من هو النبي محمد ﷺ؟",
+        "answer": "النبي محمد ﷺ هو **خاتم رسل الله**، أُرسل للبشرية جمعاء. وُلد في مكة المكرمة حوالي عام 570 م.\n\nحقائق رئيسية عن النبي ﷺ:\n\n- كان يُعرف بـ **\"الأمين\"** حتى قبل نبوته\n- تلقى أول وحي من الله عبر جبريل عليه السلام في سن الأربعين\n- دعا إلى التوحيد لمدة 23 عامًا\n- كان أميًّا ومع ذلك جاء بالقرآن — تحفة أدبية لا مثيل لها\n- أسس مجتمعًا عادلًا قائمًا على المساواة والرحمة وسيادة القانون"
+      }
+    }
+  },
+  {
+    "id": 6,
+    "question": "What is the Quran?",
+    "answer": "The Quran is the **holy book of Islam**, believed by Muslims to be the literal word of God (Allah) revealed to Prophet Muhammad ﷺ through Angel Gabriel over a period of 23 years.\n\nKey characteristics of the Quran:\n\n- It has been **perfectly preserved** since its revelation — not a single letter has changed in over 1,400 years\n- It was memorized in its entirety by thousands during the Prophet's lifetime and continues to be memorized by millions today\n- It contains guidance on **faith, worship, law, ethics, science, and the purpose of life**\n- It challenges humanity to produce even a single chapter like it — a challenge that remains unmet\n\n> *\"Indeed, it is We who sent down the Quran and indeed, We will be its guardian.\"* — Quran 15:9\n\nThe Quran is not just a religious text — it is a complete guide for living a meaningful, just, and spiritually fulfilling life.",
+    "tags": ["quran", "basics", "revelation"],
+    "created_at": "2025-01-20",
+    "translations": {
+      "ar": {
+        "question": "ما هو القرآن الكريم؟",
+        "answer": "القرآن هو **الكتاب المقدس في الإسلام**، يؤمن المسلمون أنه كلام الله الحرفي الذي أُنزل على النبي محمد ﷺ عبر جبريل عليه السلام على مدى 23 عامًا.\n\nمن خصائص القرآن:\n\n- **محفوظ بشكل كامل** منذ نزوله — لم يتغير حرف واحد منذ أكثر من 1400 عام\n- حفظه آلاف الصحابة في حياة النبي ﷺ ولا يزال يحفظه الملايين اليوم\n- يحتوي على هداية في **العقيدة والعبادة والشريعة والأخلاق والعلوم والغاية من الحياة**\n\n> *\"إِنَّا نَحْنُ نَزَّلْنَا الذِّكْرَ وَإِنَّا لَهُ لَحَافِظُونَ\"* — سورة الحجر: 9"
+      }
+    }
+  },
+  {
+    "id": 7,
+    "question": "Is Islam compatible with science?",
+    "answer": "Islam and science are not only compatible — **Islam actively encourages the pursuit of knowledge and scientific inquiry.**\n\nThe Quran contains numerous references to natural phenomena that were only confirmed by modern science centuries later:\n\n- **Embryonic development** described in detail (Quran 23:12-14)\n- **The expansion of the universe** (Quran 51:47)\n- **The water cycle** (Quran 39:21)\n- **Mountains as stabilizers** for the earth's crust (Quran 78:6-7)\n- **The barrier between fresh and salt water** (Quran 55:19-20)\n\nHistorically, the Islamic Golden Age (8th–14th century) produced groundbreaking contributions to:\n\n- **Algebra** (Al-Khwarizmi)\n- **Optics** (Ibn al-Haytham)\n- **Medicine** (Ibn Sina / Avicenna)\n- **Astronomy** (Al-Biruni)\n- **Chemistry** (Jabir ibn Hayyan)\n\nThe first word revealed in the Quran was **\"Iqra\" — Read.** Islam fundamentally values learning, inquiry, and the exploration of God's creation.",
+    "tags": ["science", "history", "misconceptions"],
+    "created_at": "2025-01-21",
+    "translations": {
+      "ar": {
+        "question": "هل الإسلام يتوافق مع العلم؟",
+        "answer": "الإسلام والعلم ليسا متوافقين فحسب — بل **الإسلام يشجع بنشاط على طلب العلم والبحث العلمي.**\n\nيحتوي القرآن على إشارات عديدة لظواهر طبيعية لم يؤكدها العلم الحديث إلا بعد قرون.\n\nتاريخيًا، أنتج العصر الذهبي الإسلامي (القرن 8-14) إسهامات رائدة في الجبر والبصريات والطب والفلك والكيمياء.\n\nأول كلمة نزلت في القرآن كانت **\"اقرأ\"**. الإسلام يقدّر جوهريًا التعلم والبحث واستكشاف خلق الله."
+      }
+    }
+  },
+  {
+    "id": 8,
+    "question": "What happens after death in Islam?",
+    "answer": "Islam teaches that this life is a **test**, and that every soul will be held accountable for its deeds on the Day of Judgment.\n\nThe Islamic belief about the afterlife includes:\n\n1. **Death** — The soul is taken by the Angel of Death. This is not the end, but a transition.\n2. **The Grave (Barzakh)** — An intermediate state where the soul experiences a preview of what is to come.\n3. **The Day of Judgment (Yawm al-Qiyamah)** — All of humanity will be resurrected and stand before God. Every deed, word, and intention will be accounted for.\n4. **Paradise (Jannah)** — The eternal reward for those who believed and did righteous deeds. A place of unimaginable beauty, peace, and joy.\n5. **Hellfire (Jahannam)** — The punishment for those who rejected God and persisted in wrongdoing.\n\n> *\"Every soul will taste death. And you will only be given your full compensation on the Day of Resurrection.\"* — Quran 3:185\n\nIslam teaches that **God's mercy is vast** — He forgives all sins for those who sincerely repent.",
+    "tags": ["afterlife", "theology", "basics"],
+    "created_at": "2025-01-22",
+    "translations": {
+      "ar": {
+        "question": "ماذا يحدث بعد الموت في الإسلام؟",
+        "answer": "يعلّم الإسلام أن هذه الحياة **اختبار**، وأن كل نفس ستُحاسب على أعمالها يوم القيامة.\n\nالإيمان الإسلامي بالآخرة يشمل:\n\n1. **الموت** — يُقبض الروح بواسطة ملك الموت. هذه ليست النهاية بل انتقال.\n2. **القبر (البرزخ)** — حالة وسطى تختبر فيها الروح ما سيأتي.\n3. **يوم القيامة** — تُبعث البشرية جمعاء وتقف أمام الله.\n4. **الجنة** — الثواب الأبدي للمؤمنين الصالحين.\n5. **النار (جهنم)** — العقاب لمن رفض الحق وأصرّ على المعصية.\n\n> *\"كُلُّ نَفْسٍ ذَائِقَةُ الْمَوْتِ وَإِنَّمَا تُوَفَّوْنَ أُجُورَكُمْ يَوْمَ الْقِيَامَةِ\"* — آل عمران: 185"
+      }
+    }
+  },
+  {
+    "id": 9,
+    "question": "Why do Muslims pray five times a day?",
+    "answer": "The five daily prayers (Salah) are the **most important act of worship** in Islam after the declaration of faith. They serve as a direct connection between the servant and God — no intermediary needed.\n\nThe five prayers are:\n\n- **Fajr** — Before sunrise\n- **Dhuhr** — Midday\n- **Asr** — Afternoon\n- **Maghrib** — After sunset\n- **Isha** — Night\n\nWhy five times?\n\n- They create a **rhythm of remembrance** throughout the day\n- They prevent a person from becoming absorbed in worldly distractions\n- They provide moments of **peace, reflection, and gratitude**\n- They remind the Muslim of their purpose and accountability\n\nThe Prophet ﷺ compared the five prayers to a river flowing by your door — if you bathed in it five times a day, no dirt would remain on you. Similarly, the five prayers **purify the soul** from sin and heedlessness.\n\n> *\"Indeed, prayer prohibits immorality and wrongdoing.\"* — Quran 29:45",
+    "tags": ["prayer", "worship", "pillars"],
+    "created_at": "2025-01-23",
+    "translations": {
+      "ar": {
+        "question": "لماذا يصلي المسلمون خمس مرات في اليوم؟",
+        "answer": "الصلوات الخمس هي **أهم عبادة** في الإسلام بعد الشهادة. إنها صلة مباشرة بين العبد وربه — بدون وسيط.\n\nالصلوات الخمس هي: الفجر، الظهر، العصر، المغرب، والعشاء.\n\nشبّه النبي ﷺ الصلوات الخمس بنهر يجري أمام باب أحدكم — لو اغتسل فيه خمس مرات يوميًا لم يبقَ عليه درن.\n\n> *\"إِنَّ الصَّلَاةَ تَنْهَىٰ عَنِ الْفَحْشَاءِ وَالْمُنكَرِ\"* — سورة العنكبوت: 45"
+      }
+    }
+  },
+  {
+    "id": 10,
+    "question": "How can I learn more about Islam?",
+    "answer": "If you're interested in learning about Islam, here are some excellent starting points:\n\n**Read:**\n- The Quran — Start with a good English translation (e.g., Sahih International, or The Clear Quran by Dr. Mustafa Khattab)\n- \"The Sealed Nectar\" (Ar-Raheeq Al-Makhtum) — A biography of Prophet Muhammad ﷺ\n\n**Watch:**\n- Lectures by scholars like Mufti Menk, Omar Suleiman, or Nouman Ali Khan on YouTube\n\n**Visit:**\n- Your local mosque — most mosques welcome visitors and offer introductory sessions\n- Talk to a Muslim friend or neighbor\n\n**Online Resources:**\n- [Quran.com](https://quran.com) — Read the Quran with translations\n- [Sunnah.com](https://sunnah.com) — Browse authentic Hadith collections\n\nThe most important step is to approach with an **open heart and sincere curiosity**. Ask God to guide you to the truth — that's a prayer He always answers.\n\n> *\"And those who strive for Us — We will surely guide them to Our ways.\"* — Quran 29:69",
+    "tags": ["guidance", "resources", "basics"],
+    "created_at": "2025-01-24",
+    "translations": {
+      "ar": {
+        "question": "كيف أتعلم المزيد عن الإسلام؟",
+        "answer": "إذا كنت مهتمًا بالتعرف على الإسلام، إليك بعض نقاط البداية الممتازة:\n\n**اقرأ:**\n- القرآن الكريم مع تفسير ميسّر\n- الرحيق المختوم — سيرة النبي محمد ﷺ\n\n**شاهد:**\n- محاضرات العلماء على يوتيوب\n\n**زُر:**\n- المسجد القريب منك — معظم المساجد ترحب بالزوار\n\nأهم خطوة هي أن تتقدم بـ **قلب مفتوح وفضول صادق**.\n\n> *\"وَالَّذِينَ جَاهَدُوا فِينَا لَنَهْدِيَنَّهُمْ سُبُلَنَا\"* — سورة العنكبوت: 69"
+      }
+    }
+  }
+]
