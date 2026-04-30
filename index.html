@@ -196,6 +196,165 @@
       letter-spacing: 1rem;
       opacity: 0.5;
     }
+
+    /* Home Search Hero (Google-style) */
+    .home-search-hero {
+      margin-top: -86px; /* cancel body nav spacer so hero starts at viewport top */
+      min-height: 100vh;
+      min-height: 100svh; /* small viewport height — always fits on mobile */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 5.5rem 2rem 2rem; /* top clears the floating nav */
+      background:
+        /* top band — warms the area behind the floating nav pill */
+        radial-gradient(ellipse 120% 35% at 50% 0%, rgba(191,155,48,0.22) 0%, transparent 100%),
+        /* bottom band — prevents plain near-white strip */
+        radial-gradient(ellipse 120% 35% at 50% 100%, rgba(27,67,50,0.18) 0%, transparent 100%),
+        /* base warm gradient */
+        linear-gradient(180deg, var(--color-surface-alt) 0%, var(--color-surface) 100%);
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* Luxury aurora layer 1 — gold & emerald blobs drifting slowly */
+    .home-search-hero::before {
+      content: '';
+      position: absolute;
+      width: 200%; height: 200%;
+      top: -50%; left: -50%;
+      background:
+        /* wide band at top so no bare strip shows above the nav */
+        radial-gradient(ellipse 160% 18% at 50% 25%, rgba(191,155,48,0.14) 0%, transparent 100%),
+        radial-gradient(ellipse 44% 34% at 22% 38%, rgba(191,155,48,0.22) 0%, transparent 55%),
+        radial-gradient(ellipse 52% 42% at 78% 62%, rgba(27,67,50,0.17) 0%, transparent 55%),
+        radial-gradient(ellipse 32% 28% at 58% 18%, rgba(191,155,48,0.12) 0%, transparent 52%);
+      animation: aurora-a 16s ease-in-out infinite alternate;
+      pointer-events: none;
+      z-index: 0;
+    }
+    /* Luxury aurora layer 2 — counterpoint blobs */
+    .home-search-hero::after {
+      content: '';
+      position: absolute;
+      width: 200%; height: 200%;
+      top: -50%; left: -50%;
+      background:
+        radial-gradient(ellipse 42% 52% at 72% 28%, rgba(27,67,50,0.13) 0%, transparent 55%),
+        radial-gradient(ellipse 48% 34% at 28% 74%, rgba(191,155,48,0.16) 0%, transparent 55%),
+        radial-gradient(ellipse 28% 38% at 50% 88%, rgba(27,67,50,0.09) 0%, transparent 50%);
+      animation: aurora-b 22s ease-in-out infinite alternate;
+      pointer-events: none;
+      z-index: 0;
+    }
+    [data-theme="dark"] .home-search-hero {
+      background:
+        radial-gradient(ellipse 120% 35% at 50% 0%, rgba(212,175,55,0.2) 0%, transparent 100%),
+        radial-gradient(ellipse 120% 35% at 50% 100%, rgba(64,145,108,0.16) 0%, transparent 100%),
+        linear-gradient(180deg, var(--color-surface-alt) 0%, var(--color-surface) 100%);
+    }
+    [data-theme="dark"] .home-search-hero::before {
+      background:
+        radial-gradient(ellipse 160% 18% at 50% 25%, rgba(212,175,55,0.12) 0%, transparent 100%),
+        radial-gradient(ellipse 44% 34% at 22% 38%, rgba(212,175,55,0.17) 0%, transparent 55%),
+        radial-gradient(ellipse 52% 42% at 78% 62%, rgba(64,145,108,0.12) 0%, transparent 55%),
+        radial-gradient(ellipse 32% 28% at 58% 18%, rgba(212,175,55,0.1) 0%, transparent 52%);
+    }
+    [data-theme="dark"] .home-search-hero::after {
+      background:
+        radial-gradient(ellipse 42% 52% at 72% 28%, rgba(64,145,108,0.1) 0%, transparent 55%),
+        radial-gradient(ellipse 48% 34% at 28% 74%, rgba(212,175,55,0.14) 0%, transparent 55%),
+        radial-gradient(ellipse 28% 38% at 50% 88%, rgba(64,145,108,0.08) 0%, transparent 50%);
+    }
+    @keyframes aurora-a {
+      0%   { transform: translate(0%, 0%)     rotate(0deg); }
+      33%  { transform: translate(4%, -6%)    rotate(4deg); }
+      66%  { transform: translate(-5%, 5%)    rotate(-3deg); }
+      100% { transform: translate(8%, 7%)     rotate(7deg); }
+    }
+    @keyframes aurora-b {
+      0%   { transform: translate(0%, 0%)     rotate(0deg); }
+      40%  { transform: translate(-8%, 6%)    rotate(-6deg); }
+      70%  { transform: translate(6%, -5%)    rotate(4deg); }
+      100% { transform: translate(-7%, -7%)   rotate(-7deg); }
+    }
+
+    .home-search-hero__inner {
+      position: relative;
+      z-index: 1;
+      width: 100%;
+      max-width: 680px;
+    }
+    .home-search-hero__title {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(2.2rem, 5.5vw, 3.8rem);
+      color: var(--color-accent);
+      font-weight: 700;
+      margin-bottom: 0.35rem;
+      letter-spacing: -0.01em;
+    }
+    .home-search-hero__tagline {
+      font-size: 0.97rem;
+      color: var(--color-text-muted);
+      margin-bottom: 1.5rem;
+    }
+    .home-search-hero__search {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+    .home-random-cards {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 8px;
+      text-align: left;
+      width: 100%;
+    }
+    /* Compact card style inside the hero */
+    .home-random-cards .popular-card {
+      padding: 11px 24px 11px 18px;
+    }
+    .home-random-cards .popular-card__question {
+      font-size: 0.91rem;
+    }
+    /* Fixed to bottom of viewport — always visible, fades on scroll */
+    .home-scroll-hint {
+      position: fixed;
+      bottom: 1.5rem;
+      left: 0;
+      right: 0;
+      width: fit-content;
+      margin: 0 auto;
+      z-index: 50;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.2rem;
+      color: var(--color-accent);
+      opacity: 0.65;
+      pointer-events: none;
+      transition: opacity 0.5s ease;
+      animation: bounce-hint 2s infinite;
+    }
+    .home-scroll-hint__label {
+      font-size: 0.68rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      font-family: var(--font-body);
+      white-space: nowrap;
+    }
+    @keyframes bounce-hint {
+      0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+      40% { transform: translateY(-7px); }
+      60% { transform: translateY(-3px); }
+    }
+
+    @media (max-width: 768px) {
+      .home-search-hero {
+        margin-top: -74px; /* match mobile body nav spacer */
+      }
+    }
   </style>
 </head>
 <body>
@@ -217,6 +376,25 @@
       </div>
     </div>
   </nav>
+
+  <!-- Home Search Hero -->
+  <section class="home-search-hero">
+    <div class="home-search-hero__inner">
+      <h1 class="home-search-hero__title" id="home-hero-title"></h1>
+      <p class="home-search-hero__tagline" id="home-hero-tagline"></p>
+      <div class="search-box home-search-hero__search">
+        <input type="search" class="search-box__input" id="home-search-input" autocomplete="off">
+        <div class="search-box__actions">
+          <button type="button" class="btn btn--primary" id="home-btn-search"></button>
+        </div>
+      </div>
+      <div class="home-random-cards" id="home-random-cards"></div>
+    </div>
+    <div class="home-scroll-hint" id="home-scroll-hint">
+      <span class="home-scroll-hint__label" id="home-scroll-label">Scroll for more</span>
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+    </div>
+  </section>
 
   <!-- Hero: Quran Verse -->
   <section class="hero-verse reveal">
@@ -328,10 +506,24 @@
         // Nav
         document.getElementById('nav-brand').textContent = I18n.t('title');
         document.getElementById('nav-home').textContent = I18n.t('back_home');
-        document.getElementById('nav-browse').textContent = I18n.t('browse');
+        document.getElementById('nav-browse').textContent = I18n.t('search');
         document.getElementById('nav-github').href = data.config.githubUrl || '#';
         document.getElementById('explore-cta').href = 'browse.html?lang=' + lang + '&browse=1';
         document.title = I18n.t('title');
+
+        // Home Search Hero
+        document.getElementById('home-hero-title').textContent = I18n.t('title');
+        document.getElementById('home-hero-tagline').textContent = I18n.t('tagline');
+        document.getElementById('home-search-input').placeholder = I18n.t('placeholder');
+        document.getElementById('home-btn-search').textContent = I18n.t('search');
+        (function () {
+          function doHomeSearch() {
+            var q = document.getElementById('home-search-input').value.trim();
+            window.location.href = 'browse.html?lang=' + lang + (q ? '&q=' + encodeURIComponent(q) : '&browse=1');
+          }
+          document.getElementById('home-btn-search').addEventListener('click', doHomeSearch);
+          document.getElementById('home-search-input').addEventListener('keydown', function (e) { if (e.key === 'Enter') doHomeSearch(); });
+        })();
 
         // Hero Verse
         document.getElementById('hero-verse-arabic').textContent = I18n.t('hero_quran_verse');
@@ -377,6 +569,29 @@
           grid.appendChild(card);
         });
         reobserveReveal();
+
+        // Home: 3 random question cards
+        var randomCardsEl = document.getElementById('home-random-cards');
+        var shuffled = entries.slice().sort(function () { return Math.random() - 0.5; });
+        shuffled.slice(0, 3).forEach(function (entry) {
+          var card = document.createElement('a');
+          card.className = 'popular-card';
+          card.href = 'article.html?id=' + entry.id + '&lang=' + lang;
+          var html = '<div class="popular-card__question">' + escapeHtml(entry.question) + '</div>';
+          if (entry.tags && entry.tags.length) { html += '<div class="popular-card__tags">'; entry.tags.forEach(function (tag) { html += '<span class="tag">' + escapeHtml(tag) + '</span>'; }); html += '</div>'; }
+          html += '<span class="popular-card__arrow">&rarr;</span>';
+          card.innerHTML = html;
+          randomCardsEl.appendChild(card);
+        });
+
+        // Scroll hint: fade out once user scrolls past the hero
+        (function () {
+          var hint = document.getElementById('home-scroll-hint');
+          if (!hint) return;
+          window.addEventListener('scroll', function () {
+            hint.style.opacity = window.scrollY > window.innerHeight * 0.25 ? '0' : '0.65';
+          }, { passive: true });
+        })();
 
         // Footer
         document.getElementById('footer-lang-label').textContent = I18n.t('languages');
