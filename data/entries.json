@@ -3,7 +3,10 @@
     "id": 1,
     "question": "What is Islam?",
     "answer": "Islam is an Arabic word meaning **submission** and **peace**. It is the religion of submitting one's will to the One True God (Allah in Arabic). Islam is not named after a person or a tribe — it is named after the very act of devotion to God.\n\nIslam teaches that there is only **one God**, who has no partners, no sons, and no equals. He is the Creator of the heavens and the earth, and everything in between.\n\n> *\"Say: He is Allah, the One. Allah, the Eternal Refuge. He neither begets nor is born. Nor is there to Him any equivalent.\"* — Quran 112:1-4\n\nMuslims believe in all the prophets sent by God — including Adam, Noah, Abraham, Moses, Jesus, and Muhammad (peace be upon them all). Muhammad ﷺ is the final messenger, and the Quran is the final revelation.",
-    "tags": ["basics", "theology"],
+    "tags": [
+      "basics",
+      "theology"
+    ],
     "created_at": "2025-01-15",
     "translations": {
       "ar": {
@@ -16,7 +19,11 @@
     "id": 2,
     "question": "What are the Five Pillars of Islam?",
     "answer": "The Five Pillars of Islam are the foundation of a Muslim's life. They are:\n\n1. **Shahada (Declaration of Faith)** — Testifying that there is no god but Allah and that Muhammad is His messenger.\n2. **Salah (Prayer)** — Performing the five daily prayers at their prescribed times.\n3. **Zakat (Charity)** — Giving 2.5% of one's savings annually to those in need.\n4. **Sawm (Fasting)** — Fasting during the month of Ramadan from dawn to sunset.\n5. **Hajj (Pilgrimage)** — Making the pilgrimage to Makkah at least once in a lifetime, if physically and financially able.\n\nThese pillars represent the core acts of worship and are obligatory for every Muslim who is able.",
-    "tags": ["basics", "pillars", "worship"],
+    "tags": [
+      "basics",
+      "pillars",
+      "worship"
+    ],
     "created_at": "2025-01-16",
     "translations": {
       "ar": {
@@ -29,7 +36,11 @@
     "id": 3,
     "question": "Does Islam promote violence?",
     "answer": "**Absolutely not.** Islam explicitly condemns the killing of innocent people and promotes peace, justice, and mercy.\n\nThe Quran states:\n\n> *\"Whoever kills a soul — unless for a soul or for corruption in the land — it is as if he had slain mankind entirely. And whoever saves one, it is as if he had saved mankind entirely.\"* — Quran 5:32\n\nThe Prophet Muhammad ﷺ said:\n\n> *\"The Muslim is the one from whose tongue and hand the people are safe.\"* — Sahih al-Bukhari\n\nVerses about fighting in the Quran were revealed in **specific historical contexts** — during war when Muslims were being persecuted, driven from their homes, and attacked. Even then, Islam set strict rules of engagement:\n\n- Do not harm civilians, women, children, or the elderly\n- Do not destroy crops or trees\n- Do not force anyone to convert\n- Stop fighting when the enemy seeks peace\n\nTaking verses out of context to paint Islam as violent is intellectually dishonest and ignores the vast majority of Quranic teachings about mercy, kindness, and coexistence.",
-    "tags": ["misconceptions", "peace", "jihad"],
+    "tags": [
+      "misconceptions",
+      "peace",
+      "jihad"
+    ],
     "created_at": "2025-01-17",
     "translations": {
       "ar": {
@@ -42,7 +53,11 @@
     "id": 4,
     "question": "What does Islam say about women's rights?",
     "answer": "Islam **elevated the status of women** at a time when they had virtually no rights in the world.\n\nOver 1,400 years ago, Islam granted women:\n\n- **The right to own property** and conduct business independently\n- **The right to inheritance** (explicitly stated in the Quran)\n- **The right to education** — the Prophet ﷺ said: *\"Seeking knowledge is an obligation upon every Muslim\"* (male and female)\n- **The right to choose their spouse** and to refuse a marriage\n- **The right to divorce** (known as khul')\n- **The right to keep their own earnings** and name after marriage\n\nThe Quran says:\n\n> *\"And for women are rights over men similar to those of men over women.\"* — Quran 2:228\n\nThe Prophet ﷺ said:\n\n> *\"The best of you are those who are best to their women.\"* — Sunan al-Tirmidhi\n\nCultural practices in some Muslim-majority countries that oppress women are **contradictions of Islamic teachings**, not reflections of them.",
-    "tags": ["women", "rights", "misconceptions"],
+    "tags": [
+      "women",
+      "rights",
+      "misconceptions"
+    ],
     "created_at": "2025-01-18",
     "translations": {
       "ar": {
@@ -55,7 +70,11 @@
     "id": 5,
     "question": "Who is Prophet Muhammad ﷺ?",
     "answer": "Prophet Muhammad ﷺ (peace be upon him) is the **final messenger of God**, sent to all of humanity. He was born in Makkah (modern-day Saudi Arabia) around 570 CE.\n\nKey facts about the Prophet ﷺ:\n\n- He was known as **\"Al-Amin\" (The Trustworthy)** even before his prophethood\n- He received the first revelation from God through Angel Gabriel at age 40\n- He preached the message of monotheism (Tawheed) for 23 years\n- He was illiterate, yet delivered the Quran — a literary masterpiece that remains unmatched\n- He established a just society based on equality, mercy, and rule of law\n- He freed slaves, fed the poor, and stood up for the oppressed\n\nThe Prophet ﷺ said:\n\n> *\"I was sent to perfect good character.\"* — Al-Muwatta\n\nEven non-Muslim historians like Michael Hart ranked him as the **most influential person in history** for his lasting impact on civilization, law, ethics, and human rights.",
-    "tags": ["prophet", "seerah", "basics"],
+    "tags": [
+      "prophet",
+      "seerah",
+      "basics"
+    ],
     "created_at": "2025-01-19",
     "translations": {
       "ar": {
@@ -68,7 +87,11 @@
     "id": 6,
     "question": "What is the Quran?",
     "answer": "The Quran is the **holy book of Islam**, believed by Muslims to be the literal word of God (Allah) revealed to Prophet Muhammad ﷺ through Angel Gabriel over a period of 23 years.\n\nKey characteristics of the Quran:\n\n- It has been **perfectly preserved** since its revelation — not a single letter has changed in over 1,400 years\n- It was memorized in its entirety by thousands during the Prophet's lifetime and continues to be memorized by millions today\n- It contains guidance on **faith, worship, law, ethics, science, and the purpose of life**\n- It challenges humanity to produce even a single chapter like it — a challenge that remains unmet\n\n> *\"Indeed, it is We who sent down the Quran and indeed, We will be its guardian.\"* — Quran 15:9\n\nThe Quran is not just a religious text — it is a complete guide for living a meaningful, just, and spiritually fulfilling life.",
-    "tags": ["quran", "basics", "revelation"],
+    "tags": [
+      "quran",
+      "basics",
+      "revelation"
+    ],
     "created_at": "2025-01-20",
     "translations": {
       "ar": {
@@ -81,7 +104,11 @@
     "id": 7,
     "question": "Is Islam compatible with science?",
     "answer": "Islam and science are not only compatible — **Islam actively encourages the pursuit of knowledge and scientific inquiry.**\n\nThe Quran contains numerous references to natural phenomena that were only confirmed by modern science centuries later:\n\n- **Embryonic development** described in detail (Quran 23:12-14)\n- **The expansion of the universe** (Quran 51:47)\n- **The water cycle** (Quran 39:21)\n- **Mountains as stabilizers** for the earth's crust (Quran 78:6-7)\n- **The barrier between fresh and salt water** (Quran 55:19-20)\n\nHistorically, the Islamic Golden Age (8th–14th century) produced groundbreaking contributions to:\n\n- **Algebra** (Al-Khwarizmi)\n- **Optics** (Ibn al-Haytham)\n- **Medicine** (Ibn Sina / Avicenna)\n- **Astronomy** (Al-Biruni)\n- **Chemistry** (Jabir ibn Hayyan)\n\nThe first word revealed in the Quran was **\"Iqra\" — Read.** Islam fundamentally values learning, inquiry, and the exploration of God's creation.",
-    "tags": ["science", "history", "misconceptions"],
+    "tags": [
+      "science",
+      "history",
+      "misconceptions"
+    ],
     "created_at": "2025-01-21",
     "translations": {
       "ar": {
@@ -94,7 +121,11 @@
     "id": 8,
     "question": "What happens after death in Islam?",
     "answer": "Islam teaches that this life is a **test**, and that every soul will be held accountable for its deeds on the Day of Judgment.\n\nThe Islamic belief about the afterlife includes:\n\n1. **Death** — The soul is taken by the Angel of Death. This is not the end, but a transition.\n2. **The Grave (Barzakh)** — An intermediate state where the soul experiences a preview of what is to come.\n3. **The Day of Judgment (Yawm al-Qiyamah)** — All of humanity will be resurrected and stand before God. Every deed, word, and intention will be accounted for.\n4. **Paradise (Jannah)** — The eternal reward for those who believed and did righteous deeds. A place of unimaginable beauty, peace, and joy.\n5. **Hellfire (Jahannam)** — The punishment for those who rejected God and persisted in wrongdoing.\n\n> *\"Every soul will taste death. And you will only be given your full compensation on the Day of Resurrection.\"* — Quran 3:185\n\nIslam teaches that **God's mercy is vast** — He forgives all sins for those who sincerely repent.",
-    "tags": ["afterlife", "theology", "basics"],
+    "tags": [
+      "afterlife",
+      "theology",
+      "basics"
+    ],
     "created_at": "2025-01-22",
     "translations": {
       "ar": {
@@ -107,7 +138,11 @@
     "id": 9,
     "question": "Why do Muslims pray five times a day?",
     "answer": "The five daily prayers (Salah) are the **most important act of worship** in Islam after the declaration of faith. They serve as a direct connection between the servant and God — no intermediary needed.\n\nThe five prayers are:\n\n- **Fajr** — Before sunrise\n- **Dhuhr** — Midday\n- **Asr** — Afternoon\n- **Maghrib** — After sunset\n- **Isha** — Night\n\nWhy five times?\n\n- They create a **rhythm of remembrance** throughout the day\n- They prevent a person from becoming absorbed in worldly distractions\n- They provide moments of **peace, reflection, and gratitude**\n- They remind the Muslim of their purpose and accountability\n\nThe Prophet ﷺ compared the five prayers to a river flowing by your door — if you bathed in it five times a day, no dirt would remain on you. Similarly, the five prayers **purify the soul** from sin and heedlessness.\n\n> *\"Indeed, prayer prohibits immorality and wrongdoing.\"* — Quran 29:45",
-    "tags": ["prayer", "worship", "pillars"],
+    "tags": [
+      "prayer",
+      "worship",
+      "pillars"
+    ],
     "created_at": "2025-01-23",
     "translations": {
       "ar": {
@@ -120,7 +155,12 @@
     "id": 11,
     "question": "Why did Prophet Muhammad ﷺ marry Aisha when she was young?",
     "answer": "## What Do the Historical Sources Say?\n\nClassical Islamic records state that the Prophet Muhammad ﷺ married Aisha when she was 6 years old, and that the marriage was consummated when she was 9. Muhammad was approximately 50 at the time.\n\n## The Historical Context: A Different World\n\nThe most important thing a modern reader needs to understand is this: **the 7th-century Arabian Peninsula was not the 21st-century West.** Applying today's standards to a world 1,400 years ago is like condemning ancient Romans for not having antibiotics.\n\nIn pre-modern societies across the entire world (Arabia, Europe, Asia, and the Americas) childhood as a protected phase of life simply did not exist as we understand it today. The concept of adolescence as a distinct developmental stage is a largely modern invention. In those societies:\n\n- A girl was considered a woman upon reaching puberty\n- Marriage shortly after puberty was the universal norm, not the exception\n- Life expectancy was short. Delaying marriage until 18 or older was not a social reality anywhere on earth\n\nThis was not unique to Muslims or Arabs. In England, the legal minimum age for marriage was 12 for girls and 14 for boys, under both Church and common law, and this remained unchanged until **1929**. Not so long ago.\n\n## What Did Even Islam's Enemies Say?\n\nThe Prophet Muhammad ﷺ faced many adversaries who were eager to exploit any perceived weakness to discredit him and his message. Yet no recorded account, from Muslim or non-Muslim sources alike, raised objections to this marriage on the basis of Aisha's age.\n\nThat silence is significant. Critics of early Islam voiced a wide range of accusations, but this was never among them. It suggests that this marriage aligned entirely with the prevailing norms of 7th-century Arabia and did not stand out as controversial, to allies or adversaries alike. Objections based on Aisha's age have emerged primarily in recent decades, reflecting shifts in modern global norms, not timeless moral outrage.\n\n## Why This Specific Marriage?\n\nMuhammad's other marriages offer essential context. Before Aisha, he was married exclusively to Khadijah for approximately **25 years**: a woman older than him, a successful businesswoman, and his greatest companion and supporter. He sought no other wife during her lifetime. This is not the behavior of a man driven by desire.\n\nAfter Khadijah's death, most of his later marriages were to widows, divorcees, or older women, for reasons of protection, social alliance, and the strengthening of the early Muslim community. To reduce these marriages to mere desire is to misunderstand both the man and the meaning of marriage in Islam.\n\n## Judging the Past by the Present\n\nThe deepest problem with simply declaring \"this was wrong\" is that it imposes today's moral framework onto a 7th-century reality. Throughout history, practices once universally accepted (slavery, the execution of heretics, women having no property rights) are now rightly condemned. But condemning a historical figure for failing to live by standards that didn't yet exist is not moral clarity. It is presentism (Wikipedia: [Presentism](https://en.wikipedia.org/wiki/Presentism_(historical_analysis))).\n\nHonest historical analysis asks: What were the norms of the time? Did this person violate even those norms? What was the broader impact of their life?\n\nMuhammad ﷺ violated none of the norms of his era. And the impact of his life, the liberation of slaves, the elevation of women, the founding of a civilization built on justice and mercy, speaks for itself.\n\n## Why Aisha, Specifically?\n\nIslamic tradition records that the Prophet ﷺ was shown Aisha in a dream before the marriage, an event Muslims understand as divine guidance. Within the Islamic worldview, this was not a personal choice driven by desire, but a divinely directed union with a purpose far greater than the moment.\n\nAisha ﷢ went on to become one of the greatest scholars in Islamic history, narrating thousands of hadith and teaching men and women alike for decades after the Prophet's death. Her life was not defined by her age at marriage. It was defined by the immense legacy she left behind.",
-    "tags": ["misconceptions", "prophet", "history", "seerah"],
+    "tags": [
+      "misconceptions",
+      "prophet",
+      "history",
+      "seerah"
+    ],
     "created_at": "2025-01-25",
     "translations": {}
   },
@@ -128,7 +168,11 @@
     "id": 10,
     "question": "How can I learn more about Islam?",
     "answer": "If you're interested in learning about Islam, here are some excellent starting points:\n\n**Read:**\n- The Quran — Start with a good English translation (e.g., Sahih International, or The Clear Quran by Dr. Mustafa Khattab)\n- \"The Sealed Nectar\" (Ar-Raheeq Al-Makhtum) — A biography of Prophet Muhammad ﷺ\n\n**Watch:**\n- Lectures by scholars like Mufti Menk, Omar Suleiman, or Nouman Ali Khan on YouTube\n\n**Visit:**\n- Your local mosque — most mosques welcome visitors and offer introductory sessions\n- Talk to a Muslim friend or neighbor\n\n**Online Resources:**\n- [Quran.com](https://quran.com) — Read the Quran with translations\n- [Sunnah.com](https://sunnah.com) — Browse authentic Hadith collections\n\nThe most important step is to approach with an **open heart and sincere curiosity**. Ask God to guide you to the truth — that's a prayer He always answers.\n\n> *\"And those who strive for Us — We will surely guide them to Our ways.\"* — Quran 29:69",
-    "tags": ["guidance", "resources", "basics"],
+    "tags": [
+      "guidance",
+      "resources",
+      "basics"
+    ],
     "created_at": "2025-01-24",
     "translations": {
       "ar": {

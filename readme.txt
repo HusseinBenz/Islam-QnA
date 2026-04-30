@@ -10,9 +10,15 @@ Project Structure
   article.html       Individual article view with voting
   data/
     config.json      Site configuration (name, defaults, pagination options)
-    entries.json     All Q&A entries with translations
+    entries.json     Generated Q&A entries with translations
     languages.json   Language definitions (code, label, direction, fonts)
     ui-strings.json  All UI text translations per language
+  content/
+    articles/        One Markdown file per article
+    translations/    Optional translated Markdown files, grouped by language
+  scripts/
+    build_entries.py Generate data/entries.json from Markdown files
+    new_article.py   Create a new article or translation draft
   assets/
     css/style.css    Main stylesheet (dark/light themes, responsive)
     js/i18n.js       Internationalization module
@@ -21,7 +27,8 @@ Project Structure
     js/votes.js      localStorage-based voting
 
 How It Works
-  - All content is stored in JSON files under data/
+  - Articles are edited as Markdown files under content/
+  - data/entries.json is generated from Markdown for the static site
   - JavaScript loads these files and renders everything client-side
   - Search is done in-browser with instant filtering
   - Voting is saved in the browser's localStorage
@@ -29,14 +36,49 @@ How It Works
   - Theme preference (dark/light) persists in localStorage
 
 Adding/Editing Content
-  - To add a new Q&A entry, edit data/entries.json
+  - To edit an article, edit its Markdown file in content/articles/
+  - To add a new article draft:
+      python scripts/new_article.py "Your question here" --tags basics,theology
+  - To add an Arabic translation draft for article 1:
+      python scripts/new_article.py "السؤال هنا؟" --translation ar --id 1
+  - After editing Markdown, regenerate the JSON:
+      python scripts/build_entries.py
+  - To check that generated JSON is up to date:
+      python scripts/build_entries.py --check
   - To add a new language, edit data/languages.json and data/ui-strings.json
   - To modify the UI text, edit data/ui-strings.json
   - To change site settings, edit data/config.json
-  - All files are standard JSON — no build step required
+  - Do not hand-edit data/entries.json unless you are intentionally bypassing
+    the Markdown workflow; it will be overwritten by the build script
 
-Entry Format (data/entries.json)
-  Each entry has:
+Markdown Article Format (content/articles/*.md)
+  Each default-language article has front matter followed by the answer:
+    ---
+    id: 12
+    order: 12
+    question: Your question here?
+    created_at: 2026-04-30
+    tags:
+      - basics
+      - theology
+    ---
+
+    Write the answer in Markdown here.
+
+  order is optional. Use it when you want the browse order to differ from the
+  article id order.
+
+Markdown Translation Format (content/translations/ar/*.md)
+  Each translation points back to the article id:
+    ---
+    id: 12
+    question: السؤال هنا؟
+    ---
+
+    Write the translated answer in Markdown here.
+
+Generated Entry Format (data/entries.json)
+  Each generated entry has:
     id            Unique integer
     question      The question text
     answer        The answer in Markdown format
@@ -58,12 +100,13 @@ Features
   - Client-side search with instant results
   - Pagination with configurable page sizes
   - Markdown rendering for answers (via marked.js)
+  - Markdown-first article editing with a tiny standard-library generator
   - XSS protection in markdown rendering
   - localStorage-based voting (no server needed)
   - Responsive design (mobile-first)
   - Smooth animations and transitions
   - Modular architecture — edit JSON files to customize everything
-  - Zero build step — pure HTML, CSS, and JavaScript
+  - Static output — pure HTML, CSS, JavaScript, and generated JSON
 
 Deployment
   Upload all files to any static hosting provider. No server configuration needed.
