@@ -20,9 +20,11 @@ Project Structure
     build_entries.py Generate data/entries.json from Markdown files
     new_article.py   Create a new article or translation draft
   assets/
-    css/style.css    Main stylesheet (dark/light themes, responsive)
+    css/sakina.css   Shared Sakina design language (same file in every Islamic Project)
+    css/style.css    Page styles for this site (day/night, RTL, responsive)
+    js/sakina.js     Shared day/night theme (remembered across projects) and small helpers
+    js/site.js       Header, footer, language links and live search suggestions
     js/i18n.js       Internationalization module
-    js/theme.js      Dark/light theme toggle
     js/data.js       Data loading, search, and pagination
     js/votes.js      localStorage-based voting
 

@@ -2,176 +2,196 @@
 <html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Islamic Q&A — clear answers to common doubts.">
-  <title>Article — Discover Islam</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="A clear answer to a common question about Islam, from authentic Islamic sources.">
+  <meta name="theme-color" content="#F6F4EE">
+  <title>Discover Islam</title>
+  <script>(function(){var t;try{t=localStorage.getItem('sakina-theme')||localStorage.getItem('theme')}catch(e){}if(t!=='light'&&t!=='dark'){t=window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'}document.documentElement.setAttribute('data-theme',t)})();</script>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%230E7C72' d='M23 12L19.78 15.22L19.78 19.78L15.22 19.78L12 23L8.78 19.78L4.22 19.78L4.22 15.22L1 12L4.22 8.78L4.22 4.22L8.78 4.22L12 1L15.22 4.22L19.78 4.22L19.78 8.78Z'/%3E%3Ccircle cx='12' cy='12' r='4.4' fill='%23F6F4EE'/%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Source+Sans+3:wght@300;400;500;600;700&family=Amiri:ital,wght@0,400;0,700;1,400&family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Figtree:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&family=Instrument+Serif:ital@0;1&family=Reem+Kufi:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/sakina.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <script src="https://cdn.jsdelivr.net/npm/marked@4.3.0/marked.min.js"></script>
 </head>
-<body>
-  <canvas id="bg-canvas"></canvas>
+<body class="sk-project-qna">
+  <a class="sk-skip" href="#main">Skip to content</a>
+  <div class="sk-pattern" aria-hidden="true"></div>
 
-  <!-- Floating Acrylic Navigation -->
-  <nav class="site-nav">
-    <div class="site-nav__inner">
-      <a href="index.html" class="site-nav__brand" id="nav-brand">Discover Islam</a>
-      <div class="site-nav__links">
-        <a href="index.html" id="nav-home"></a>
-        <a href="browse.html" id="nav-browse"></a>
-        <span class="nav-separator"></span>
-        <a href="" class="nav-icon-btn" id="nav-github" target="_blank" rel="noopener" aria-label="GitHub">
-          <svg viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
-        </a>
-        <button type="button" class="nav-icon-btn" id="theme-toggle" aria-label="Toggle theme">&#x2600;</button>
-      </div>
+  <header class="sk-header">
+    <div class="sk-container sk-header__inner">
+      <a class="sk-brand" href="index.html" id="brand-link">
+        <span class="sk-tile sk-tile--sm"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.5 8.5 0 0 1-12.4 7.6L3 20.5l1.5-5.2A8.5 8.5 0 1 1 21 11.5Z"/><path d="M9.8 9.3a2.3 2.3 0 0 1 4.4.9c0 1.6-2.2 2-2.2 3.3"/><path d="M12 16.3h.01"/></svg></span>
+        <span class="sk-brand__text"><span class="sk-brand__name" lang="en">Islam Q&amp;A</span><span class="sk-brand__sub" lang="ar">أسئلة وأجوبة</span></span>
+      </a>
+      <nav class="sk-header__nav" aria-label="Site">
+        <a class="sk-btn sk-btn--ghost sk-btn--sm sk-hide-sm" href="index.html" id="nav-home">Home</a>
+        <a class="sk-btn sk-btn--ghost sk-btn--sm sk-hide-sm" href="browse.html?browse=1" id="nav-browse">Browse</a>
+        <a class="sk-btn sk-btn--ghost sk-btn--sm qa-lang" href="article.html?lang=ar" id="nav-lang" lang="ar">العربية</a>
+        <a class="sk-btn sk-btn--line sk-btn--sm sk-projects" href="https://husseinbenz.github.io/islamic-projects/" aria-label="All Islamic projects">
+          <span class="sk-constellation" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></span><span class="sk-hide-sm">All projects</span></a>
+        <button class="sk-icon-btn sk-theme-btn" type="button" data-sk-theme-toggle aria-label="Switch to night theme">
+          <svg class="sk-i-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+          <svg class="sk-i-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+        </button>
+      </nav>
     </div>
-  </nav>
+  </header>
 
-  <!-- Article Content -->
-  <main class="article-page">
-    <div class="article" id="article-container">
-      <div class="loading-spinner"></div>
+  <main id="main" class="sk-container">
+    <div class="article-page">
+      <a class="back-link" href="browse.html?browse=1" id="back-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg><span id="back-label">All questions</span></a>
+      <article class="article" id="article-container" aria-live="polite">
+        <div class="loading"><svg width="36" height="36" viewBox="-12 -12 24 24" aria-hidden="true"><path fill="currentColor" d="M11 0L7.78 3.22L7.78 7.78L3.22 7.78L0 11L-3.22 7.78L-7.78 7.78L-7.78 3.22L-11 0L-7.78 -3.22L-7.78 -7.78L-3.22 -7.78L0 -11L3.22 -7.78L7.78 -7.78L7.78 -3.22Z"/></svg></div>
+      </article>
     </div>
   </main>
 
-  <!-- Footer -->
-  <footer class="site-footer">
-    <p class="site-footer__label" id="footer-lang-label"></p>
-    <div class="lang-switcher" id="lang-switcher"></div>
-    <p class="site-footer__copyright" id="footer-copyright"></p>
+  <footer class="sk-footer">
+    <div class="sk-container qa-footer">
+      <div class="lang-switcher"><span class="lang-switcher__label" id="footer-lang-label"></span><span id="lang-switcher" class="lang-switcher"></span></div>
+      <p id="footer-copyright"></p>
+      <a class="sk-footer__home" href="https://husseinbenz.github.io/islamic-projects/">
+        <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path style="fill:var(--primary)" d="M23 12L19.78 15.22L19.78 19.78L15.22 19.78L12 23L8.78 19.78L4.22 19.78L4.22 15.22L1 12L4.22 8.78L4.22 4.22L8.78 4.22L12 1L15.22 4.22L19.78 4.22L19.78 8.78Z"/><circle cx="12" cy="12" r="4.4" style="fill:var(--bg)"/></svg>
+        Part of Islamic Projects</a>
+    </div>
   </footer>
 
-  <script src="assets/js/theme.js"></script>
-  <script src="assets/js/background.js"></script>
+  <script src="assets/js/sakina.js"></script>
   <script src="assets/js/i18n.js"></script>
   <script src="assets/js/data.js"></script>
   <script src="assets/js/votes.js"></script>
+  <script src="assets/js/site.js"></script>
   <script>
     (function () {
-      function escapeHtml(str) { var d=document.createElement('div'); d.textContent=str; return d.innerHTML; }
+      var esc = Site.escapeHtml;
+      var ICONS = {
+        up: '<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 10v12"/><path d="M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h2.76a2 2 0 0 0 1.79-1.11L12 2a3.13 3.13 0 0 1 3 3.88Z"/></svg>',
+        down: '<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 14V2"/><path d="M9 18.12 10 14H4.17a2 2 0 0 1-1.92-2.56l2.33-8A2 2 0 0 1 6.5 2H20a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-2.76a2 2 0 0 0-1.79 1.11L12 22a3.13 3.13 0 0 1-3-3.88Z"/></svg>',
+        x: '<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>',
+        wa: '<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>',
+        link: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>'
+      };
 
       function isSafeUrl(url) {
         if (!url) return true;
         var t = String(url).trim().toLowerCase();
         if (t.startsWith('javascript:') || t.startsWith('data:') || t.startsWith('vbscript:')) return false;
         if (t.startsWith('#') || t.startsWith('/') || t.startsWith('./') || t.startsWith('../')) return true;
-        try { var p = new URL(url, window.location.origin); return ['http:','https:','mailto:','tel:'].indexOf(p.protocol) !== -1; } catch(e) { return false; }
+        try { var p = new URL(url, window.location.origin); return ['http:', 'https:', 'mailto:', 'tel:'].indexOf(p.protocol) !== -1; } catch (e) { return false; }
       }
 
       function setupMarked() {
         if (typeof marked === 'undefined') return;
         var r = new marked.Renderer();
-        r.link = function(href,title,text) { if(!isSafeUrl(href))return escapeHtml(text); return '<a href="'+escapeHtml(href)+'"'+(title?' title="'+escapeHtml(title)+'"':'')+' target="_blank" rel="noopener">'+text+'</a>'; };
-        r.image = function(h,t,text) { return escapeHtml(text||''); };
-        r.html = function() { return ''; };
-        marked.setOptions({ renderer:r, gfm:true, breaks:true, mangle:false, headerIds:false });
+        r.link = function (href, title, text) { if (!isSafeUrl(href)) return esc(text); return '<a href="' + esc(href) + '"' + (title ? ' title="' + esc(title) + '"' : '') + ' target="_blank" rel="noopener">' + text + '</a>'; };
+        r.image = function (h, t, text) { return esc(text || ''); };
+        r.html = function () { return ''; };
+        marked.setOptions({ renderer: r, gfm: true, breaks: true, mangle: false, headerIds: false });
       }
 
-      function formatDate(ds) { if(!ds)return''; try{return new Date(ds).toLocaleDateString(I18n.getLang(),{year:'numeric',month:'long',day:'numeric'});}catch(e){return ds;} }
+      function formatDate(ds) { if (!ds) return ''; try { return new Date(ds).toLocaleDateString(I18n.getLang(), { year: 'numeric', month: 'long', day: 'numeric' }); } catch (e) { return ds; } }
 
-      function renderArticle(entry) {
+      function renderArticle(entry, data, entries) {
+        var lang = I18n.getLang();
         var c = document.getElementById('article-container');
-        var html = '<h1 class="article__question">' + escapeHtml(entry.question) + '</h1>';
-        html += '<div class="article__meta"><span class="article__date">' + escapeHtml(I18n.t('posted_on')) + ' ' + formatDate(entry.created_at) + '</span></div>';
-        if (entry.tags && entry.tags.length) { html += '<div class="article__tags">'; entry.tags.forEach(function(t){ html+='<span class="tag">'+escapeHtml(t)+'</span>'; }); html += '</div>'; }
+        var raw = data.entries.filter(function (x) { return x.id === entry.id; })[0] || {};
+        var available = [data.config.defaultLang].concat(Object.keys(raw.translations || {}));
+        var langs = I18n.getLanguages();
+        var ar = lang === 'ar';
 
-        var answerHtml = typeof marked !== 'undefined' ? marked.parse(entry.answer||'') : '<p>'+escapeHtml(entry.answer||'').replace(/\n/g,'<br>')+'</p>';
-        html += '<div class="article__answer">' + answerHtml + '</div>';
+        var html = '<div class="article__top"><div class="article__tags">' + Site.tagsHtml(entry.tags).replace(/sk-tag"/, 'sk-tag sk-tag--accent"') + '</div>';
+        if (available.length > 1) {
+          html += '<div class="lang-seg" role="group" aria-label="' + esc(I18n.t('language')) + '">';
+          available.forEach(function (code) {
+            if (!langs[code]) return;
+            html += '<a href="article.html?id=' + entry.id + '&lang=' + code + '" lang="' + code + '"' + (code === lang ? ' aria-current="true"' : '') + '>' + esc(langs[code].label) + '</a>';
+          });
+          html += '</div>';
+        }
+        html += '</div>';
+        html += '<h1 class="sk-display article__question">' + esc(entry.question) + '</h1>';
+        var meta = [];
+        if (entry.created_at) meta.push(esc(I18n.t('posted_on')) + ' ' + formatDate(entry.created_at));
+        meta.push(Site.minutes(entry.answer) + ' ' + (ar ? 'دقيقة قراءة' : 'min read'));
+        html += '<p class="article__meta">' + meta.join(' · ') + '</p>';
 
-        // Share section
+        var answerHtml = typeof marked !== 'undefined' ? marked.parse(entry.answer || '') : '<p>' + esc(entry.answer || '').replace(/\n/g, '<br>') + '</p>';
+        html += '<div class="prose">' + answerHtml + '</div>';
+
         var pageUrl = window.location.href;
-        var shareText = entry.question;
-        html += '<div class="share-section">';
-        html += '<span class="share-section__label">' + escapeHtml(I18n.t('share')) + '</span>';
-        // X (Twitter)
-        html += '<a href="https://x.com/intent/tweet?text='+encodeURIComponent(shareText)+'&url='+encodeURIComponent(pageUrl)+'" target="_blank" rel="noopener" class="share-btn" title="'+escapeHtml(I18n.t('share_twitter'))+'">';
-        html += '<svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>';
-        html += '</a>';
-        // WhatsApp
-        html += '<a href="https://wa.me/?text='+encodeURIComponent(shareText + ' ' + pageUrl)+'" target="_blank" rel="noopener" class="share-btn" title="'+escapeHtml(I18n.t('share_whatsapp'))+'">';
-        html += '<svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>';
-        html += '</a>';
-        // Copy link
-        html += '<button type="button" class="share-btn share-btn--copy" id="copy-link-btn" title="'+escapeHtml(I18n.t('share_copy'))+'">';
-        html += '<svg viewBox="0 0 24 24"><path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/></svg>';
-        html += '</button>';
-        html += '</div>';
-
-        // Voting section
         var cv = Votes.getVote(entry.id);
-        html += '<div class="vote-section"><div class="vote-widget"><div class="vote-buttons">';
-        html += '<button class="vote-btn'+(cv===1?' active-up':'')+'" data-vote="1" aria-label="Like"><svg viewBox="0 0 24 24"><path d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z"/></svg><span class="vote-count" id="vote-up">'+(cv===1?'1':'0')+'</span></button>';
-        html += '<button class="vote-btn'+(cv===-1?' active-down':'')+'" data-vote="-1" aria-label="Dislike"><svg viewBox="0 0 24 24"><path d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z"/></svg><span class="vote-count" id="vote-down">'+(cv===-1?'1':'0')+'</span></button>';
-        html += '</div>';
-        var pct = cv===1?100:(cv===-1?0:50);
-        html += '<div class="vote-bar"><div class="vote-bar__fill" style="width:'+pct+'%"></div></div>';
-        html += '<div class="vote-message" id="vote-message"></div></div></div>';
+        html += '<div class="article__end">';
+        html += '<div class="feedback"><span class="feedback__label">' + (ar ? 'هل كان هذا مفيدًا؟' : 'Was this helpful?') + '</span><div class="feedback__buttons">' +
+          '<button type="button" class="sk-chip" data-vote="1" aria-pressed="' + (cv === 1) + '">' + ICONS.up + (ar ? 'نعم' : 'Yes') + '</button>' +
+          '<button type="button" class="sk-chip" data-vote="-1" aria-pressed="' + (cv === -1) + '">' + ICONS.down + (ar ? 'ليس تمامًا' : 'Not quite') + '</button>' +
+          '</div><div class="feedback__msg" id="vote-message" role="status"></div></div>';
+        html += '<div class="share"><span class="share__label">' + esc(I18n.t('share')) + '</span><div class="share__buttons">' +
+          '<a class="sk-icon-btn" href="https://x.com/intent/tweet?text=' + encodeURIComponent(entry.question) + '&url=' + encodeURIComponent(pageUrl) + '" target="_blank" rel="noopener" aria-label="' + esc(I18n.t('share_twitter')) + '" title="' + esc(I18n.t('share_twitter')) + '">' + ICONS.x + '</a>' +
+          '<a class="sk-icon-btn" href="https://wa.me/?text=' + encodeURIComponent(entry.question + ' ' + pageUrl) + '" target="_blank" rel="noopener" aria-label="' + esc(I18n.t('share_whatsapp')) + '" title="' + esc(I18n.t('share_whatsapp')) + '">' + ICONS.wa + '</a>' +
+          '<button type="button" class="sk-icon-btn" id="copy-link-btn" aria-label="' + esc(I18n.t('share_copy')) + '" title="' + esc(I18n.t('share_copy')) + '">' + ICONS.link + '</button>' +
+          '</div></div>';
 
+        // Previous / next question in the same language
+        var idx = -1;
+        entries.forEach(function (e, i) { if (e.id === entry.id) idx = i; });
+        var prev = idx > 0 ? entries[idx - 1] : null;
+        var next = idx >= 0 && idx < entries.length - 1 ? entries[idx + 1] : null;
+        if (prev || next) {
+          html += '<nav class="article-nav" aria-label="' + (ar ? 'أسئلة أخرى' : 'More questions') + '">';
+          html += prev ? '<a class="sk-card sk-lift" href="article.html?id=' + prev.id + '&lang=' + lang + '"><small>' + esc(I18n.t('previous')) + '</small><span>' + esc(prev.question) + '</span></a>' : '<span></span>';
+          html += next ? '<a class="sk-card sk-lift" href="article.html?id=' + next.id + '&lang=' + lang + '"><small>' + esc(I18n.t('next')) + '</small><span>' + esc(next.question) + '</span></a>' : '';
+          html += '</nav>';
+        }
+        html += '</div>';
         c.innerHTML = html;
 
-        // Copy link handler
-        var copyBtn = document.getElementById('copy-link-btn');
-        if (copyBtn) {
-          copyBtn.addEventListener('click', function() {
-            navigator.clipboard.writeText(window.location.href).then(function() {
-              copyBtn.classList.add('copied');
-              setTimeout(function(){ copyBtn.classList.remove('copied'); }, 2000);
-            });
+        document.getElementById('copy-link-btn').addEventListener('click', function () {
+          var btn = this;
+          Sakina.copy(window.location.href).then(function () {
+            btn.classList.add('is-copied');
+            Sakina.toast(I18n.t('share_copied'));
+            setTimeout(function () { btn.classList.remove('is-copied'); }, 2000);
           });
-        }
+        });
 
-        // Vote handlers
-        document.querySelectorAll('.vote-btn').forEach(function(btn) {
-          btn.addEventListener('click', function() {
-            var vv = parseInt(this.getAttribute('data-vote'));
-            var nv = Votes.castVote(entry.id, vv);
-            document.querySelectorAll('.vote-btn').forEach(function(b){ b.classList.remove('active-up','active-down'); });
-            if(nv===1) document.querySelector('[data-vote="1"]').classList.add('active-up');
-            else if(nv===-1) document.querySelector('[data-vote="-1"]').classList.add('active-down');
-            document.getElementById('vote-up').textContent = nv===1?'1':'0';
-            document.getElementById('vote-down').textContent = nv===-1?'1':'0';
-            document.querySelector('.vote-bar__fill').style.width = (nv===1?100:(nv===-1?0:50))+'%';
+        c.querySelectorAll('[data-vote]').forEach(function (btn) {
+          btn.addEventListener('click', function () {
+            var nv = Votes.castVote(entry.id, parseInt(this.getAttribute('data-vote'), 10));
+            c.querySelectorAll('[data-vote]').forEach(function (b) { b.setAttribute('aria-pressed', String(parseInt(b.getAttribute('data-vote'), 10) === nv)); });
             var msg = document.getElementById('vote-message');
-            msg.textContent = I18n.t('vote_thank');
-            setTimeout(function(){ msg.textContent=''; }, 2500);
+            msg.textContent = nv ? I18n.t('vote_thank') : '';
+            setTimeout(function () { msg.textContent = ''; }, 2500);
           });
         });
       }
 
       function renderMissing() {
-        document.getElementById('article-container').innerHTML = '<div class="empty-state"><div class="empty-state__icon">&#128196;</div><div class="empty-state__text">'+escapeHtml(I18n.t('entry_missing'))+'</div></div>';
+        document.getElementById('article-container').innerHTML =
+          '<div class="empty-state"><svg width="34" height="34" viewBox="-12 -12 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round" d="M11 0L7.78 3.22L7.78 7.78L3.22 7.78L0 11L-3.22 7.78L-7.78 7.78L-7.78 3.22L-11 0L-7.78 -3.22L-7.78 -7.78L-3.22 -7.78L0 -11L3.22 -7.78L7.78 -7.78L7.78 -3.22Z"/></svg><div>' +
+          esc(I18n.t('entry_missing')) + '</div><a class="sk-btn sk-btn--line sk-btn--sm" href="browse.html?browse=1&lang=' + I18n.getLang() + '">' + esc(I18n.t('browse')) + '</a></div>';
       }
 
       setupMarked();
 
       DataStore.loadAll().then(function (data) {
         var lang = I18n.init(data.uiStrings, data.languages, data.config.defaultLang);
-
-        document.getElementById('nav-brand').textContent = I18n.t('title');
-        document.getElementById('nav-home').textContent = I18n.t('back_home');
-        document.getElementById('nav-browse').textContent = I18n.t('search');
-        document.getElementById('nav-github').href = data.config.githubUrl || '#';
-        document.querySelector('.site-nav__links a[href^="index"]').href = 'index.html?lang=' + lang;
-        document.querySelector('.site-nav__links a[href^="browse"]').href = 'browse.html?lang=' + lang + '&browse=1';
+        Site.initChrome(lang);
+        var back = document.getElementById('back-link');
+        back.href = 'browse.html?lang=' + lang + '&browse=1';
+        document.getElementById('back-label').textContent = I18n.t('browse');
 
         var params = new URLSearchParams(window.location.search);
-        var entryId = parseInt(params.get('id'));
-        if (!entryId) { renderMissing(); }
-        else {
-          var entry = DataStore.getEntry(data.entries, entryId, lang, data.config.defaultLang);
-          if (entry) { document.title = entry.question + ' — ' + I18n.t('title'); renderArticle(entry); }
-          else { renderMissing(); }
+        var entryId = parseInt(params.get('id'), 10);
+        var entries = DataStore.getEntries(data.entries, lang, data.config.defaultLang);
+        var entry = entryId ? DataStore.getEntry(data.entries, entryId, lang, data.config.defaultLang) : null;
+        if (entry) {
+          document.title = entry.question + ' — ' + I18n.t('title');
+          renderArticle(entry, data, entries);
+        } else {
+          renderMissing();
         }
-
-        document.getElementById('footer-lang-label').textContent = I18n.t('languages');
-        document.getElementById('footer-copyright').textContent = I18n.t('footer_no_copyright');
-        var sw = document.getElementById('lang-switcher');
-        Object.keys(I18n.getLanguages()).forEach(function(code){ var a=document.createElement('a'); a.href='article.html?id='+(entryId||'')+'&lang='+code; a.textContent=I18n.getLanguages()[code].label; if(code===lang)a.classList.add('active'); sw.appendChild(a); });
-
-        Theme.init();
       });
     })();
   </script>

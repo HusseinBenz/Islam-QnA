@@ -2,796 +2,210 @@
 <html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="description" content="Clear answers to common doubts about Islam — powered by authentic Islamic sources.">
+  <meta name="theme-color" content="#F6F4EE">
   <title>Discover Islam</title>
-
-  <!-- Fonts -->
+  <script>(function(){var t;try{t=localStorage.getItem('sakina-theme')||localStorage.getItem('theme')}catch(e){}if(t!=='light'&&t!=='dark'){t=window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'}document.documentElement.setAttribute('data-theme',t)})();</script>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%230E7C72' d='M23 12L19.78 15.22L19.78 19.78L15.22 19.78L12 23L8.78 19.78L4.22 19.78L4.22 15.22L1 12L4.22 8.78L4.22 4.22L8.78 4.22L12 1L15.22 4.22L19.78 4.22L19.78 8.78Z'/%3E%3Ccircle cx='12' cy='12' r='4.4' fill='%23F6F4EE'/%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Source+Sans+3:wght@300;400;500;600;700&family=Amiri:ital,wght@0,400;0,700;1,400&family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-  <!-- Styles -->
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Figtree:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&family=Instrument+Serif:ital@0;1&family=Reem+Kufi:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/sakina.css">
   <link rel="stylesheet" href="assets/css/style.css">
-  <style>
-    /* ============================================================
-       HOME SEARCH HERO — first viewport
-       ============================================================ */
-    .home-search-hero {
-      margin-top: -86px;
-      min-height: 100vh;
-      min-height: 100svh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      padding: 5.5rem 2rem 2rem;
-      background:
-        radial-gradient(ellipse 120% 35% at 50% 0%, rgba(191,155,48,0.22) 0%, transparent 100%),
-        radial-gradient(ellipse 120% 35% at 50% 100%, rgba(27,67,50,0.18) 0%, transparent 100%),
-        linear-gradient(180deg, var(--color-surface-alt) 0%, var(--color-surface) 100%);
-      position: relative;
-      overflow: hidden;
-    }
-    .home-search-hero::before {
-      content: '';
-      position: absolute;
-      width: 200%; height: 200%;
-      top: -50%; left: -50%;
-      background:
-        radial-gradient(ellipse 160% 18% at 50% 25%, rgba(191,155,48,0.14) 0%, transparent 100%),
-        radial-gradient(ellipse 44% 34% at 22% 38%, rgba(191,155,48,0.22) 0%, transparent 55%),
-        radial-gradient(ellipse 52% 42% at 78% 62%, rgba(27,67,50,0.17) 0%, transparent 55%),
-        radial-gradient(ellipse 32% 28% at 58% 18%, rgba(191,155,48,0.12) 0%, transparent 52%);
-      animation: aurora-a 16s ease-in-out infinite alternate;
-      pointer-events: none;
-      z-index: 0;
-    }
-    .home-search-hero::after {
-      content: '';
-      position: absolute;
-      width: 200%; height: 200%;
-      top: -50%; left: -50%;
-      background:
-        radial-gradient(ellipse 42% 52% at 72% 28%, rgba(27,67,50,0.13) 0%, transparent 55%),
-        radial-gradient(ellipse 48% 34% at 28% 74%, rgba(191,155,48,0.16) 0%, transparent 55%),
-        radial-gradient(ellipse 28% 38% at 50% 88%, rgba(27,67,50,0.09) 0%, transparent 50%);
-      animation: aurora-b 22s ease-in-out infinite alternate;
-      pointer-events: none;
-      z-index: 0;
-    }
-    [data-theme="dark"] .home-search-hero {
-      background:
-        radial-gradient(ellipse 120% 35% at 50% 0%, rgba(212,175,55,0.2) 0%, transparent 100%),
-        radial-gradient(ellipse 120% 35% at 50% 100%, rgba(64,145,108,0.16) 0%, transparent 100%),
-        linear-gradient(180deg, var(--color-surface-alt) 0%, var(--color-surface) 100%);
-    }
-    [data-theme="dark"] .home-search-hero::before {
-      background:
-        radial-gradient(ellipse 160% 18% at 50% 25%, rgba(212,175,55,0.12) 0%, transparent 100%),
-        radial-gradient(ellipse 44% 34% at 22% 38%, rgba(212,175,55,0.17) 0%, transparent 55%),
-        radial-gradient(ellipse 52% 42% at 78% 62%, rgba(64,145,108,0.12) 0%, transparent 55%),
-        radial-gradient(ellipse 32% 28% at 58% 18%, rgba(212,175,55,0.1) 0%, transparent 52%);
-    }
-    [data-theme="dark"] .home-search-hero::after {
-      background:
-        radial-gradient(ellipse 42% 52% at 72% 28%, rgba(64,145,108,0.1) 0%, transparent 55%),
-        radial-gradient(ellipse 48% 34% at 28% 74%, rgba(212,175,55,0.14) 0%, transparent 55%),
-        radial-gradient(ellipse 28% 38% at 50% 88%, rgba(64,145,108,0.08) 0%, transparent 50%);
-    }
-    @keyframes aurora-a {
-      0%   { transform: translate(0%, 0%)     rotate(0deg); }
-      33%  { transform: translate(4%, -6%)    rotate(4deg); }
-      66%  { transform: translate(-5%, 5%)    rotate(-3deg); }
-      100% { transform: translate(8%, 7%)     rotate(7deg); }
-    }
-    @keyframes aurora-b {
-      0%   { transform: translate(0%, 0%)     rotate(0deg); }
-      40%  { transform: translate(-8%, 6%)    rotate(-6deg); }
-      70%  { transform: translate(6%, -5%)    rotate(4deg); }
-      100% { transform: translate(-7%, -7%)   rotate(-7deg); }
-    }
-    .home-search-hero__inner {
-      position: relative;
-      z-index: 1;
-      width: 100%;
-      max-width: 680px;
-    }
-    .home-search-hero__title {
-      font-family: 'Playfair Display', serif;
-      font-size: clamp(2.2rem, 5.5vw, 3.8rem);
-      color: var(--color-accent);
-      font-weight: 700;
-      margin-bottom: 0.35rem;
-      letter-spacing: -0.01em;
-    }
-    .home-search-hero__tagline {
-      font-size: 0.97rem;
-      color: var(--color-text-muted);
-      margin-bottom: 1.5rem;
-    }
-    .home-search-hero__search { width: 100%; margin-bottom: 1rem; }
-    .home-random-cards {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 8px;
-      text-align: left;
-      width: 100%;
-    }
-    .home-random-cards .popular-card { padding: 11px 24px 11px 18px; }
-    .home-random-cards .popular-card__question { font-size: 0.91rem; }
-
-    .home-scroll-hint {
-      position: fixed;
-      bottom: 1.5rem;
-      left: 0; right: 0;
-      width: fit-content;
-      margin: 0 auto;
-      z-index: 50;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 0.2rem;
-      color: var(--color-accent);
-      opacity: 0.65;
-      pointer-events: none;
-      transition: opacity 0.5s ease;
-      animation: bounce-hint 2s infinite;
-    }
-    .home-scroll-hint__label {
-      font-size: 0.68rem;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      font-family: var(--font-body);
-      white-space: nowrap;
-    }
-    @keyframes bounce-hint {
-      0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
-      40% { transform: translateY(-7px); }
-      60% { transform: translateY(-3px); }
-    }
-
-    /* ============================================================
-       SECTION COMMON: ambient floating orbs (CSS keyframe drift)
-       ============================================================ */
-    .section-orbs {
-      position: absolute;
-      inset: 0;
-      pointer-events: none;
-      overflow: hidden;
-      z-index: 0;
-    }
-    .section-orb {
-      position: absolute;
-      border-radius: 50%;
-      filter: blur(60px);
-      opacity: 0.55;
-      will-change: transform;
-    }
-    .section-orb--gold { background: radial-gradient(circle, rgba(191,155,48,0.40), transparent 70%); }
-    .section-orb--green { background: radial-gradient(circle, rgba(27,67,50,0.38), transparent 70%); }
-    [data-theme="dark"] .section-orb--gold { background: radial-gradient(circle, rgba(212,175,55,0.32), transparent 70%); }
-    [data-theme="dark"] .section-orb--green { background: radial-gradient(circle, rgba(64,145,108,0.32), transparent 70%); }
-    .section-orb--a {
-      top: 10%; left: 8%;
-      width: 280px; height: 280px;
-      animation: orb-drift-a 28s ease-in-out infinite alternate;
-    }
-    .section-orb--b {
-      bottom: 8%; right: 10%;
-      width: 320px; height: 320px;
-      animation: orb-drift-b 34s ease-in-out infinite alternate;
-    }
-    .section-orb--c {
-      top: 45%; left: 60%;
-      width: 220px; height: 220px;
-      animation: orb-drift-c 24s ease-in-out infinite alternate;
-    }
-    @keyframes orb-drift-a {
-      0%   { transform: translate(0, 0) scale(1); }
-      50%  { transform: translate(40px, -30px) scale(1.1); }
-      100% { transform: translate(-30px, 40px) scale(0.95); }
-    }
-    @keyframes orb-drift-b {
-      0%   { transform: translate(0, 0) scale(1); }
-      50%  { transform: translate(-50px, 30px) scale(0.9); }
-      100% { transform: translate(30px, -40px) scale(1.1); }
-    }
-    @keyframes orb-drift-c {
-      0%   { transform: translate(0, 0) scale(0.9); }
-      50%  { transform: translate(20px, 40px) scale(1.05); }
-      100% { transform: translate(-30px, -20px) scale(0.95); }
-    }
-
-    /* ============================================================
-       VERSE SECTION — cinematic centerpiece
-       ============================================================ */
-    .verse-section {
-      min-height: 100vh;
-      min-height: 100svh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      padding: 8rem 1.5rem 6rem;
-      position: relative;
-      overflow: hidden;
-      background: linear-gradient(180deg, var(--color-surface) 0%, var(--color-surface-alt) 100%);
-    }
-    .verse-section__ornament {
-      display: flex;
-      align-items: center;
-      gap: 1.1rem;
-      color: var(--color-accent);
-      margin-bottom: clamp(2rem, 5vh, 3rem);
-      position: relative;
-      z-index: 1;
-    }
-    .verse-section__line {
-      flex: 0 0 auto;
-      width: 70px;
-      height: 1px;
-      background: currentColor;
-      opacity: 0.6;
-      transform-origin: 50% 50%;
-    }
-    .verse-section__star {
-      font-size: 1.55rem;
-      display: inline-block;
-      line-height: 1;
-    }
-    .verse-section__arabic {
-      font-family: var(--font-arabic);
-      font-size: clamp(2rem, 7vw, 4.6rem);
-      color: var(--color-accent);
-      text-align: center;
-      line-height: 1.7;
-      margin: 0 0 1.5rem 0;
-      max-width: min(900px, 92vw);
-      font-weight: 400;
-      text-shadow: 0 2px 30px rgba(191,155,48,0.15);
-      position: relative;
-      z-index: 1;
-      animation: verse-breathe 6s ease-in-out 2.4s infinite;
-    }
-    @keyframes verse-breathe {
-      0%, 100% { transform: scale(1); }
-      50%      { transform: scale(1.015); }
-    }
-    .verse-section__translation {
-      font-family: var(--font-heading);
-      font-style: italic;
-      font-size: clamp(1.05rem, 2.4vw, 1.55rem);
-      color: var(--color-text);
-      text-align: center;
-      max-width: min(680px, 92vw);
-      line-height: 1.7;
-      margin: 0 0 0.9rem 0;
-      position: relative;
-      z-index: 1;
-    }
-    .verse-section__ref {
-      font-size: 0.95rem;
-      color: var(--color-text-muted);
-      margin: 0;
-      position: relative;
-      z-index: 1;
-    }
-
-    /* ============================================================
-       MESSAGE & PURPOSE SECTIONS
-       ============================================================ */
-    .message-section,
-    .purpose-section {
-      padding: clamp(4rem, 9vh, 7rem) 1.5rem;
-      position: relative;
-      overflow: hidden;
-    }
-    .message-section { background: var(--color-surface); }
-    .purpose-section { background: var(--color-surface-alt); }
-    .message-section__inner,
-    .purpose-section__inner {
-      max-width: 760px;
-      margin: 0 auto;
-      position: relative;
-      z-index: 1;
-    }
-    .message-section__title,
-    .purpose-section__title {
-      font-family: var(--font-heading);
-      font-size: clamp(1.8rem, 4vw, 2.6rem);
-      color: var(--color-accent);
-      text-align: center;
-      margin: 0 auto 2.6rem;
-      font-weight: 600;
-      position: relative;
-      display: inline-block;
-      width: 100%;
-    }
-    .message-section__title::after,
-    .purpose-section__title::after {
-      content: '';
-      display: block;
-      width: 56px;
-      height: 2px;
-      background: currentColor;
-      margin: 0.9rem auto 0;
-      opacity: 0.55;
-    }
-    .message-section p,
-    .purpose-section p {
-      font-size: clamp(1.02rem, 1.7vw, 1.18rem);
-      line-height: 1.9;
-      color: var(--color-text);
-      margin: 0 0 1.6rem 0;
-    }
-    .message-section__quote {
-      font-family: var(--font-heading);
-      font-style: italic;
-      font-size: clamp(1.15rem, 2.4vw, 1.55rem);
-      color: var(--color-accent);
-      text-align: center;
-      padding: 2.2rem 2rem;
-      margin: 3rem 0;
-      border-left: 4px solid var(--color-accent);
-      border-right: 4px solid var(--color-accent);
-      border-radius: 8px;
-      background: var(--color-surface-raised);
-      box-shadow: 0 14px 40px rgba(0,0,0,0.05);
-      position: relative;
-    }
-    [data-theme="dark"] .message-section__quote {
-      box-shadow: 0 14px 40px rgba(0,0,0,0.4);
-    }
-    .message-section__quote-mark {
-      display: block;
-      font-size: 2.6rem;
-      line-height: 0.5;
-      opacity: 0.35;
-      margin-bottom: 0.6rem;
-    }
-    .message-section__quote-ref {
-      display: block;
-      font-style: normal;
-      font-family: var(--font-body);
-      font-size: 0.9rem;
-      color: var(--color-text-muted);
-      margin-top: 0.8rem;
-    }
-
-    /* ============================================================
-       EXPLORE SECTION
-       ============================================================ */
-    .explore-section {
-      padding: clamp(4rem, 9vh, 6rem) 1.5rem clamp(3rem, 6vh, 5rem);
-      position: relative;
-      overflow: hidden;
-      background: var(--color-surface);
-    }
-    .explore-section__inner {
-      position: relative;
-      z-index: 1;
-      max-width: var(--max-width);
-      margin: 0 auto;
-    }
-    .explore-section__title {
-      font-family: 'Playfair Display', serif;
-      font-size: clamp(1.8rem, 4vw, 2.5rem);
-      color: var(--color-accent);
-      text-align: center;
-      margin-bottom: 1rem;
-      font-weight: 600;
-    }
-    .explore-section__subtitle {
-      font-size: 1.1rem;
-      color: var(--color-text-muted);
-      text-align: center;
-      margin: 0 auto 3rem;
-      max-width: 600px;
-    }
-    .explore-section__cta {
-      display: block;
-      text-align: center;
-      margin-top: 3rem;
-    }
-    .explore-section__cta a {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.5rem;
-      padding: 1rem 2.5rem;
-      background: var(--color-accent);
-      color: white;
-      text-decoration: none;
-      border-radius: 50px;
-      font-weight: 600;
-      font-size: 1.1rem;
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-      box-shadow: 0 6px 20px rgba(0,0,0,0.08);
-    }
-    .explore-section__cta a:hover {
-      transform: translateY(-3px) scale(1.02);
-      box-shadow: 0 14px 32px rgba(0,0,0,0.18);
-    }
-    .explore-section__cta svg {
-      width: 20px;
-      height: 20px;
-      transition: transform 0.3s ease;
-    }
-    .explore-section__cta a:hover svg { transform: translateX(4px); }
-    [dir="rtl"] .explore-section__cta a:hover svg { transform: translateX(-4px); }
-
-    .section-divider {
-      text-align: center;
-      padding: 2rem;
-      color: var(--color-accent);
-      font-size: 1.5rem;
-      letter-spacing: 1rem;
-      opacity: 0.5;
-      display: block;
-    }
-
-    /* ============================================================
-       REVEAL SYSTEM — IntersectionObserver-driven entrance
-       ============================================================ */
-    .anim {
-      opacity: 0;
-      will-change: opacity, transform;
-      transition:
-        opacity 0.9s cubic-bezier(0.16, 1, 0.3, 1) var(--delay, 0s),
-        transform 0.9s cubic-bezier(0.16, 1, 0.3, 1) var(--delay, 0s);
-    }
-    .anim-up    { transform: translateY(38px); }
-    .anim-down  { transform: translateY(-32px); }
-    .anim-left  { transform: translateX(-44px); }
-    .anim-right { transform: translateX(44px); }
-    .anim-zoom  { transform: scale(0.86); }
-    .anim-zoom-big { transform: scale(0.55); }
-    .anim-pop {
-      transform: translateY(28px) scale(0.94);
-      transition-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
-      transition-duration: 0.8s;
-    }
-    .anim-rotate {
-      transform: scale(0.5) rotate(-180deg);
-      transition-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
-      transition-duration: 0.95s;
-    }
-    .anim-tilt {
-      transform: perspective(1200px) translateY(60px) rotateX(-22deg);
-      transform-origin: 50% 100%;
-      transition-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
-      transition-duration: 0.9s;
-    }
-    .anim-line {
-      transform: scaleX(0);
-      transform-origin: 50% 50%;
-      transition:
-        transform 0.85s cubic-bezier(0.16, 1, 0.3, 1) var(--delay, 0s),
-        opacity   0.85s cubic-bezier(0.16, 1, 0.3, 1) var(--delay, 0s);
-    }
-
-    .anim.is-visible {
-      opacity: 1;
-      transform: none;
-    }
-    /* Section divider has lower visible opacity */
-    .section-divider.anim.is-visible { opacity: 0.5; }
-
-    /* ============================================================
-       MOBILE
-       ============================================================ */
-    @media (max-width: 768px) {
-      .home-search-hero { margin-top: -74px; }
-      .verse-section {
-        padding: 7rem 1.25rem 4.5rem;
-        min-height: auto;
-      }
-      .verse-section__line { width: 50px; }
-      .message-section,
-      .purpose-section { padding: 4rem 1.25rem; }
-      .message-section__quote { padding: 1.6rem 1.4rem; margin: 2.2rem 0; }
-      .section-orb--a { width: 180px; height: 180px; }
-      .section-orb--b { width: 220px; height: 220px; }
-      .section-orb--c { width: 160px; height: 160px; }
-      .section-orbs { filter: blur(0); }
-      .section-orb { filter: blur(40px); }
-    }
-
-    /* ============================================================
-       REDUCED MOTION — disable all entrance + ambient animations
-       ============================================================ */
-    @media (prefers-reduced-motion: reduce) {
-      .anim {
-        opacity: 1 !important;
-        transform: none !important;
-        transition: none !important;
-      }
-      .section-divider.anim { opacity: 0.5 !important; }
-      .section-orb,
-      .home-search-hero::before,
-      .home-search-hero::after,
-      .verse-section__arabic,
-      .home-scroll-hint { animation: none !important; }
-    }
-  </style>
 </head>
-<body>
-  <!-- Animated Background Canvas -->
-  <canvas id="bg-canvas"></canvas>
+<body class="sk-project-qna">
+  <a class="sk-skip" href="#main">Skip to content</a>
+  <div class="sk-pattern" aria-hidden="true"></div>
 
-  <!-- Floating Acrylic Navigation -->
-  <nav class="site-nav">
-    <div class="site-nav__inner">
-      <a href="index.html" class="site-nav__brand" id="nav-brand">Discover Islam</a>
-      <div class="site-nav__links">
-        <a href="index.html" class="active" id="nav-home"></a>
-        <a href="browse.html" id="nav-browse"></a>
-        <span class="nav-separator"></span>
-        <a href="" class="nav-icon-btn" id="nav-github" target="_blank" rel="noopener" aria-label="GitHub">
-          <svg viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
-        </a>
-        <button type="button" class="nav-icon-btn" id="theme-toggle" aria-label="Toggle theme">&#x2600;</button>
-      </div>
+  <header class="sk-header">
+    <div class="sk-container sk-header__inner">
+      <a class="sk-brand" href="index.html" id="brand-link">
+        <span class="sk-tile sk-tile--sm"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.5 8.5 0 0 1-12.4 7.6L3 20.5l1.5-5.2A8.5 8.5 0 1 1 21 11.5Z"/><path d="M9.8 9.3a2.3 2.3 0 0 1 4.4.9c0 1.6-2.2 2-2.2 3.3"/><path d="M12 16.3h.01"/></svg></span>
+        <span class="sk-brand__text"><span class="sk-brand__name" lang="en">Islam Q&amp;A</span><span class="sk-brand__sub" lang="ar">أسئلة وأجوبة</span></span>
+      </a>
+      <nav class="sk-header__nav" aria-label="Site">
+        <a class="sk-btn sk-btn--ghost sk-btn--sm sk-hide-sm" href="index.html" id="nav-home" aria-current="page">Home</a>
+        <a class="sk-btn sk-btn--ghost sk-btn--sm sk-hide-sm" href="browse.html?browse=1" id="nav-browse">Browse</a>
+        <a class="sk-btn sk-btn--ghost sk-btn--sm qa-lang" href="index.html?lang=ar" id="nav-lang" lang="ar">العربية</a>
+        <a class="sk-btn sk-btn--line sk-btn--sm sk-projects" href="https://husseinbenz.github.io/islamic-projects/" aria-label="All Islamic projects">
+          <span class="sk-constellation" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></span><span class="sk-hide-sm">All projects</span></a>
+        <button class="sk-icon-btn sk-theme-btn" type="button" data-sk-theme-toggle aria-label="Switch to night theme">
+          <svg class="sk-i-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+          <svg class="sk-i-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+        </button>
+      </nav>
     </div>
-  </nav>
+  </header>
 
-  <!-- Home Search Hero -->
-  <section class="home-search-hero">
-    <div class="home-search-hero__inner">
-      <h1 class="home-search-hero__title" id="home-hero-title"></h1>
-      <p class="home-search-hero__tagline" id="home-hero-tagline"></p>
-      <div class="search-box home-search-hero__search">
-        <input type="search" class="search-box__input" id="home-search-input" autocomplete="off">
-        <div class="search-box__actions">
-          <button type="button" class="btn btn--primary" id="home-btn-search"></button>
+  <main id="main" class="sk-container">
+    <!-- Search-first hero -->
+    <section class="home-hero">
+      <div class="hero-arches" aria-hidden="true">
+        <svg class="sk-slow-spin" width="30" height="30" viewBox="-12 -12 24 24"><path style="fill:var(--gold-bright)" d="M11 0L7.78 3.22L7.78 7.78L3.22 7.78L0 11L-3.22 7.78L-7.78 7.78L-7.78 3.22L-11 0L-7.78 -3.22L-7.78 -7.78L-3.22 -7.78L0 -11L3.22 -7.78L7.78 -7.78L7.78 -3.22Z"/><circle r="3.2" style="fill:var(--bg)"/></svg>
+      </div>
+      <span class="sk-eyebrow sk-rise" id="home-hero-eyebrow">Discover Islam</span>
+      <h1 class="sk-display home-hero__title sk-rise sk-d1" id="home-hero-title">Clear answers to <em>common doubts</em></h1>
+      <p class="sk-lede home-hero__lede sk-rise sk-d2" id="home-hero-tagline"></p>
+      <div class="search sk-rise sk-d3">
+        <div class="sk-field">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+          <label class="sk-visually-hidden" for="home-search-input" id="home-search-label">Search</label>
+          <input type="search" id="home-search-input" autocomplete="off" enterkeyhint="search">
+          <span class="sk-kbd" aria-hidden="true">/</span>
+          <button type="button" class="sk-btn sk-btn--primary" id="home-btn-search">Search</button>
+        </div>
+        <div class="suggest" id="home-suggest" hidden></div>
+      </div>
+      <div class="try sk-rise sk-d4" id="home-random-cards"></div>
+    </section>
+
+    <!-- Verse -->
+    <section class="verse-panel sk-reveal" aria-label="Verse">
+      <div class="verse">
+        <div class="sk-divider" style="width:min(260px,70%)" aria-hidden="true"><svg width="16" height="16" viewBox="-12 -12 24 24"><path fill="currentColor" d="M11 0L7.78 3.22L7.78 7.78L3.22 7.78L0 11L-3.22 7.78L-7.78 7.78L-7.78 3.22L-11 0L-7.78 -3.22L-7.78 -7.78L-3.22 -7.78L0 -11L3.22 -7.78L7.78 -7.78L7.78 -3.22Z"/></svg></div>
+        <p class="verse__arabic" id="hero-verse-arabic" lang="ar" dir="rtl"></p>
+        <p class="verse__translation" id="hero-verse-translation"></p>
+        <p class="verse__ref" id="hero-verse-ref"></p>
+      </div>
+    </section>
+
+    <!-- A letter to the reader -->
+    <section class="letter">
+      <div class="letter__head sk-reveal">
+        <span class="sk-eyebrow" id="speech-eyebrow">A word first</span>
+        <h2 class="sk-display" id="speech-title"></h2>
+      </div>
+      <div class="letter__body">
+        <p class="sk-reveal" id="speech-p1"></p>
+        <p class="sk-reveal" id="speech-p2"></p>
+        <p class="sk-reveal" id="speech-p3"></p>
+        <p class="sk-reveal" id="speech-p4"></p>
+        <blockquote class="letter__quote sk-reveal">
+          <svg width="26" height="26" viewBox="-12 -12 24 24" aria-hidden="true"><path style="fill:var(--gold-bright);stroke:var(--bg)" stroke-width="2" d="M11 0L7.78 3.22L7.78 7.78L3.22 7.78L0 11L-3.22 7.78L-7.78 7.78L-7.78 3.22L-11 0L-7.78 -3.22L-7.78 -7.78L-3.22 -7.78L0 -11L3.22 -7.78L7.78 -7.78L7.78 -3.22Z"/></svg>
+          <span class="letter__quote-text" id="speech-quote"></span>
+          <span class="letter__quote-ref" id="speech-quote-ref"></span>
+        </blockquote>
+        <p class="sk-reveal" id="speech-p5"></p>
+      </div>
+    </section>
+
+    <section class="letter">
+      <div class="letter__head sk-reveal">
+        <span class="sk-eyebrow" id="purpose-eyebrow">Our purpose</span>
+        <h2 class="sk-display" id="purpose-title"></h2>
+      </div>
+      <div class="letter__body">
+        <p class="sk-reveal" id="purpose-p1"></p>
+        <p class="sk-reveal" id="purpose-p2"></p>
+        <p class="sk-reveal" id="purpose-p3"></p>
+      </div>
+    </section>
+
+    <!-- Explore -->
+    <section class="explore">
+      <div class="explore__head sk-reveal">
+        <div>
+          <span class="sk-eyebrow" id="explore-eyebrow">Start here</span>
+          <h2 class="sk-display" id="explore-title"></h2>
+          <p id="explore-subtitle"></p>
         </div>
       </div>
-      <div class="home-random-cards" id="home-random-cards"></div>
-    </div>
-    <div class="home-scroll-hint" id="home-scroll-hint">
-      <span class="home-scroll-hint__label" id="home-scroll-label">Scroll for more</span>
-      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
-    </div>
-  </section>
+      <div class="qgrid" id="popular-grid"></div>
+      <a class="sk-btn sk-btn--line sk-btn--lg explore__cta" href="browse.html?browse=1" id="explore-cta"><span id="explore-cta-text"></span><svg class="sk-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a>
+    </section>
+  </main>
 
-  <!-- ===== VERSE SECTION — cinematic centerpiece ===== -->
-  <section class="verse-section" data-anim-group>
-    <div class="section-orbs" aria-hidden="true">
-      <div class="section-orb section-orb--gold section-orb--a"></div>
-      <div class="section-orb section-orb--green section-orb--b"></div>
+  <footer class="sk-footer">
+    <div class="sk-container qa-footer">
+      <div class="lang-switcher"><span class="lang-switcher__label" id="footer-lang-label"></span><span id="lang-switcher" class="lang-switcher"></span></div>
+      <p id="footer-copyright"></p>
+      <a class="sk-footer__home" href="https://husseinbenz.github.io/islamic-projects/">
+        <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path style="fill:var(--primary)" d="M23 12L19.78 15.22L19.78 19.78L15.22 19.78L12 23L8.78 19.78L4.22 19.78L4.22 15.22L1 12L4.22 8.78L4.22 4.22L8.78 4.22L12 1L15.22 4.22L19.78 4.22L19.78 8.78Z"/><circle cx="12" cy="12" r="4.4" style="fill:var(--bg)"/></svg>
+        Part of Islamic Projects</a>
     </div>
-    <div class="verse-section__ornament" aria-hidden="true">
-      <span class="verse-section__line anim anim-line" style="--delay: 0.20s"></span>
-      <span class="verse-section__star anim anim-rotate" style="--delay: 0.45s">&#x2726;</span>
-      <span class="verse-section__line anim anim-line" style="--delay: 0.20s"></span>
-    </div>
-    <p class="verse-section__arabic anim anim-zoom" style="--delay: 0.65s" id="hero-verse-arabic"></p>
-    <p class="verse-section__translation anim anim-up" style="--delay: 1.0s" id="hero-verse-translation"></p>
-    <p class="verse-section__ref anim anim-up" style="--delay: 1.2s" id="hero-verse-ref"></p>
-  </section>
-
-  <div class="section-divider anim anim-rotate">&#x2726;</div>
-
-  <!-- ===== MESSAGE SECTION ===== -->
-  <section class="message-section">
-    <div class="section-orbs" aria-hidden="true">
-      <div class="section-orb section-orb--gold section-orb--c"></div>
-    </div>
-    <div class="message-section__inner">
-      <h2 class="message-section__title anim anim-pop" id="speech-title"></h2>
-      <p class="anim anim-up" id="speech-p1"></p>
-      <p class="anim anim-up" id="speech-p2"></p>
-      <p class="anim anim-up" id="speech-p3"></p>
-      <p class="anim anim-up" id="speech-p4"></p>
-      <blockquote class="message-section__quote anim anim-zoom">
-        <span class="message-section__quote-mark" aria-hidden="true">&ldquo;</span>
-        <span id="speech-quote"></span>
-        <span class="message-section__quote-ref" id="speech-quote-ref"></span>
-      </blockquote>
-      <p class="anim anim-up" id="speech-p5"></p>
-    </div>
-  </section>
-
-  <div class="section-divider anim anim-rotate">&#x2726;</div>
-
-  <!-- ===== PURPOSE SECTION ===== -->
-  <section class="purpose-section">
-    <div class="section-orbs" aria-hidden="true">
-      <div class="section-orb section-orb--green section-orb--a"></div>
-      <div class="section-orb section-orb--gold section-orb--b"></div>
-    </div>
-    <div class="purpose-section__inner">
-      <h2 class="purpose-section__title anim anim-pop" id="purpose-title"></h2>
-      <p class="anim anim-up" id="purpose-p1"></p>
-      <p class="anim anim-up" id="purpose-p2"></p>
-      <p class="anim anim-up" id="purpose-p3"></p>
-    </div>
-  </section>
-
-  <div class="section-divider anim anim-rotate">&#x2726;</div>
-
-  <!-- ===== EXPLORE SECTION ===== -->
-  <section class="explore-section">
-    <div class="explore-section__inner">
-      <h2 class="explore-section__title anim anim-pop" id="explore-title"></h2>
-      <p class="explore-section__subtitle anim anim-up" id="explore-subtitle"></p>
-      <div class="popular-questions__grid" id="popular-grid"></div>
-      <div class="explore-section__cta anim anim-pop">
-        <a href="browse.html" id="explore-cta">
-          <span id="explore-cta-text"></span>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="site-footer">
-    <p class="site-footer__label" id="footer-lang-label"></p>
-    <div class="lang-switcher" id="lang-switcher"></div>
-    <p class="site-footer__copyright" id="footer-copyright"></p>
   </footer>
 
-  <!-- Scripts -->
-  <script src="assets/js/theme.js"></script>
+  <script src="assets/js/sakina.js"></script>
   <script src="assets/js/i18n.js"></script>
   <script src="assets/js/data.js"></script>
+  <script src="assets/js/site.js"></script>
   <script>
     (function () {
-      /* ---- Background Canvas (existing) ---- */
-      (function () {
-        var canvas = document.getElementById('bg-canvas');
-        if (!canvas) return;
-        var ctx = canvas.getContext('2d');
-        var shapes = [], w, h;
-        function resize() { w = canvas.width = window.innerWidth; h = canvas.height = window.innerHeight; }
-        resize(); window.addEventListener('resize', resize);
-        for (var i = 0; i < 12; i++) {
-          shapes.push({ x: Math.random()*(w||1200), y: Math.random()*(h||800), size: 20+Math.random()*60, speed: 0.15+Math.random()*0.3, angle: Math.random()*Math.PI*2, rotSpeed: (Math.random()-0.5)*0.003, opacity: 0.02+Math.random()*0.03, sides: Math.random()>0.5?6:8 });
-        }
-        function draw(cx,cy,r,sides,rot) { ctx.beginPath(); for(var j=0;j<=sides;j++){var a=rot+(j*2*Math.PI/sides);var px=cx+r*Math.cos(a);var py=cy+r*Math.sin(a);j===0?ctx.moveTo(px,py):ctx.lineTo(px,py);} ctx.closePath(); }
-        function animate() {
-          ctx.clearRect(0,0,w,h);
-          var col=document.documentElement.getAttribute('data-theme')==='dark'?'212,175,55':'27,67,50';
-          shapes.forEach(function(s){s.y-=s.speed;s.angle+=s.rotSpeed;if(s.y<-s.size){s.y=h+s.size;s.x=Math.random()*w;}ctx.save();ctx.globalAlpha=s.opacity;ctx.strokeStyle='rgba('+col+',0.6)';ctx.lineWidth=0.5;draw(s.x,s.y,s.size,s.sides,s.angle);ctx.stroke();ctx.restore();});
-          requestAnimationFrame(animate);
-        }
-        animate();
-      })();
+      var esc = Site.escapeHtml;
 
-      function escapeHtml(str) { var d=document.createElement('div'); d.textContent=str; return d.innerHTML; }
-
-      /* ---- Reveal-on-view (IntersectionObserver) ---- */
-      function observeReveal(root) {
-        var els = (root || document).querySelectorAll('.anim:not(.is-visible)');
-        if (!('IntersectionObserver' in window)) {
-          els.forEach(function (el) { el.classList.add('is-visible'); });
-          return;
-        }
-        var io = new IntersectionObserver(function (entries) {
-          entries.forEach(function (entry) {
-            if (entry.isIntersecting) {
-              entry.target.classList.add('is-visible');
-              io.unobserve(entry.target);
-            }
-          });
-        }, { threshold: 0.15, rootMargin: '0px 0px -8% 0px' });
-        els.forEach(function (el) { io.observe(el); });
-      }
-      // Observe immediately for static markup
-      observeReveal();
-
-      /* ---- Data & i18n ---- */
       DataStore.loadAll().then(function (data) {
         var lang = I18n.init(data.uiStrings, data.languages, data.config.defaultLang);
-
-        // Nav
-        document.getElementById('nav-brand').textContent = I18n.t('title');
-        document.getElementById('nav-home').textContent = I18n.t('back_home');
-        document.getElementById('nav-browse').textContent = I18n.t('search');
-        document.getElementById('nav-github').href = data.config.githubUrl || '#';
-        document.getElementById('explore-cta').href = 'browse.html?lang=' + lang + '&browse=1';
+        Site.initChrome(lang);
         document.title = I18n.t('title');
 
-        // Home Search Hero
-        document.getElementById('home-hero-title').textContent = I18n.t('title');
-        document.getElementById('home-hero-tagline').textContent = I18n.t('tagline');
-        document.getElementById('home-search-input').placeholder = I18n.t('placeholder');
+        // Hero: the tagline is split at its dash into a headline and a lede
+        var tagline = I18n.t('tagline');
+        var parts = tagline.split(/\s+—\s+/);
+        document.getElementById('home-hero-eyebrow').textContent = I18n.t('title');
+        document.getElementById('home-hero-title').textContent = parts[0];
+        var lede = document.getElementById('home-hero-tagline');
+        if (parts[1]) lede.textContent = parts[1].charAt(0).toUpperCase() + parts[1].slice(1); else lede.hidden = true;
+
+        var input = document.getElementById('home-search-input');
+        input.placeholder = I18n.t('placeholder');
+        document.getElementById('home-search-label').textContent = I18n.t('search');
         document.getElementById('home-btn-search').textContent = I18n.t('search');
-        (function () {
-          function doHomeSearch() {
-            var q = document.getElementById('home-search-input').value.trim();
-            window.location.href = 'browse.html?lang=' + lang + (q ? '&q=' + encodeURIComponent(q) : '&browse=1');
-          }
-          document.getElementById('home-btn-search').addEventListener('click', doHomeSearch);
-          document.getElementById('home-search-input').addEventListener('keydown', function (e) { if (e.key === 'Enter') doHomeSearch(); });
-        })();
+        function goSearch(q) { window.location.href = 'browse.html?lang=' + lang + (q ? '&q=' + encodeURIComponent(q) : '&browse=1'); }
+        document.getElementById('home-btn-search').addEventListener('click', function () { goSearch(input.value.trim()); });
+
+        var entries = DataStore.getEntries(data.entries, lang, data.config.defaultLang);
+        Site.suggest(input, document.getElementById('home-suggest'), entries, lang, goSearch);
+
+        // Three questions to try, different on every visit
+        var tries = document.getElementById('home-random-cards');
+        tries.innerHTML = '<span class="try__label">' + esc(lang === 'ar' ? 'جرّب' : 'Try') + '</span>';
+        entries.slice().sort(function () { return Math.random() - 0.5; }).slice(0, 3).forEach(function (e) {
+          var a = document.createElement('a');
+          a.className = 'sk-chip';
+          a.href = 'article.html?id=' + e.id + '&lang=' + lang;
+          a.textContent = e.question;
+          tries.appendChild(a);
+        });
 
         // Verse
         document.getElementById('hero-verse-arabic').textContent = I18n.t('hero_quran_verse');
         document.getElementById('hero-verse-translation').textContent = I18n.t('hero_quran_translation');
-        document.getElementById('hero-verse-ref').textContent = I18n.t('hero_quran_ref');
+        document.getElementById('hero-verse-ref').textContent = I18n.t('hero_quran_ref').replace(/^—\s*/, '');
 
-        // Message
-        document.getElementById('speech-title').textContent = I18n.t('speech_title');
-        document.getElementById('speech-p1').textContent = I18n.t('speech_p1');
-        document.getElementById('speech-p2').textContent = I18n.t('speech_p2');
-        document.getElementById('speech-p3').textContent = I18n.t('speech_p3');
-        document.getElementById('speech-p4').textContent = I18n.t('speech_p4');
-        document.getElementById('speech-quote').textContent = I18n.t('speech_quote');
-        document.getElementById('speech-quote-ref').textContent = I18n.t('speech_quote_ref');
-        document.getElementById('speech-p5').textContent = I18n.t('speech_p5');
-
-        // Purpose
-        document.getElementById('purpose-title').textContent = I18n.t('purpose_title');
-        document.getElementById('purpose-p1').textContent = I18n.t('purpose_p1');
-        document.getElementById('purpose-p2').textContent = I18n.t('purpose_p2');
-        document.getElementById('purpose-p3').textContent = I18n.t('purpose_p3');
+        // Letter & purpose
+        ['speech_title', 'speech_p1', 'speech_p2', 'speech_p3', 'speech_p4', 'speech_quote', 'speech_p5',
+         'purpose_title', 'purpose_p1', 'purpose_p2', 'purpose_p3'].forEach(function (key) {
+          document.getElementById(key.replace('_', '-')).textContent = I18n.t(key);
+        });
+        document.getElementById('speech-quote-ref').textContent = I18n.t('speech_quote_ref').replace(/^—\s*/, '');
+        document.getElementById('speech-eyebrow').textContent = lang === 'ar' ? 'كلمة أولًا' : 'A word first';
+        document.getElementById('purpose-eyebrow').textContent = lang === 'ar' ? 'غايتنا' : 'Our purpose';
+        document.getElementById('explore-eyebrow').textContent = lang === 'ar' ? 'ابدأ من هنا' : 'Start here';
 
         // Explore
         document.getElementById('explore-title').textContent = I18n.t('explore_title');
         document.getElementById('explore-subtitle').textContent = I18n.t('explore_subtitle');
         document.getElementById('explore-cta-text').textContent = I18n.t('welcome_cta');
+        document.getElementById('explore-cta').href = 'browse.html?lang=' + lang + '&browse=1';
 
-        // Popular Questions — staggered 3D tilt entrance
-        var entries = DataStore.getEntries(data.entries, lang, data.config.defaultLang);
-        var popularIds = [1, 3, 4, 7, 6, 9];
         var grid = document.getElementById('popular-grid');
-        popularIds.forEach(function (id, idx) {
-          var entry = null;
-          for (var i = 0; i < entries.length; i++) { if (entries[i].id === id) { entry = entries[i]; break; } }
-          if (!entry) return;
+        var readLabel = lang === 'ar' ? 'دقيقة قراءة' : 'min read';
+        [1, 3, 4, 7, 6, 9].forEach(function (id, i) {
+          var e = entries.filter(function (x) { return x.id === id; })[0];
+          if (!e) return;
           var card = document.createElement('a');
-          card.className = 'popular-card anim anim-tilt';
-          card.style.setProperty('--delay', (idx * 0.08) + 's');
-          card.href = 'article.html?id=' + entry.id + '&lang=' + lang;
-          var html = '<div class="popular-card__question">' + escapeHtml(entry.question) + '</div>';
-          if (entry.tags && entry.tags.length) { html += '<div class="popular-card__tags">'; entry.tags.forEach(function(tag){ html += '<span class="tag">' + escapeHtml(tag) + '</span>'; }); html += '</div>'; }
-          html += '<span class="popular-card__arrow">&rarr;</span>';
-          card.innerHTML = html;
+          card.className = 'qcard sk-card sk-lift sk-reveal';
+          card.style.transitionDelay = (i % 3) * 0.06 + 's';
+          card.href = 'article.html?id=' + e.id + '&lang=' + lang;
+          card.innerHTML =
+            '<div class="qcard__tags">' + Site.tagsHtml(e.tags.slice(0, 2)).replace(/sk-tag"/, 'sk-tag sk-tag--accent"') + '</div>' +
+            '<h3 class="qcard__q">' + esc(e.question) + '</h3>' +
+            '<p class="qcard__excerpt">' + esc(Site.excerpt(e.answer, 140)) + '</p>' +
+            '<div class="qcard__foot"><span>' + Site.minutes(e.answer) + ' ' + readLabel + '</span>' + Site.ARROW + '</div>';
           grid.appendChild(card);
         });
-
-        // Home: 3 random question cards (no entrance animation — they're above the fold)
-        var randomCardsEl = document.getElementById('home-random-cards');
-        var shuffled = entries.slice().sort(function () { return Math.random() - 0.5; });
-        shuffled.slice(0, 3).forEach(function (entry) {
-          var card = document.createElement('a');
-          card.className = 'popular-card';
-          card.href = 'article.html?id=' + entry.id + '&lang=' + lang;
-          var html = '<div class="popular-card__question">' + escapeHtml(entry.question) + '</div>';
-          if (entry.tags && entry.tags.length) { html += '<div class="popular-card__tags">'; entry.tags.forEach(function (tag) { html += '<span class="tag">' + escapeHtml(tag) + '</span>'; }); html += '</div>'; }
-          html += '<span class="popular-card__arrow">&rarr;</span>';
-          card.innerHTML = html;
-          randomCardsEl.appendChild(card);
-        });
-
-        // Scroll hint fade-out as user scrolls past hero
-        (function () {
-          var hint = document.getElementById('home-scroll-hint');
-          if (!hint) return;
-          window.addEventListener('scroll', function () {
-            hint.style.opacity = window.scrollY > window.innerHeight * 0.25 ? '0' : '0.65';
-          }, { passive: true });
-        })();
-
-        // Footer
-        document.getElementById('footer-lang-label').textContent = I18n.t('languages');
-        document.getElementById('footer-copyright').textContent = I18n.t('footer_no_copyright');
-        var switcher = document.getElementById('lang-switcher');
-        Object.keys(I18n.getLanguages()).forEach(function (code) {
-          var a = document.createElement('a');
-          a.href = 'index.html?lang=' + code;
-          a.textContent = I18n.getLanguages()[code].label;
-          if (code === lang) a.classList.add('active');
-          switcher.appendChild(a);
-        });
-
-        Theme.init();
-
-        // Re-observe newly-inserted .anim elements (popular cards)
-        observeReveal(grid);
+        Sakina.reveal(document);
       });
     })();
   </script>

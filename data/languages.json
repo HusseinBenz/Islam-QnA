@@ -2,8 +2,7 @@
   "en": {
     "label": "English",
     "dir": "ltr",
-    "font": "'Inter', 'Noto Sans', sans-serif",
-    "fontUrl": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+    "font": "'Figtree', 'Segoe UI', system-ui, sans-serif"
   },
   "ar": {
     "label": "العربية",

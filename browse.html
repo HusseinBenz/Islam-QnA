@@ -2,152 +2,207 @@
 <html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Search and browse Islamic Q&A — clear answers to common doubts.">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Search and browse clear answers to common questions about Islam.">
+  <meta name="theme-color" content="#F6F4EE">
   <title>Browse — Discover Islam</title>
+  <script>(function(){var t;try{t=localStorage.getItem('sakina-theme')||localStorage.getItem('theme')}catch(e){}if(t!=='light'&&t!=='dark'){t=window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'}document.documentElement.setAttribute('data-theme',t)})();</script>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%230E7C72' d='M23 12L19.78 15.22L19.78 19.78L15.22 19.78L12 23L8.78 19.78L4.22 19.78L4.22 15.22L1 12L4.22 8.78L4.22 4.22L8.78 4.22L12 1L15.22 4.22L19.78 4.22L19.78 8.78Z'/%3E%3Ccircle cx='12' cy='12' r='4.4' fill='%23F6F4EE'/%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Source+Sans+3:wght@300;400;500;600;700&family=Amiri:ital,wght@0,400;0,700;1,400&family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Figtree:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&family=Instrument+Serif:ital@0;1&family=Reem+Kufi:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/sakina.css">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
-  <canvas id="bg-canvas"></canvas>
+<body class="sk-project-qna">
+  <a class="sk-skip" href="#main">Skip to content</a>
+  <div class="sk-pattern" aria-hidden="true"></div>
 
-  <!-- Floating Acrylic Navigation -->
-  <nav class="site-nav">
-    <div class="site-nav__inner">
-      <a href="index.html" class="site-nav__brand" id="nav-brand">Discover Islam</a>
-      <div class="site-nav__links">
-        <a href="index.html" id="nav-home"></a>
-        <a href="browse.html" class="active" id="nav-browse"></a>
-        <span class="nav-separator"></span>
-        <a href="" class="nav-icon-btn" id="nav-github" target="_blank" rel="noopener" aria-label="GitHub">
-          <svg viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
-        </a>
-        <button type="button" class="nav-icon-btn" id="theme-toggle" aria-label="Toggle theme">&#x2600;</button>
-      </div>
+  <header class="sk-header">
+    <div class="sk-container sk-header__inner">
+      <a class="sk-brand" href="index.html" id="brand-link">
+        <span class="sk-tile sk-tile--sm"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.5 8.5 0 0 1-12.4 7.6L3 20.5l1.5-5.2A8.5 8.5 0 1 1 21 11.5Z"/><path d="M9.8 9.3a2.3 2.3 0 0 1 4.4.9c0 1.6-2.2 2-2.2 3.3"/><path d="M12 16.3h.01"/></svg></span>
+        <span class="sk-brand__text"><span class="sk-brand__name" lang="en">Islam Q&amp;A</span><span class="sk-brand__sub" lang="ar">أسئلة وأجوبة</span></span>
+      </a>
+      <nav class="sk-header__nav" aria-label="Site">
+        <a class="sk-btn sk-btn--ghost sk-btn--sm sk-hide-sm" href="index.html" id="nav-home">Home</a>
+        <a class="sk-btn sk-btn--ghost sk-btn--sm sk-hide-sm" href="browse.html?browse=1" id="nav-browse" aria-current="page">Browse</a>
+        <a class="sk-btn sk-btn--ghost sk-btn--sm qa-lang" href="browse.html?lang=ar" id="nav-lang" lang="ar">العربية</a>
+        <a class="sk-btn sk-btn--line sk-btn--sm sk-projects" href="https://husseinbenz.github.io/islamic-projects/" aria-label="All Islamic projects">
+          <span class="sk-constellation" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></span><span class="sk-hide-sm">All projects</span></a>
+        <button class="sk-icon-btn sk-theme-btn" type="button" data-sk-theme-toggle aria-label="Switch to night theme">
+          <svg class="sk-i-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+          <svg class="sk-i-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+        </button>
+      </nav>
     </div>
-  </nav>
+  </header>
 
-  <!-- Search Section -->
-  <div class="search-hero">
-    <h1 class="search-hero__title" id="search-title"></h1>
-    <p class="search-hero__tagline" id="search-tagline"></p>
-    <div class="search-box">
-      <input type="search" class="search-box__input" id="search-input" autocomplete="off" autofocus>
-      <div class="search-box__actions">
-        <button type="button" class="btn btn--primary" id="btn-search"></button>
-        <button type="button" class="btn btn--ghost" id="btn-browse"></button>
+  <main id="main" class="sk-container">
+    <section class="browse-hero">
+      <h1 class="sk-display" id="search-title">Discover Islam</h1>
+      <p class="sk-lede" id="search-tagline"></p>
+      <div class="search">
+        <div class="sk-field">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+          <label class="sk-visually-hidden" for="search-input" id="search-label">Search</label>
+          <input type="search" id="search-input" autocomplete="off" enterkeyhint="search">
+          <span class="sk-kbd" aria-hidden="true">/</span>
+          <button type="button" class="sk-btn sk-btn--primary" id="btn-search">Search</button>
+        </div>
       </div>
+      <div class="browse-actions">
+        <button type="button" class="sk-chip" id="btn-browse">Browse all</button>
+      </div>
+    </section>
+
+    <section class="results" aria-live="polite">
+      <div class="results-status" id="results-status"></div>
+      <div class="entry-list" id="entry-list"></div>
+      <div class="pagination" id="pagination"></div>
+    </section>
+  </main>
+
+  <footer class="sk-footer">
+    <div class="sk-container qa-footer">
+      <div class="lang-switcher"><span class="lang-switcher__label" id="footer-lang-label"></span><span id="lang-switcher" class="lang-switcher"></span></div>
+      <p id="footer-copyright"></p>
+      <a class="sk-footer__home" href="https://husseinbenz.github.io/islamic-projects/">
+        <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path style="fill:var(--primary)" d="M23 12L19.78 15.22L19.78 19.78L15.22 19.78L12 23L8.78 19.78L4.22 19.78L4.22 15.22L1 12L4.22 8.78L4.22 4.22L8.78 4.22L12 1L15.22 4.22L19.78 4.22L19.78 8.78Z"/><circle cx="12" cy="12" r="4.4" style="fill:var(--bg)"/></svg>
+        Part of Islamic Projects</a>
     </div>
-  </div>
-
-  <!-- Results -->
-  <div class="results-area">
-    <div class="results-status" id="results-status"></div>
-    <div class="entry-list" id="entry-list"></div>
-    <div class="pagination" id="pagination"></div>
-  </div>
-
-  <!-- Footer -->
-  <footer class="site-footer">
-    <p class="site-footer__label" id="footer-lang-label"></p>
-    <div class="lang-switcher" id="lang-switcher"></div>
-    <p class="site-footer__copyright" id="footer-copyright"></p>
   </footer>
 
-  <script src="assets/js/theme.js"></script>
-  <script src="assets/js/background.js"></script>
+  <script src="assets/js/sakina.js"></script>
   <script src="assets/js/i18n.js"></script>
   <script src="assets/js/data.js"></script>
-  <script src="assets/js/votes.js"></script>
+  <script src="assets/js/site.js"></script>
   <script>
     (function () {
+      var esc = Site.escapeHtml;
       var appData = null, currentEntries = [], filteredEntries = [];
       var currentPage = 1, currentPerPage = 10, currentQuery = '', isBrowsing = false;
+      var EMPTY_ICON = '<svg width="34" height="34" viewBox="-12 -12 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round" d="M11 0L7.78 3.22L7.78 7.78L3.22 7.78L0 11L-3.22 7.78L-7.78 7.78L-7.78 3.22L-11 0L-7.78 -3.22L-7.78 -7.78L-3.22 -7.78L0 -11L3.22 -7.78L7.78 -7.78L7.78 -3.22Z"/></svg>';
 
-      function escapeHtml(str) { var d=document.createElement('div'); d.textContent=str; return d.innerHTML; }
-      function formatDate(ds) { if(!ds)return''; try{return new Date(ds).toLocaleDateString(I18n.getLang(),{year:'numeric',month:'short',day:'numeric'});}catch(e){return ds;} }
+      function mark(text) {
+        var safe = esc(text);
+        if (!currentQuery) return safe;
+        currentQuery.split(/\s+/).filter(function (w) { return w.length > 1; }).forEach(function (w) {
+          var re = new RegExp('(' + esc(w).replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi');
+          safe = safe.replace(re, '<mark>$1</mark>');
+        });
+        return safe;
+      }
+
+      function syncUrl() {
+        var p = new URLSearchParams();
+        p.set('lang', I18n.getLang());
+        if (currentQuery) p.set('q', currentQuery); else if (isBrowsing) p.set('browse', '1');
+        if (currentPage > 1) p.set('page', currentPage);
+        try { history.replaceState(null, '', 'browse.html?' + p.toString()); } catch (e) { /* file:// */ }
+      }
 
       function renderEntries(paginated) {
         var list = document.getElementById('entry-list');
         var status = document.getElementById('results-status');
-        if (!isBrowsing && currentQuery === '') { list.innerHTML=''; status.textContent=I18n.t('use_search_or_browse'); document.getElementById('pagination').innerHTML=''; return; }
-        if (paginated.items.length === 0) { list.innerHTML='<div class="empty-state"><div class="empty-state__icon">&#128270;</div><div class="empty-state__text">'+escapeHtml(I18n.t('no_results'))+'</div></div>'; status.textContent=''; document.getElementById('pagination').innerHTML=''; return; }
-        status.textContent = currentQuery ? I18n.t('results_for')+' "'+currentQuery+'" ('+paginated.total+')' : I18n.t('browse')+' ('+paginated.total+')';
+        var pager = document.getElementById('pagination');
+        if (!isBrowsing && currentQuery === '') {
+          list.innerHTML = ''; pager.innerHTML = '';
+          status.textContent = I18n.t('use_search_or_browse');
+          return;
+        }
+        if (paginated.items.length === 0) {
+          list.innerHTML = '<div class="empty-state">' + EMPTY_ICON + '<div>' + esc(I18n.t('no_results')) + '</div></div>';
+          status.textContent = ''; pager.innerHTML = '';
+          return;
+        }
+        status.textContent = currentQuery ? I18n.t('results_for') + ' “' + currentQuery + '” (' + paginated.total + ')' : I18n.t('browse') + ' (' + paginated.total + ')';
         var html = '';
         paginated.items.forEach(function (entry, idx) {
-          var vote = Votes.getVote(entry.id);
-          var sc = vote>0?'score-positive':(vote<0?'score-negative':'score-neutral');
-          var sd = vote>0?'+1':(vote<0?'-1':'0');
-          html += '<div class="entry-card animate-in" style="animation-delay:'+(idx*0.04)+'s">';
-          html += '<div class="entry-card__body">';
-          html += '<div class="entry-card__question"><a href="article.html?id='+entry.id+'&lang='+I18n.getLang()+'">'+escapeHtml(entry.question)+'</a></div>';
-          if (entry.tags && entry.tags.length) { html += '<div class="entry-card__tags">'; entry.tags.forEach(function(t){ html+='<span class="tag">'+escapeHtml(t)+'</span>'; }); html += '</div>'; }
-          html += '<div class="entry-card__date">'+escapeHtml(I18n.t('created_label'))+' '+formatDate(entry.created_at)+'</div>';
-          html += '</div><div class="entry-card__score '+sc+'">'+sd+'</div></div>';
+          html += '<a class="qrow sk-card sk-lift" style="animation-delay:' + (idx * 0.04) + 's" href="article.html?id=' + entry.id + '&lang=' + I18n.getLang() + '">' +
+            '<span class="qrow__body"><span class="qrow__q">' + mark(entry.question) + '</span>' +
+            '<span class="qrow__excerpt">' + mark(Site.excerpt(entry.answer, 150)) + '</span>' +
+            (entry.tags && entry.tags.length ? '<span class="qrow__tags">' + Site.tagsHtml(entry.tags) + '</span>' : '') +
+            '</span>' + Site.ARROW + '</a>';
         });
         list.innerHTML = html;
         renderPagination(paginated);
       }
 
       function renderPagination(p) {
-        if (p.totalPages<=1) { document.getElementById('pagination').innerHTML=''; return; }
+        var pager = document.getElementById('pagination');
+        if (p.totalPages <= 1) { pager.innerHTML = ''; return; }
         var h = '<div class="pagination__nav">';
-        h += p.page>1 ? '<button class="pagination__btn" data-page="'+(p.page-1)+'">'+escapeHtml(I18n.t('previous'))+'</button>' : '<button class="pagination__btn pagination__btn--disabled" disabled>'+escapeHtml(I18n.t('previous'))+'</button>';
-        h += '<span class="pagination__info">'+escapeHtml(I18n.tf('page_of',p.page,p.totalPages))+'</span>';
-        h += p.page<p.totalPages ? '<button class="pagination__btn" data-page="'+(p.page+1)+'">'+escapeHtml(I18n.t('next'))+'</button>' : '<button class="pagination__btn pagination__btn--disabled" disabled>'+escapeHtml(I18n.t('next'))+'</button>';
-        h += '</div><div class="per-page-select"><label>'+escapeHtml(I18n.t('results_per_page'))+'</label><select id="per-page-select">';
-        appData.config.perPageOptions.forEach(function(o){ h+='<option value="'+o+'"'+(o===currentPerPage?' selected':'')+'>'+o+'</option>'; });
-        h += '</select></div>';
-        document.getElementById('pagination').innerHTML = h;
-        document.querySelectorAll('.pagination__btn[data-page]').forEach(function(b){ b.addEventListener('click',function(){ currentPage=parseInt(this.getAttribute('data-page')); doRender(); window.scrollTo({top:0,behavior:'smooth'}); }); });
-        var ps = document.getElementById('per-page-select');
-        if(ps) ps.addEventListener('change',function(){ currentPerPage=parseInt(this.value); currentPage=1; doRender(); });
+        h += '<button type="button" class="sk-btn sk-btn--line sk-btn--sm" data-page="' + (p.page - 1) + '"' + (p.page > 1 ? '' : ' disabled') + '>' + esc(I18n.t('previous')) + '</button>';
+        h += '<span class="pagination__info">' + esc(I18n.tf('page_of', p.page, p.totalPages)) + '</span>';
+        h += '<button type="button" class="sk-btn sk-btn--line sk-btn--sm" data-page="' + (p.page + 1) + '"' + (p.page < p.totalPages ? '' : ' disabled') + '>' + esc(I18n.t('next')) + '</button>';
+        h += '</div><label class="per-page-select">' + esc(I18n.t('results_per_page')) + '<select id="per-page-select">';
+        appData.config.perPageOptions.forEach(function (o) { h += '<option value="' + o + '"' + (o === currentPerPage ? ' selected' : '') + '>' + o + '</option>'; });
+        h += '</select></label>';
+        pager.innerHTML = h;
+        pager.querySelectorAll('button[data-page]').forEach(function (b) {
+          b.addEventListener('click', function () { currentPage = parseInt(this.getAttribute('data-page'), 10); doRender(); window.scrollTo({ top: 0, behavior: 'smooth' }); });
+        });
+        document.getElementById('per-page-select').addEventListener('change', function () { currentPerPage = parseInt(this.value, 10); currentPage = 1; doRender(); });
       }
 
-      function doSearch() { currentQuery=(document.getElementById('search-input').value||'').trim(); currentPage=1; if(currentQuery){isBrowsing=true;} doRender(); }
-      function doBrowse() { currentQuery=''; document.getElementById('search-input').value=''; isBrowsing=true; currentPage=1; filteredEntries=currentEntries.slice(); doRender(); }
+      function doSearch() {
+        currentQuery = (document.getElementById('search-input').value || '').trim();
+        currentPage = 1;
+        if (currentQuery) isBrowsing = true;
+        doRender();
+      }
+      function doBrowse() {
+        currentQuery = '';
+        document.getElementById('search-input').value = '';
+        isBrowsing = true; currentPage = 1;
+        doRender();
+      }
       function doRender() {
-        if(!isBrowsing&&currentQuery===''){renderEntries({items:[],page:1,perPage:currentPerPage,total:0,totalPages:0});return;}
-        filteredEntries = currentQuery ? DataStore.searchEntries(currentEntries,currentQuery) : currentEntries.slice();
-        renderEntries(DataStore.paginate(filteredEntries,currentPage,currentPerPage));
+        if (!isBrowsing && currentQuery === '') { renderEntries({ items: [], page: 1, perPage: currentPerPage, total: 0, totalPages: 0 }); syncUrl(); return; }
+        filteredEntries = currentQuery ? DataStore.searchEntries(currentEntries, currentQuery) : currentEntries.slice();
+        renderEntries(DataStore.paginate(filteredEntries, currentPage, currentPerPage));
+        syncUrl();
       }
 
       DataStore.loadAll().then(function (data) {
         appData = data;
         var lang = I18n.init(data.uiStrings, data.languages, data.config.defaultLang);
         currentPerPage = data.config.defaultPerPage;
+        Site.initChrome(lang);
 
-        document.getElementById('nav-brand').textContent = I18n.t('title');
-        document.getElementById('nav-home').textContent = I18n.t('back_home');
-        document.getElementById('nav-browse').textContent = I18n.t('search');
         document.getElementById('search-title').textContent = I18n.t('title');
         document.getElementById('search-tagline').textContent = I18n.t('tagline');
         document.getElementById('search-input').placeholder = I18n.t('placeholder');
+        document.getElementById('search-label').textContent = I18n.t('search');
         document.getElementById('btn-search').textContent = I18n.t('search');
         document.getElementById('btn-browse').textContent = I18n.t('browse');
         document.title = I18n.t('browse') + ' — ' + I18n.t('title');
 
         currentEntries = DataStore.getEntries(data.entries, lang, data.config.defaultLang);
         var params = new URLSearchParams(window.location.search);
-        if (params.get('q')) { currentQuery=params.get('q'); document.getElementById('search-input').value=currentQuery; isBrowsing=true; }
-        else if (params.has('browse')) { isBrowsing=true; filteredEntries=currentEntries.slice(); }
-        if (params.get('page')) currentPage=parseInt(params.get('page'))||1;
-        if (params.get('per_page')) currentPerPage=parseInt(params.get('per_page'))||data.config.defaultPerPage;
+        if (params.get('q')) { currentQuery = params.get('q'); document.getElementById('search-input').value = currentQuery; isBrowsing = true; }
+        else if (params.has('browse')) { isBrowsing = true; }
+        if (params.get('page')) currentPage = parseInt(params.get('page'), 10) || 1;
+        if (params.get('per_page')) currentPerPage = parseInt(params.get('per_page'), 10) || data.config.defaultPerPage;
         doRender();
 
+        var input = document.getElementById('search-input');
         document.getElementById('btn-search').addEventListener('click', doSearch);
         document.getElementById('btn-browse').addEventListener('click', doBrowse);
-        document.getElementById('search-input').addEventListener('keydown', function(e){ if(e.key==='Enter'){e.preventDefault();doSearch();} });
-        var dt; document.getElementById('search-input').addEventListener('input', function(){ clearTimeout(dt); var v=this.value.trim(); dt=setTimeout(function(){ if(v.length>=2){currentQuery=v;isBrowsing=true;currentPage=1;doRender();}else if(v.length===0&&isBrowsing){currentQuery='';filteredEntries=currentEntries.slice();doRender();} },300); });
-
-        document.getElementById('footer-lang-label').textContent = I18n.t('languages');
-        document.getElementById('footer-copyright').textContent = I18n.t('footer_no_copyright');
-        var sw = document.getElementById('lang-switcher');
-        Object.keys(I18n.getLanguages()).forEach(function(code){ var a=document.createElement('a'); a.href='browse.html?lang='+code+(isBrowsing?'&browse=1':'')+(currentQuery?'&q='+encodeURIComponent(currentQuery):''); a.textContent=I18n.getLanguages()[code].label; if(code===lang)a.classList.add('active'); sw.appendChild(a); });
-
-        Theme.init();
+        input.addEventListener('keydown', function (e) { if (e.key === 'Enter') { e.preventDefault(); doSearch(); } });
+        var t;
+        input.addEventListener('input', function () {
+          clearTimeout(t);
+          var v = this.value.trim();
+          t = setTimeout(function () {
+            if (v.length >= 2) { currentQuery = v; isBrowsing = true; currentPage = 1; doRender(); }
+            else if (v.length === 0 && isBrowsing) { currentQuery = ''; doRender(); }
+          }, 250);
+        });
+        document.addEventListener('keydown', function (e) {
+          if (e.key === '/' && document.activeElement !== input && !/^(INPUT|TEXTAREA|SELECT)$/.test((document.activeElement || {}).tagName || '')) { e.preventDefault(); input.focus(); }
+        });
       });
     })();
   </script>
