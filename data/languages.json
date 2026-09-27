@@ -7,7 +7,6 @@
   "ar": {
     "label": "العربية",
     "dir": "rtl",
-    "font": "'Noto Naskh Arabic', 'Traditional Arabic', serif",
-    "fontUrl": "https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap"
+    "font": "'IBM Plex Sans Arabic', 'Segoe UI', Tahoma, sans-serif"
   }
 }

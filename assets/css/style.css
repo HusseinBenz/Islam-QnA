@@ -2,7 +2,7 @@
    Theming: data-theme="light" | "dark" (shared across all Islamic Projects)
    Direction: dir="ltr" | "rtl", set per language by i18n.js */
 
-.qa-lang { font-family: var(--font-kufi); font-size: 15px; }
+.qa-lang { font-family: var(--font-ar-ui); font-weight: 600; font-size: 15px; }
 [dir="rtl"] .qa-lang { font-family: var(--font-ui); font-size: 14px; }
 [dir="rtl"] .sk-brand__name { font-family: var(--font-ui); }
 
@@ -54,7 +54,7 @@
 .verse > * { position: relative; }
 .verse__arabic { margin: 12px 0 0; font-family: var(--font-naskh); font-size: clamp(30px, 4.6vw, 52px); line-height: 1.7; color: var(--text); }
 .verse__translation { margin: 0; font-family: var(--font-display); font-size: clamp(22px, 2.6vw, 30px); line-height: 1.3; color: var(--text-2); max-width: 30ch; }
-[dir="rtl"] .verse__translation { font-family: var(--font-naskh); }
+[dir="rtl"] .verse__translation { font-family: var(--font-ar-text); font-size: clamp(19px, 2.2vw, 24px); line-height: 1.9; }
 .verse__ref { margin: 0; font-size: 14px; font-weight: 600; color: var(--primary); }
 
 .letter { display: grid; grid-template-columns: minmax(0, 300px) minmax(0, 680px); justify-content: center; gap: clamp(24px, 5vw, 72px); padding-top: clamp(72px, 10vw, 112px); }
@@ -62,7 +62,7 @@
 .letter__head .sk-display { font-size: clamp(36px, 4.2vw, 52px); }
 .letter__body { display: flex; flex-direction: column; gap: 18px; }
 .letter__body p { margin: 0; font-size: 17.5px; line-height: 1.8; color: var(--text-2); }
-[dir="rtl"] .letter__body p { font-family: var(--font-naskh); font-size: 19px; line-height: 2; }
+[dir="rtl"] .letter__body p { font-family: var(--font-ar-text); font-size: 19px; line-height: 2; }
 .letter__quote {
   position: relative; margin: 8px 0; padding: 28px 30px 24px; border-radius: 24px;
   background: var(--surface); border: 1px solid var(--line); box-shadow: var(--shadow-sm);
@@ -70,7 +70,7 @@
 }
 .letter__quote > svg { position: absolute; top: -13px; inset-inline-start: 28px; }
 .letter__quote-text { font-family: var(--font-display); font-size: clamp(24px, 2.6vw, 30px); line-height: 1.25; color: var(--text); }
-[dir="rtl"] .letter__quote-text { font-family: var(--font-naskh); font-size: 22px; line-height: 1.8; }
+[dir="rtl"] .letter__quote-text { font-family: var(--font-naskh); font-size: 25px; line-height: 1.8; }
 .letter__quote-ref { font-size: 14px; font-weight: 600; color: var(--primary); }
 
 .explore { padding-top: clamp(72px, 10vw, 112px); display: flex; flex-direction: column; gap: 28px; }
@@ -82,7 +82,7 @@
 .qcard:hover { color: var(--text); }
 .qcard__tags { display: flex; flex-wrap: wrap; gap: 6px; }
 .qcard__q { font-family: var(--font-display); font-size: 29px; line-height: 1.1; }
-[dir="rtl"] .qcard__q { font-family: var(--font-kufi); font-size: 22px; line-height: 1.45; }
+[dir="rtl"] .qcard__q { font-family: var(--font-ar-text); font-weight: 700; font-size: 22px; line-height: 1.6; }
 .qcard__excerpt { margin: 0; flex-grow: 1; font-size: 15px; line-height: 1.6; color: var(--text-2); }
 .qcard__foot { display: flex; align-items: center; justify-content: space-between; padding-top: 14px; border-top: 1px solid var(--line); font-size: 13.5px; font-weight: 500; color: var(--text-3); }
 .qcard__foot svg { color: var(--primary); }
@@ -101,7 +101,7 @@
 .qrow:hover { color: var(--text); }
 .qrow__body { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 8px; }
 .qrow__q { font-family: var(--font-display); font-size: 25px; line-height: 1.15; }
-[dir="rtl"] .qrow__q { font-family: var(--font-kufi); font-size: 20px; line-height: 1.5; }
+[dir="rtl"] .qrow__q { font-family: var(--font-ar-text); font-weight: 700; font-size: 20px; line-height: 1.6; }
 .qrow__excerpt { margin: 0; font-size: 14.5px; line-height: 1.55; color: var(--text-2); }
 .qrow__tags { display: flex; flex-wrap: wrap; gap: 6px; }
 .qrow > svg { color: var(--primary); flex: none; }
@@ -128,13 +128,13 @@
 .article__question { font-size: clamp(38px, 5.4vw, 60px); line-height: 1.04; }
 .article__meta { font-size: 14px; color: var(--text-3); }
 .prose { font-size: 18px; line-height: 1.8; color: var(--text-2); }
-[dir="rtl"] .prose { font-family: var(--font-naskh); font-size: 20px; line-height: 2; }
+[dir="rtl"] .prose { font-family: var(--font-ar-text); font-size: 19px; line-height: 2; }
 .prose > * + * { margin-top: 1.1em; }
 .prose p { margin: 0; }
 .prose strong { color: var(--text); }
 .prose h2, .prose h3 { margin-top: 1.6em; font-family: var(--font-display); font-weight: 400; color: var(--text); line-height: 1.15; }
 .prose h2 { font-size: 32px; } .prose h3 { font-size: 26px; }
-[dir="rtl"] .prose h2, [dir="rtl"] .prose h3 { font-family: var(--font-kufi); }
+[dir="rtl"] .prose h2, [dir="rtl"] .prose h3 { font-family: var(--font-ar-text); font-weight: 700; line-height: 1.5; }
 .prose ul, .prose ol { margin: 0; padding-inline-start: 0; list-style: none; display: flex; flex-direction: column; gap: 8px; }
 .prose ol { counter-reset: n; }
 .prose li { position: relative; padding-inline-start: 28px; }
@@ -195,3 +195,6 @@
   .verse { border-radius: 200px 200px var(--r-lg) var(--r-lg); }
   .verse::after { border-radius: 200px 200px 16px 16px; }
 }
+
+[dir="rtl"] .qcard__excerpt, [dir="rtl"] .qrow__excerpt { font-family: var(--font-ar-text); line-height: 1.85; }
+[dir="rtl"] .prose blockquote { font-family: var(--font-naskh); }

@@ -14,7 +14,7 @@ const I18n = (function () {
       return paramLang;
     }
     try {
-      const stored = localStorage.getItem('preferred_lang');
+      const stored = localStorage.getItem('sakina-lang') || localStorage.getItem('preferred_lang');
       if (stored && stored.match(/^[a-z]{2,8}$/)) return stored;
     } catch (e) { /* ignore */ }
     return defaultLang || 'en';
@@ -31,6 +31,8 @@ const I18n = (function () {
     strings = uiStrings[currentLang] || uiStrings['en'] || {};
     try {
       localStorage.setItem('preferred_lang', currentLang);
+      // Shared with the other Islamic Projects so the language follows the reader
+      localStorage.setItem('sakina-lang', currentLang);
     } catch (e) { /* ignore */ }
     applyDirection();
     applyFont();
