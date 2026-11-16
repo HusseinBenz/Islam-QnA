@@ -1,11 +1,10 @@
 ---
 id: 4
-order: 4
+order: 26
 question: What does Islam say about women's rights?
 created_at: 2025-01-18
 tags:
   - women
-  - rights
   - misconceptions
 ---
 

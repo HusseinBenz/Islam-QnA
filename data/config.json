@@ -1,7 +1,48 @@
 {
   "siteName": "Discover Islam",
   "defaultLang": "en",
-  "perPageOptions": [5, 10, 25, 50, 100],
+  "perPageOptions": [
+    5,
+    10,
+    25,
+    50,
+    100
+  ],
   "defaultPerPage": 10,
+  "topics": [
+    "basics",
+    "god",
+    "quran",
+    "prophet",
+    "misconceptions",
+    "women",
+    "other-faiths",
+    "history",
+    "science",
+    "worship",
+    "heart"
+  ],
+  "featured": [
+    12,
+    16,
+    19,
+    15,
+    25,
+    34
+  ],
+  "shelf": [
+    "ghazali-munqidh",
+    "lings-muhammad",
+    "nawawi-riyad",
+    "asad-road",
+    "arnold-preaching",
+    "carlyle-heroes",
+    "ibn-qayyim-madarij",
+    "mubarakpuri-nectar",
+    "draz-naba",
+    "alkhalili-house",
+    "lang-angels",
+    "azami-history"
+  ],
   "githubUrl": "https://github.com"
 }

@@ -1,11 +1,10 @@
 ---
 id: 8
-order: 8
+order: 31
 question: What happens after death in Islam?
 created_at: 2025-01-22
 tags:
   - afterlife
-  - theology
   - basics
 ---
 

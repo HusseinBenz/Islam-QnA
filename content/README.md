@@ -37,10 +37,13 @@ Default-language articles live in `content/articles/`.
 id: 12
 order: 12
 question: Your question here?
+summary: One or two sentences that answer the question directly.
 created_at: 2026-04-30
 tags:
   - basics
-  - theology
+  - god
+sources:
+  - ghazali-munqidh
 ---
 
 Write the answer in Markdown here.
@@ -48,6 +51,13 @@ Write the answer in Markdown here.
 
 `order` is optional. Use it when the browse order should differ from the article
 id order.
+
+`summary` is optional. It appears as "The short answer" at the top of the
+article and under the question on cards and in search results. Translations can
+carry their own `summary`.
+
+`sources` is optional. Each item is a key from `data/sources.json`, the registry
+of books. Add a book there first; the build stops on an unknown key.
 
 Translations live in `content/translations/<language-code>/`.
 

@@ -1,12 +1,11 @@
 ---
 id: 10
-order: 11
+order: 35
 question: How can I learn more about Islam?
 created_at: 2025-01-24
 tags:
-  - guidance
-  - resources
   - basics
+  - guidance
 ---
 
 If you're interested in learning about Islam, here are some excellent starting points:

@@ -12,7 +12,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Figtree:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&family=Instrument+Serif:ital@0;1&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/sakina.css?v=sk4">
-  <link rel="stylesheet" href="assets/css/style.css?v=sk4">
+  <link rel="stylesheet" href="assets/css/style.css?v=qa5">
   <script src="https://cdn.jsdelivr.net/npm/marked@4.3.0/marked.min.js"></script>
 </head>
 <body class="sk-project-qna">
@@ -27,7 +27,8 @@
       </a>
       <nav class="sk-header__nav" aria-label="Site">
         <a class="sk-btn sk-btn--ghost sk-btn--sm sk-hide-sm" href="index.html" id="nav-home">Home</a>
-        <a class="sk-btn sk-btn--ghost sk-btn--sm sk-hide-sm" href="browse.html?browse=1" id="nav-browse">Browse</a>
+        <a class="sk-btn sk-btn--ghost sk-btn--sm sk-hide-sm" href="browse.html" id="nav-browse">Browse</a>
+        <a class="sk-btn sk-btn--ghost sk-btn--sm sk-hide-sm" href="library.html" id="nav-library">Bookshelf</a>
         <a class="sk-btn sk-btn--ghost sk-btn--sm qa-lang" href="article.html?lang=ar" id="nav-lang" lang="ar">العربية</a>
         <a class="sk-btn sk-btn--line sk-btn--sm sk-projects" href="https://husseinbenz.github.io/" aria-label="All Islamic projects">
           <span class="sk-constellation" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><span class="sk-hide-sm">All projects</span></a>
@@ -39,9 +40,11 @@
     </div>
   </header>
 
+  <div class="progress" aria-hidden="true"><i id="progress-bar"></i></div>
+
   <main id="main" class="sk-container">
     <div class="article-page">
-      <a class="back-link" href="browse.html?browse=1" id="back-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg><span id="back-label">All questions</span></a>
+      <a class="back-link" href="browse.html" id="back-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg><span id="back-label">All questions</span></a>
       <article class="article" id="article-container" aria-live="polite">
         <div class="loading"><svg width="36" height="36" viewBox="-12 -12 24 24" aria-hidden="true"><path fill="currentColor" d="M11 0L7.78 3.22L7.78 7.78L3.22 7.78L0 11L-3.22 7.78L-7.78 7.78L-7.78 3.22L-11 0L-7.78 -3.22L-7.78 -7.78L-3.22 -7.78L0 -11L3.22 -7.78L7.78 -7.78L7.78 -3.22Z"/></svg></div>
       </article>
@@ -50,6 +53,7 @@
 
   <footer class="sk-footer">
     <div class="sk-container qa-footer">
+      <nav class="footer-links" id="footer-links" aria-label="Footer"></nav>
       <div class="lang-switcher"><span class="lang-switcher__label" id="footer-lang-label"></span><span id="lang-switcher" class="lang-switcher"></span></div>
       <p id="footer-copyright"></p>
       <a class="sk-footer__home" href="https://husseinbenz.github.io/">
@@ -59,10 +63,10 @@
   </footer>
 
   <script src="assets/js/sakina.js?v=sk4"></script>
-  <script src="assets/js/i18n.js?v=sk4"></script>
-  <script src="assets/js/data.js?v=sk4"></script>
-  <script src="assets/js/votes.js?v=sk4"></script>
-  <script src="assets/js/site.js?v=sk4"></script>
+  <script src="assets/js/i18n.js?v=qa5"></script>
+  <script src="assets/js/data.js?v=qa5"></script>
+  <script src="assets/js/votes.js?v=qa5"></script>
+  <script src="assets/js/site.js?v=qa5"></script>
   <script>
     (function () {
       var esc = Site.escapeHtml;
@@ -71,7 +75,8 @@
         down: '<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 14V2"/><path d="M9 18.12 10 14H4.17a2 2 0 0 1-1.92-2.56l2.33-8A2 2 0 0 1 6.5 2H20a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-2.76a2 2 0 0 0-1.79 1.11L12 22a3.13 3.13 0 0 1-3-3.88Z"/></svg>',
         x: '<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>',
         wa: '<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>',
-        link: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>'
+        link: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>',
+        book: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 7.5v12.5"/><path d="M3 5.5h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5v12.5h-6a3 3 0 0 0-3 2 3 3 0 0 0-3-2H3z"/></svg>'
       };
 
       function isSafeUrl(url) {
@@ -93,6 +98,21 @@
 
       function formatDate(ds) { if (!ds) return ''; try { return new Date(ds).toLocaleDateString(I18n.getLang(), { year: 'numeric', month: 'long', day: 'numeric' }); } catch (e) { return ds; } }
 
+      function sourcesHtml(entry, data, lang) {
+        var items = (entry.sources || []).map(function (key) {
+          var src = data.sources[key];
+          if (!src) return '';
+          var s = Site.sourceText(src, lang);
+          return '<li><a href="library.html?lang=' + lang + '#' + esc(key) + '">' +
+            '<span class="sources__title">' + esc(s.title) + '</span>' +
+            '<span class="sources__meta">' + esc(s.author) + (s.year ? ' · ' + esc(s.year) : '') + '</span></a></li>';
+        }).join('');
+        if (!items) return '';
+        return '<section class="sources" aria-labelledby="sources-title"><div class="sources__head">' + ICONS.book +
+          '<h2 id="sources-title">' + esc(I18n.t('sources_title')) + '</h2></div>' +
+          '<p class="sources__note">' + esc(I18n.t('sources_note')) + '</p><ol>' + items + '</ol></section>';
+      }
+
       function renderArticle(entry, data, entries) {
         var lang = I18n.getLang();
         var c = document.getElementById('article-container');
@@ -101,7 +121,7 @@
         var langs = I18n.getLanguages();
         var ar = lang === 'ar';
 
-        var html = '<div class="article__top"><div class="article__tags">' + Site.tagsHtml(entry.tags).replace(/sk-tag"/, 'sk-tag sk-tag--accent"') + '</div>';
+        var html = '<div class="article__top"><div class="article__tags">' + Site.tagsHtml(entry.tags, lang).replace(/sk-tag"/, 'sk-tag sk-tag--accent"') + '</div>';
         if (available.length > 1) {
           html += '<div class="lang-seg" role="group" aria-label="' + esc(I18n.t('language')) + '">';
           available.forEach(function (code) {
@@ -114,11 +134,16 @@
         html += '<h1 class="sk-display article__question">' + esc(entry.question) + '</h1>';
         var meta = [];
         if (entry.created_at) meta.push(esc(I18n.t('posted_on')) + ' ' + formatDate(entry.created_at));
-        meta.push(Site.minutes(entry.answer) + ' ' + (ar ? 'دقيقة قراءة' : 'min read'));
+        meta.push(Site.minutes(entry.answer) + ' ' + esc(I18n.t('min_read')));
         html += '<p class="article__meta">' + meta.join(' · ') + '</p>';
 
+        if (entry.summary) {
+          html += '<div class="short-answer"><span class="short-answer__label">' + esc(I18n.t('short_answer')) + '</span><p>' + esc(entry.summary) + '</p></div>';
+        }
+
         var answerHtml = typeof marked !== 'undefined' ? marked.parse(entry.answer || '') : '<p>' + esc(entry.answer || '').replace(/\n/g, '<br>') + '</p>';
-        html += '<div class="prose">' + answerHtml + '</div>';
+        html += '<div class="prose" id="article-prose">' + answerHtml + '</div>';
+        html += sourcesHtml(entry, data, lang);
 
         var pageUrl = window.location.href;
         var cv = Votes.getVote(entry.id);
@@ -133,6 +158,13 @@
           '<button type="button" class="sk-icon-btn" id="copy-link-btn" aria-label="' + esc(I18n.t('share_copy')) + '" title="' + esc(I18n.t('share_copy')) + '">' + ICONS.link + '</button>' +
           '</div></div>';
 
+        // Questions on the same subject
+        var related = DataStore.related(entries, entry, 3);
+        if (related.length) {
+          html += '<section class="related" aria-labelledby="related-title"><h2 id="related-title">' + esc(I18n.t('related_title')) + '</h2><div class="related__grid">' +
+            related.map(function (e) { return Site.cardHtml(e, lang); }).join('') + '</div></section>';
+        }
+
         // Previous / next question in the same language
         var idx = -1;
         entries.forEach(function (e, i) { if (e.id === entry.id) idx = i; });
@@ -140,8 +172,8 @@
         var next = idx >= 0 && idx < entries.length - 1 ? entries[idx + 1] : null;
         if (prev || next) {
           html += '<nav class="article-nav" aria-label="' + (ar ? 'أسئلة أخرى' : 'More questions') + '">';
-          html += prev ? '<a class="sk-card sk-lift" href="article.html?id=' + prev.id + '&lang=' + lang + '"><small>' + esc(I18n.t('previous')) + '</small><span>' + esc(prev.question) + '</span></a>' : '<span></span>';
-          html += next ? '<a class="sk-card sk-lift" href="article.html?id=' + next.id + '&lang=' + lang + '"><small>' + esc(I18n.t('next')) + '</small><span>' + esc(next.question) + '</span></a>' : '';
+          html += prev ? '<a class="sk-card sk-lift" href="' + Site.articleUrl(prev.id, lang) + '"><small>' + esc(I18n.t('previous')) + '</small><span>' + esc(prev.question) + '</span></a>' : '<span></span>';
+          html += next ? '<a class="sk-card sk-lift" href="' + Site.articleUrl(next.id, lang) + '"><small>' + esc(I18n.t('next')) + '</small><span>' + esc(next.question) + '</span></a>' : '';
           html += '</nav>';
         }
         html += '</div>';
@@ -165,12 +197,31 @@
             setTimeout(function () { msg.textContent = ''; }, 2500);
           });
         });
+
+        trackProgress(document.getElementById('article-prose'));
+      }
+
+      /** Thin bar at the top that fills as the answer is read. */
+      function trackProgress(el) {
+        var bar = document.getElementById('progress-bar');
+        if (!el || !bar) return;
+        var ticking = false;
+        function update() {
+          ticking = false;
+          var rect = el.getBoundingClientRect();
+          var total = rect.height - window.innerHeight * 0.6;
+          var done = total > 0 ? Math.min(1, Math.max(0, (window.innerHeight * 0.4 - rect.top) / total)) : (rect.top < 0 ? 1 : 0);
+          bar.style.transform = 'scaleX(' + done + ')';
+        }
+        window.addEventListener('scroll', function () { if (!ticking) { ticking = true; requestAnimationFrame(update); } }, { passive: true });
+        window.addEventListener('resize', update);
+        update();
       }
 
       function renderMissing() {
         document.getElementById('article-container').innerHTML =
-          '<div class="empty-state"><svg width="34" height="34" viewBox="-12 -12 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round" d="M11 0L7.78 3.22L7.78 7.78L3.22 7.78L0 11L-3.22 7.78L-7.78 7.78L-7.78 3.22L-11 0L-7.78 -3.22L-7.78 -7.78L-3.22 -7.78L0 -11L3.22 -7.78L7.78 -7.78L7.78 -3.22Z"/></svg><div>' +
-          esc(I18n.t('entry_missing')) + '</div><a class="sk-btn sk-btn--line sk-btn--sm" href="browse.html?browse=1&lang=' + I18n.getLang() + '">' + esc(I18n.t('browse')) + '</a></div>';
+          '<div class="empty-state"><svg width="34" height="34" viewBox="-12 -12 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round" d="' + Site.STAR_PATH + '"/></svg><div>' +
+          esc(I18n.t('entry_missing')) + '</div><a class="sk-btn sk-btn--line sk-btn--sm" href="browse.html?lang=' + I18n.getLang() + '">' + esc(I18n.t('browse')) + '</a></div>';
       }
 
       setupMarked();
@@ -179,7 +230,7 @@
         var lang = I18n.init(data.uiStrings, data.languages, data.config.defaultLang);
         Site.initChrome(lang);
         var back = document.getElementById('back-link');
-        back.href = 'browse.html?lang=' + lang + '&browse=1';
+        back.href = 'browse.html?lang=' + lang;
         document.getElementById('back-label').textContent = I18n.t('browse');
 
         var params = new URLSearchParams(window.location.search);
@@ -188,6 +239,8 @@
         var entry = entryId ? DataStore.getEntry(data.entries, entryId, lang, data.config.defaultLang) : null;
         if (entry) {
           document.title = entry.question + ' — ' + I18n.t('title');
+          var desc = document.querySelector('meta[name="description"]');
+          if (desc) desc.setAttribute('content', Site.teaser(entry, 180));
           renderArticle(entry, data, entries);
         } else {
           renderMissing();

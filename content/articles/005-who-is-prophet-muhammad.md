@@ -1,11 +1,10 @@
 ---
 id: 5
-order: 5
+order: 12
 question: Who is Prophet Muhammad ﷺ?
 created_at: 2025-01-19
 tags:
   - prophet
-  - seerah
   - basics
 ---
 

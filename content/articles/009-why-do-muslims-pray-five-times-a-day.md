@@ -1,12 +1,10 @@
 ---
 id: 9
-order: 9
+order: 30
 question: Why do Muslims pray five times a day?
 created_at: 2025-01-23
 tags:
-  - prayer
   - worship
-  - pillars
 ---
 
 The five daily prayers (Salah) are the **most important act of worship** in Islam after the declaration of faith. They serve as a direct connection between the servant and God — no intermediary needed.

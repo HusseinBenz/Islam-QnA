@@ -1,13 +1,12 @@
 ---
 id: 11
-order: 10
+order: 15
 question: Why did Prophet Muhammad ﷺ marry Aisha when she was young?
 created_at: 2025-01-25
 tags:
-  - misconceptions
   - prophet
+  - misconceptions
   - history
-  - seerah
 ---
 
 ## What Do the Historical Sources Say?

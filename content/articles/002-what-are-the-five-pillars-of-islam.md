@@ -5,7 +5,6 @@ question: What are the Five Pillars of Islam?
 created_at: 2025-01-16
 tags:
   - basics
-  - pillars
   - worship
 ---
 
