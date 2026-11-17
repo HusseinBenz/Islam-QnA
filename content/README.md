@@ -72,3 +72,14 @@ Write the translated answer in Markdown here.
 
 Files whose names start with `_` are ignored, so you can keep local templates in
 these folders if you want.
+
+## Sabighat coverage map
+
+`graphify-out/graph.json` maps the third edition's printed pages to the adapted
+questions, their English and Arabic files, and cited works. From the repository
+root, use Graphify to browse a topic or follow a section to an answer.
+
+```powershell
+graphify query "reason and revelation" --budget 700
+graphify path "Sabighat (سابغات)" "Who created God?"
+```

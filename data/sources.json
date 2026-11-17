@@ -1,4 +1,24 @@
 {
+  "sabighat": {
+    "kind": "modern",
+    "year": "2017",
+    "author": {
+      "en": "Ahmad Yusuf al-Sayyid",
+      "ar": "أحمد يوسف السيد"
+    },
+    "title": {
+      "en": "Sabighat: How Should We Respond to Contemporary Questions About Faith?",
+      "ar": "سابغات: كيف نتعامل مع الشبهات الفكرية المعاصرة"
+    },
+    "note": {
+      "en": "Third edition, Takween Studies and Research. The articles give the printed page numbers and identify the evidence and further reading relevant to each question.",
+      "ar": "الطبعة الثالثة، مركز تكوين للدراسات والأبحاث. تذكر الإجابات أرقام الصفحات المطبوعة، وتبيّن الأدلة والقراءات المرتبطة بكل سؤال."
+    },
+    "short": {
+      "en": "Sabighat",
+      "ar": "سابغات"
+    }
+  },
   "ghazali-munqidh": {
     "kind": "classical",
     "year": {

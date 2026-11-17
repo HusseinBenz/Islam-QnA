@@ -1,52 +1,27 @@
 ---
 id: 11
 order: 15
-question: Why did Prophet Muhammad ﷺ marry Aisha when she was young?
+question: What do the sources say about Aisha’s age when she married Muhammad?
+summary: The best-known Sunni hadith reports say the contract was made when Aisha was six and the marriage was consummated when she was nine. The book discusses how it understands the reports and their historical setting.
 created_at: 2025-01-25
 tags:
   - prophet
-  - misconceptions
+  - women
   - history
+  - misconceptions
+sources:
+  - sabighat
 ---
 
-## What Do the Historical Sources Say?
+The reports attribute the ages of six and nine to Aisha herself. Some modern writers use indirect chronology to suggest she was older. Al-Sayyid gives more weight to the direct age report in al-Bukhari and Muslim. To weigh these approaches, ask which dates are independently established and which ages are derived from estimates.
 
-Classical Islamic records state that the Prophet Muhammad ﷺ married Aisha when she was 6 years old, and that the marriage was consummated when she was 9. Muhammad was approximately 50 at the time.
+The book places the marriage in its seventh-century setting. It notes that Islamic sources preserve many accusations by Muhammad’s opponents, even a false accusation involving Aisha, while the author cites no contemporary objection about her age. It also points to Aisha’s later recollections of affection and to the interval between the contract and the start of married life. These details show what the surviving accounts record. The absence of a recorded objection says little by itself about the full range of views at the time or what someone experienced privately.
 
-## The Historical Context: A Different World
+The book appeals to physical puberty to explain the interval. It also points to differences in marriage customs across places and periods, and to the different questions addressed by laws on marriage and on consent. For decisions about marriage today, maturity, free and informed consent, and health are distinct considerations. The World Health Organization documents the serious health risks of pregnancy in adolescence.
 
-The most important thing a modern reader needs to understand is this: **the 7th-century Arabian Peninsula was not the 21st-century West.** Applying today's standards to a world 1,400 years ago is like condemning ancient Romans for not having antibiotics.
+## References
 
-In pre-modern societies across the entire world (Arabia, Europe, Asia, and the Americas) childhood as a protected phase of life simply did not exist as we understand it today. The concept of adolescence as a distinct developmental stage is a largely modern invention. In those societies:
-
-- A girl was considered a woman upon reaching puberty
-- Marriage shortly after puberty was the universal norm, not the exception
-- Life expectancy was short. Delaying marriage until 18 or older was not a social reality anywhere on earth
-
-This was not unique to Muslims or Arabs. In England, the legal minimum age for marriage was 12 for girls and 14 for boys, under both Church and common law, and this remained unchanged until **1929**. Not so long ago.
-
-## What Did Even Islam's Enemies Say?
-
-The Prophet Muhammad ﷺ faced many adversaries who were eager to exploit any perceived weakness to discredit him and his message. Yet no recorded account, from Muslim or non-Muslim sources alike, raised objections to this marriage on the basis of Aisha's age.
-
-That silence is significant. Critics of early Islam voiced a wide range of accusations, but this was never among them. It suggests that this marriage aligned entirely with the prevailing norms of 7th-century Arabia and did not stand out as controversial, to allies or adversaries alike. Objections based on Aisha's age have emerged primarily in recent decades, reflecting shifts in modern global norms, not timeless moral outrage.
-
-## Why This Specific Marriage?
-
-Muhammad's other marriages offer essential context. Before Aisha, he was married exclusively to Khadijah for approximately **25 years**: a woman older than him, a successful businesswoman, and his greatest companion and supporter. He sought no other wife during her lifetime. This is not the behavior of a man driven by desire.
-
-After Khadijah's death, most of his later marriages were to widows, divorcees, or older women, for reasons of protection, social alliance, and the strengthening of the early Muslim community. To reduce these marriages to mere desire is to misunderstand both the man and the meaning of marriage in Islam.
-
-## Judging the Past by the Present
-
-The deepest problem with simply declaring "this was wrong" is that it imposes today's moral framework onto a 7th-century reality. Throughout history, practices once universally accepted (slavery, the execution of heretics, women having no property rights) are now rightly condemned. But condemning a historical figure for failing to live by standards that didn't yet exist is not moral clarity. It is presentism (Wikipedia: [Presentism](https://en.wikipedia.org/wiki/Presentism_(historical_analysis))).
-
-Honest historical analysis asks: What were the norms of the time? Did this person violate even those norms? What was the broader impact of their life?
-
-Muhammad ﷺ violated none of the norms of his era. And the impact of his life, the liberation of slaves, the elevation of women, the founding of a civilization built on justice and mercy, speaks for itself.
-
-## Why Aisha, Specifically?
-
-Islamic tradition records that the Prophet ﷺ was shown Aisha in a dream before the marriage, an event Muslims understand as divine guidance. Within the Islamic worldview, this was not a personal choice driven by desire, but a divinely directed union with a purpose far greater than the moment.
-
-Aisha ﷢ went on to become one of the greatest scholars in Islamic history, narrating thousands of hadith and teaching men and women alike for decades after the Prophet's death. Her life was not defined by her age at marriage. It was defined by the immense legacy she left behind.
+- Ahmad Yusuf al-Sayyid, *Sabighat*, 3rd ed. (Takween, 2017), pp. 118–119.
+- [Sahih al-Bukhari 5134](https://sunnah.com/bukhari:5134), [Sahih Muslim 1422](https://sunnah.com/muslim:1422b) and Aisha’s account of the accusation in [Sahih al-Bukhari 2661](https://sunnah.com/bukhari:2661).
+- Al-Sayyid, “A Discussion of Adnan Ibrahim’s View of Aisha’s Age at Marriage.” Fahd al-Ghufayli, *Al-Sanā al-Wahhāj fī Sinn ʿĀʾisha ʿind al-Zawāj*. Al-Sayyid also cites Hussam Abd al-Aziz’s three-part *Bil-ʿAql* series.
+- World Health Organization, [“Adolescent pregnancy”](https://www.who.int/news-room/fact-sheets/detail/adolescent-pregnancy).
