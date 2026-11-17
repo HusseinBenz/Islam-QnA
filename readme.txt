@@ -7,10 +7,13 @@ or deploy to any static hosting (GitHub Pages, Netlify, Vercel, etc.).
 Project Structure
   index.html         Landing/welcome page
   browse.html        Search & browse Q&A entries
-  article.html       Individual article view with voting
+  article.html       Individual article view: short answer, sources, related questions, voting
+  library.html       The bookshelf: every book cited, and the questions that cite it
   data/
-    config.json      Site configuration (name, defaults, pagination options)
+    config.json      Site configuration (name, defaults, pagination, topics, featured questions, shelf)
     entries.json     Generated Q&A entries with translations
+    sources.json     Registry of the books that answers cite (author, title, year, note; en + ar)
+    voices.json      Quotations shown on the home page, each tied to a book in sources.json
     languages.json   Language definitions (code, label, direction, fonts)
     ui-strings.json  All UI text translations per language
   content/
@@ -59,10 +62,14 @@ Markdown Article Format (content/articles/*.md)
     id: 12
     order: 12
     question: Your question here?
+    summary: One or two sentences that answer the question directly.
     created_at: 2026-04-30
     tags:
       - basics
-      - theology
+      - god
+    sources:
+      - ghazali-munqidh
+      - lings-muhammad
     ---
 
     Write the answer in Markdown here.
@@ -70,21 +77,44 @@ Markdown Article Format (content/articles/*.md)
   order is optional. Use it when you want the browse order to differ from the
   article id order.
 
+  summary is optional. It is shown as "The short answer" at the top of the
+  article, and under the question on cards and in search results.
+
+  sources is optional. Each item is a key from data/sources.json. The books are
+  listed under the answer and on the bookshelf page. The build fails on an
+  unknown key, so add the book to data/sources.json first.
+
+  tags double as topics. The topics offered as filters, and their order, are
+  listed under "topics" in data/config.json; their display names live under
+  "tags" in data/ui-strings.json for each language.
+
+Content Standards
+  - Quote the Quran with chapter and verse, and hadith with collection and number.
+  - Write answers in your own words. Summarise books; do not copy passages
+    from them. Mark and attribute any direct quotation, and keep it short.
+  - Only use a quotation whose wording and source you have checked.
+  - Have new answers reviewed by someone qualified before publishing.
+
 Markdown Translation Format (content/translations/ar/*.md)
   Each translation points back to the article id:
     ---
     id: 12
     question: السؤال هنا؟
+    summary: جملة أو جملتان تجيبان عن السؤال مباشرة.
     ---
 
     Write the translated answer in Markdown here.
+
+  Tags and sources are taken from the default-language article.
 
 Generated Entry Format (data/entries.json)
   Each generated entry has:
     id            Unique integer
     question      The question text
+    summary       Optional short answer
     answer        The answer in Markdown format
     tags          Array of tag strings
+    sources       Optional array of keys from data/sources.json
     created_at    Date string (YYYY-MM-DD)
     translations  Object keyed by language code, each with question + answer
 
@@ -99,7 +129,10 @@ Features
   - Beautiful, modern design with Islamic aesthetic
   - Dark/light theme with system preference detection
   - Full multilingual support (LTR + RTL)
-  - Client-side search with instant results
+  - Client-side search with instant results, ranked by relevance, tolerant of Arabic vowel marks
+  - Browse by topic, related questions under every answer
+  - A short answer at the top of each article, and the books behind it at the end
+  - A bookshelf page generated from the cited sources
   - Pagination with configurable page sizes
   - Markdown rendering for answers (via marked.js)
   - Markdown-first article editing with a tiny standard-library generator

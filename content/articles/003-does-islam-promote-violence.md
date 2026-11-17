@@ -1,12 +1,11 @@
 ---
 id: 3
-order: 3
+order: 20
 question: Does Islam promote violence?
 created_at: 2025-01-17
 tags:
   - misconceptions
   - peace
-  - jihad
 ---
 
 **Absolutely not.** Islam explicitly condemns the killing of innocent people and promotes peace, justice, and mercy.

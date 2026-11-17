@@ -1,12 +1,11 @@
 ---
 id: 6
-order: 6
+order: 7
 question: What is the Quran?
 created_at: 2025-01-20
 tags:
   - quran
   - basics
-  - revelation
 ---
 
 The Quran is the **holy book of Islam**, believed by Muslims to be the literal word of God (Allah) revealed to Prophet Muhammad ﷺ through Angel Gabriel over a period of 23 years.

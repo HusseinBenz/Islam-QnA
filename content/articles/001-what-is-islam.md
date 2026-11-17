@@ -5,7 +5,7 @@ question: What is Islam?
 created_at: 2025-01-15
 tags:
   - basics
-  - theology
+  - god
 ---
 
 Islam is an Arabic word meaning **submission** and **peace**. It is the religion of submitting one's will to the One True God (Allah in Arabic). Islam is not named after a person or a tribe — it is named after the very act of devotion to God.

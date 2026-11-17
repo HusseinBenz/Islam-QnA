@@ -1,0 +1,74 @@
+[
+  {
+    "source": "lamartine-turquie",
+    "article": 19,
+    "who": {
+      "en": "French poet and statesman",
+      "ar": "شاعر وسياسي فرنسي"
+    },
+    "quote": {
+      "en": "If greatness of purpose, smallness of means, and astounding results are the three criteria of human genius, who could dare to compare any great man in modern history with Muhammad?",
+      "ar": "إذا كانت عظمة الغاية، وصغر الوسائل، وعظم النتائج، هي المقاييس الثلاثة لعبقرية الإنسان، فمن يجرؤ أن يقارن أي عظيم في التاريخ الحديث بمحمد؟"
+    }
+  },
+  {
+    "source": "carlyle-heroes",
+    "article": 19,
+    "who": {
+      "en": "Scottish essayist and historian",
+      "ar": "كاتب ومؤرخ اسكتلندي"
+    },
+    "quote": {
+      "en": "A false man found a religion? Why, a false man cannot build a brick house!",
+      "ar": "رجل كاذب يؤسس دينًا؟ إن الرجل الكاذب لا يقدر أن يبني بيتًا من الطوب!"
+    }
+  },
+  {
+    "source": "gandhi-young-india",
+    "article": 25,
+    "who": {
+      "en": "Leader of the Indian independence movement",
+      "ar": "زعيم حركة استقلال الهند"
+    },
+    "quote": {
+      "en": "I became more than ever convinced that it was not the sword that won a place for Islam in those days in the scheme of life.",
+      "ar": "ازددت يقينًا بأن السيف لم يكن هو الذي كسب للإسلام مكانته في تلك الأيام."
+    }
+  },
+  {
+    "source": "watt-mecca",
+    "article": 16,
+    "who": {
+      "en": "Scottish historian and Anglican priest",
+      "ar": "مؤرخ وقسّ اسكتلندي"
+    },
+    "quote": {
+      "en": "To suppose Muhammad an impostor raises more problems than it solves.",
+      "ar": "افتراض أن محمدًا كان دجّالًا يثير من المشكلات أكثر مما يحل."
+    }
+  },
+  {
+    "source": "oleary-crossroads",
+    "article": 25,
+    "who": {
+      "en": "British orientalist",
+      "ar": "مستشرق بريطاني"
+    },
+    "quote": {
+      "en": "History makes it clear, however, that the legend of fanatical Muslims sweeping through the world and forcing Islam at the point of the sword upon conquered races is one of the most fantastically absurd myths that historians have ever repeated.",
+      "ar": "التاريخ يبيّن بوضوح أن أسطورة المسلمين المتعصبين الذين اجتاحوا العالَم وفرضوا الإسلام بحدّ السيف على الشعوب المغلوبة هي من أسخف الخرافات التي ردّدها المؤرخون."
+    }
+  },
+  {
+    "source": "malcolm-autobiography",
+    "article": 29,
+    "who": {
+      "en": "American civil rights leader, writing from Mecca",
+      "ar": "زعيم الحقوق المدنية الأمريكي، من رسالته من مكة"
+    },
+    "quote": {
+      "en": "America needs to understand Islam, because this is the one religion that erases from its society the race problem.",
+      "ar": "أمريكا بحاجة إلى أن تفهم الإسلام، لأنه الدين الوحيد الذي يمحو من مجتمعه مشكلة العِرق."
+    }
+  }
+]

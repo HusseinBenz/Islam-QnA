@@ -1,12 +1,11 @@
 ---
 id: 7
-order: 7
+order: 10
 question: Is Islam compatible with science?
 created_at: 2025-01-21
 tags:
   - science
   - history
-  - misconceptions
 ---
 
 Islam and science are not only compatible — **Islam actively encourages the pursuit of knowledge and scientific inquiry.**

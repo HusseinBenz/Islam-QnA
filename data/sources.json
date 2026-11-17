@@ -1,0 +1,794 @@
+{
+  "ghazali-munqidh": {
+    "kind": "classical",
+    "year": {
+      "en": "c. 1108",
+      "ar": "نحو 1108م"
+    },
+    "author": {
+      "en": "Abu Hamid al-Ghazali",
+      "ar": "أبو حامد الغزالي"
+    },
+    "title": {
+      "en": "Deliverance from Error (al-Munqidh min al-Dalal)",
+      "ar": "المنقذ من الضلال"
+    },
+    "note": {
+      "en": "The spiritual autobiography of a great scholar who doubted everything and found certainty again.",
+      "ar": "سيرة روحية لعالِم كبير شكّ في كل شيء ثم عاد إلى اليقين."
+    }
+  },
+  "ghazali-iqtisad": {
+    "kind": "classical",
+    "year": {
+      "en": "c. 1095",
+      "ar": "نحو 1095م"
+    },
+    "author": {
+      "en": "Abu Hamid al-Ghazali",
+      "ar": "أبو حامد الغزالي"
+    },
+    "title": {
+      "en": "Moderation in Belief (al-Iqtisad fi al-I'tiqad)",
+      "ar": "الاقتصاد في الاعتقاد"
+    },
+    "note": {
+      "en": "A classical statement of the rational case for God's existence.",
+      "ar": "عرض كلاسيكي للأدلة العقلية على وجود الله."
+    }
+  },
+  "ghazali-faysal": {
+    "kind": "classical",
+    "year": {
+      "en": "c. 1105",
+      "ar": "نحو 1105م"
+    },
+    "author": {
+      "en": "Abu Hamid al-Ghazali",
+      "ar": "أبو حامد الغزالي"
+    },
+    "title": {
+      "en": "The Decisive Criterion (Faysal al-Tafriqa)",
+      "ar": "فيصل التفرقة بين الإسلام والزندقة"
+    },
+    "note": {
+      "en": "Discusses who is truly accountable for rejecting the message, and the breadth of God's mercy.",
+      "ar": "يبحث فيمن تقوم عليه الحجة حقًّا، وفي سعة رحمة الله."
+    }
+  },
+  "ibn-taymiyya-ubudiyya": {
+    "kind": "classical",
+    "year": {
+      "en": "14th century",
+      "ar": "القرن 14 الميلادي"
+    },
+    "author": {
+      "en": "Ibn Taymiyya",
+      "ar": "ابن تيمية"
+    },
+    "title": {
+      "en": "Servitude to God (al-'Ubudiyya)",
+      "ar": "العبودية"
+    },
+    "note": {
+      "en": "A short treatise on what worship really means.",
+      "ar": "رسالة قصيرة في حقيقة العبادة."
+    }
+  },
+  "ibn-taymiyya-jawab": {
+    "kind": "classical",
+    "year": {
+      "en": "14th century",
+      "ar": "القرن 14 الميلادي"
+    },
+    "author": {
+      "en": "Ibn Taymiyya",
+      "ar": "ابن تيمية"
+    },
+    "title": {
+      "en": "The Correct Response (al-Jawab al-Sahih)",
+      "ar": "الجواب الصحيح لمن بدّل دين المسيح"
+    },
+    "note": {
+      "en": "The most extensive classical Muslim work on Jesus and Christian doctrine.",
+      "ar": "أوسع المؤلفات الإسلامية الكلاسيكية في المسيح عليه السلام والعقيدة النصرانية."
+    }
+  },
+  "ibn-qayyim-shifa": {
+    "kind": "classical",
+    "year": {
+      "en": "14th century",
+      "ar": "القرن 14 الميلادي"
+    },
+    "author": {
+      "en": "Ibn Qayyim al-Jawziyya",
+      "ar": "ابن قيم الجوزية"
+    },
+    "title": {
+      "en": "Healing the Sick (Shifa' al-'Alil)",
+      "ar": "شفاء العليل في مسائل القضاء والقدر والحكمة والتعليل"
+    },
+    "note": {
+      "en": "On divine decree, wisdom, and why hardship exists.",
+      "ar": "في القضاء والقدر والحكمة، ولماذا وُجد البلاء."
+    }
+  },
+  "ibn-qayyim-madarij": {
+    "kind": "classical",
+    "year": {
+      "en": "14th century",
+      "ar": "القرن 14 الميلادي"
+    },
+    "author": {
+      "en": "Ibn Qayyim al-Jawziyya",
+      "ar": "ابن قيم الجوزية"
+    },
+    "title": {
+      "en": "Ranks of the Seekers (Madarij al-Salikin)",
+      "ar": "مدارج السالكين"
+    },
+    "note": {
+      "en": "A classic on repentance and the journey of the heart to God.",
+      "ar": "من أمهات الكتب في التوبة وسير القلب إلى الله."
+    }
+  },
+  "ibn-qayyim-zad": {
+    "kind": "classical",
+    "year": {
+      "en": "14th century",
+      "ar": "القرن 14 الميلادي"
+    },
+    "author": {
+      "en": "Ibn Qayyim al-Jawziyya",
+      "ar": "ابن قيم الجوزية"
+    },
+    "title": {
+      "en": "Provisions for the Hereafter (Zad al-Ma'ad)",
+      "ar": "زاد المعاد في هدي خير العباد"
+    },
+    "note": {
+      "en": "The Prophet's guidance in every part of life, including the kinds and rules of jihad.",
+      "ar": "هدي النبي ﷺ في شؤون الحياة كلها، ومنها مراتب الجهاد وأحكامه."
+    }
+  },
+  "ibn-qayyim-ilam": {
+    "kind": "classical",
+    "year": {
+      "en": "14th century",
+      "ar": "القرن 14 الميلادي"
+    },
+    "author": {
+      "en": "Ibn Qayyim al-Jawziyya",
+      "ar": "ابن قيم الجوزية"
+    },
+    "title": {
+      "en": "I'lam al-Muwaqqi'in",
+      "ar": "إعلام الموقعين عن رب العالمين"
+    },
+    "note": {
+      "en": "A major work of legal theory, famous for its statement that the Sharia is all justice and mercy.",
+      "ar": "كتاب جليل في أصول الفتوى، اشتهر بقوله إن الشريعة عدل كلها ورحمة كلها."
+    }
+  },
+  "ibn-kathir-tafsir": {
+    "kind": "classical",
+    "year": {
+      "en": "14th century",
+      "ar": "القرن 14 الميلادي"
+    },
+    "author": {
+      "en": "Ibn Kathir",
+      "ar": "ابن كثير"
+    },
+    "title": {
+      "en": "Commentary on the Quran (Tafsir al-Qur'an al-'Azim)",
+      "ar": "تفسير القرآن العظيم"
+    },
+    "note": {
+      "en": "The most widely read classical commentary, explaining verses through the Quran and hadith.",
+      "ar": "أشهر التفاسير وأكثرها تداولًا، يفسّر القرآن بالقرآن والسنة."
+    }
+  },
+  "ibn-kathir-bidaya": {
+    "kind": "classical",
+    "year": {
+      "en": "14th century",
+      "ar": "القرن 14 الميلادي"
+    },
+    "author": {
+      "en": "Ibn Kathir",
+      "ar": "ابن كثير"
+    },
+    "title": {
+      "en": "The Beginning and the End (al-Bidaya wa al-Nihaya)",
+      "ar": "البداية والنهاية"
+    },
+    "note": {
+      "en": "A monumental history from creation to the author's own day.",
+      "ar": "تاريخ موسوعي من بدء الخلق إلى عصر المؤلف."
+    }
+  },
+  "ibn-hisham-sira": {
+    "kind": "classical",
+    "year": {
+      "en": "9th century",
+      "ar": "القرن 9 الميلادي"
+    },
+    "author": {
+      "en": "Ibn Hisham (from Ibn Ishaq)",
+      "ar": "ابن هشام (عن ابن إسحاق)"
+    },
+    "title": {
+      "en": "The Life of the Prophet (al-Sira al-Nabawiyya)",
+      "ar": "السيرة النبوية"
+    },
+    "note": {
+      "en": "The earliest surviving biography of the Prophet ﷺ.",
+      "ar": "أقدم ما وصلنا من كتب السيرة النبوية."
+    }
+  },
+  "nawawi-forty": {
+    "kind": "classical",
+    "year": {
+      "en": "13th century",
+      "ar": "القرن 13 الميلادي"
+    },
+    "author": {
+      "en": "Imam al-Nawawi",
+      "ar": "الإمام النووي"
+    },
+    "title": {
+      "en": "The Forty Hadith",
+      "ar": "الأربعون النووية"
+    },
+    "note": {
+      "en": "Forty-two short hadith that gather the foundations of the religion.",
+      "ar": "اثنان وأربعون حديثًا جامعة لأصول الدين."
+    }
+  },
+  "nawawi-riyad": {
+    "kind": "classical",
+    "year": {
+      "en": "13th century",
+      "ar": "القرن 13 الميلادي"
+    },
+    "author": {
+      "en": "Imam al-Nawawi",
+      "ar": "الإمام النووي"
+    },
+    "title": {
+      "en": "Gardens of the Righteous (Riyad al-Salihin)",
+      "ar": "رياض الصالحين"
+    },
+    "note": {
+      "en": "A beloved collection of verses and hadith on character, worship and repentance.",
+      "ar": "مجموع مبارك من الآيات والأحاديث في الأخلاق والعبادة والتوبة."
+    },
+    "short": {
+      "en": "Gardens of the Righteous",
+      "ar": "رياض الصالحين"
+    }
+  },
+  "shatibi-muwafaqat": {
+    "kind": "classical",
+    "year": {
+      "en": "14th century",
+      "ar": "القرن 14 الميلادي"
+    },
+    "author": {
+      "en": "Abu Ishaq al-Shatibi",
+      "ar": "أبو إسحاق الشاطبي"
+    },
+    "title": {
+      "en": "The Reconciliation (al-Muwafaqat)",
+      "ar": "الموافقات"
+    },
+    "note": {
+      "en": "The founding work on the higher objectives (maqasid) of Islamic law.",
+      "ar": "الكتاب المؤسِّس لعلم مقاصد الشريعة."
+    }
+  },
+  "kairanawi-izhar": {
+    "kind": "classical",
+    "year": "1864",
+    "author": {
+      "en": "Rahmatullah Kairanawi",
+      "ar": "رحمة الله الهندي الكيرانوي"
+    },
+    "title": {
+      "en": "The Truth Revealed (Izhar al-Haqq)",
+      "ar": "إظهار الحق"
+    },
+    "note": {
+      "en": "A celebrated comparative study of the Bible and the Quran.",
+      "ar": "دراسة مقارنة شهيرة بين الكتاب المقدس والقرآن."
+    }
+  },
+  "mubarakpuri-nectar": {
+    "kind": "modern",
+    "year": "1979",
+    "author": {
+      "en": "Safiur-Rahman al-Mubarakpuri",
+      "ar": "صفي الرحمن المباركفوري"
+    },
+    "title": {
+      "en": "The Sealed Nectar (Ar-Raheeq al-Makhtum)",
+      "ar": "الرحيق المختوم"
+    },
+    "note": {
+      "en": "A prize-winning biography of the Prophet ﷺ, read around the world.",
+      "ar": "سيرة نبوية فازت بالجائزة الأولى لرابطة العالم الإسلامي وانتشرت في العالم."
+    }
+  },
+  "lings-muhammad": {
+    "kind": "modern",
+    "year": "1983",
+    "author": {
+      "en": "Martin Lings",
+      "ar": "مارتن لينغز"
+    },
+    "title": {
+      "en": "Muhammad: His Life Based on the Earliest Sources",
+      "ar": "محمد رسول الله وحياته اعتمادًا على أقدم المصادر"
+    },
+    "note": {
+      "en": "One of the most admired biographies of the Prophet ﷺ in English.",
+      "ar": "من أشهر كتب السيرة المكتوبة بالإنجليزية وأجملها."
+    },
+    "short": {
+      "en": "Muhammad",
+      "ar": "محمد رسول الله"
+    }
+  },
+  "draz-naba": {
+    "kind": "modern",
+    "year": {
+      "en": "20th century",
+      "ar": "القرن 20 الميلادي"
+    },
+    "author": {
+      "en": "Muhammad Abdullah Draz",
+      "ar": "محمد عبد الله دراز"
+    },
+    "title": {
+      "en": "The Qur'an: An Eternal Challenge (al-Naba' al-'Azim)",
+      "ar": "النبأ العظيم"
+    },
+    "note": {
+      "en": "A rigorous argument that the Quran cannot be the work of a human author.",
+      "ar": "برهان محكم على أن القرآن لا يمكن أن يكون من كلام بشر."
+    },
+    "short": {
+      "en": "An Eternal Challenge",
+      "ar": "النبأ العظيم"
+    }
+  },
+  "azami-history": {
+    "kind": "modern",
+    "year": "2003",
+    "author": {
+      "en": "Muhammad Mustafa al-A'zami",
+      "ar": "محمد مصطفى الأعظمي"
+    },
+    "title": {
+      "en": "The History of the Qur'anic Text",
+      "ar": "تاريخ النص القرآني من الوحي إلى التدوين"
+    },
+    "note": {
+      "en": "A detailed account of how the Quran was written down, compiled and transmitted.",
+      "ar": "دراسة مفصلة لكتابة القرآن وجمعه ونقله."
+    },
+    "short": {
+      "en": "The Qur’anic Text",
+      "ar": "تاريخ النص القرآني"
+    }
+  },
+  "asad-road": {
+    "kind": "modern",
+    "year": "1954",
+    "author": {
+      "en": "Muhammad Asad",
+      "ar": "محمد أسد"
+    },
+    "title": {
+      "en": "The Road to Mecca",
+      "ar": "الطريق إلى مكة"
+    },
+    "note": {
+      "en": "The journey of an Austrian journalist from Europe to Islam.",
+      "ar": "رحلة صحفي نمساوي من أوروبا إلى الإسلام."
+    }
+  },
+  "lang-angels": {
+    "kind": "modern",
+    "year": "1997",
+    "author": {
+      "en": "Jeffrey Lang",
+      "ar": "جيفري لانغ"
+    },
+    "title": {
+      "en": "Even Angels Ask",
+      "ar": "حتى الملائكة تسأل"
+    },
+    "note": {
+      "en": "A mathematics professor and former atheist on bringing hard questions to the Quran.",
+      "ar": "أستاذ رياضيات كان ملحدًا يروي كيف حمل أسئلته الصعبة إلى القرآن."
+    }
+  },
+  "tzortzis-divine": {
+    "kind": "modern",
+    "year": "2016",
+    "author": {
+      "en": "Hamza Andreas Tzortzis",
+      "ar": "حمزة أندرياس تزورتزس"
+    },
+    "title": {
+      "en": "The Divine Reality",
+      "ar": "الحقيقة الإلهية"
+    },
+    "note": {
+      "en": "A contemporary case for God and Islam, written in answer to modern atheism.",
+      "ar": "عرض معاصر لأدلة وجود الله وصدق الإسلام في مواجهة الإلحاد الحديث."
+    }
+  },
+  "philips-purpose": {
+    "kind": "modern",
+    "year": "",
+    "author": {
+      "en": "Bilal Philips",
+      "ar": "بلال فيليبس"
+    },
+    "title": {
+      "en": "The Purpose of Creation",
+      "ar": "الغاية من الخلق"
+    },
+    "note": {
+      "en": "A short, clear booklet on why we were created.",
+      "ar": "رسالة قصيرة واضحة في سبب خلقنا."
+    }
+  },
+  "miller-amazing": {
+    "kind": "modern",
+    "year": "",
+    "author": {
+      "en": "Gary Miller",
+      "ar": "غاري ميلر"
+    },
+    "title": {
+      "en": "The Amazing Qur'an",
+      "ar": "القرآن المذهل"
+    },
+    "note": {
+      "en": "A mathematician and former missionary examines the Quran's challenge to be tested.",
+      "ar": "عالم رياضيات ومنصِّر سابق يتأمل دعوة القرآن إلى اختباره."
+    }
+  },
+  "mawdudi-towards": {
+    "kind": "modern",
+    "year": "1932",
+    "author": {
+      "en": "Abul A'la Mawdudi",
+      "ar": "أبو الأعلى المودودي"
+    },
+    "title": {
+      "en": "Towards Understanding Islam",
+      "ar": "مبادئ الإسلام"
+    },
+    "note": {
+      "en": "A widely translated first introduction to Islamic belief and practice.",
+      "ar": "مدخل أول إلى عقيدة الإسلام وشعائره، تُرجم إلى لغات كثيرة."
+    }
+  },
+  "naik-answers": {
+    "kind": "modern",
+    "year": "",
+    "author": {
+      "en": "Zakir Naik",
+      "ar": "ذاكر نايك"
+    },
+    "title": {
+      "en": "Answers to Non-Muslims' Common Questions about Islam",
+      "ar": "إجابات عن أسئلة غير المسلمين الشائعة حول الإسلام"
+    },
+    "note": {
+      "en": "A popular booklet on the questions asked most often.",
+      "ar": "كتيّب واسع الانتشار في أكثر الأسئلة تكرارًا."
+    }
+  },
+  "badawi-gender": {
+    "kind": "modern",
+    "year": "1995",
+    "author": {
+      "en": "Jamal Badawi",
+      "ar": "جمال بدوي"
+    },
+    "title": {
+      "en": "Gender Equity in Islam",
+      "ar": "العدل بين الجنسين في الإسلام"
+    },
+    "note": {
+      "en": "A concise study of the spiritual, social and economic standing of women in Islam.",
+      "ar": "دراسة موجزة لمكانة المرأة الروحية والاجتماعية والاقتصادية في الإسلام."
+    }
+  },
+  "deedat-bible": {
+    "kind": "modern",
+    "year": "",
+    "author": {
+      "en": "Ahmed Deedat",
+      "ar": "أحمد ديدات"
+    },
+    "title": {
+      "en": "What the Bible Says About Muhammad",
+      "ar": "ماذا يقول الكتاب المقدس عن محمد ﷺ"
+    },
+    "note": {
+      "en": "A famous booklet on biblical passages that Muslims read as foretelling the Prophet ﷺ.",
+      "ar": "رسالة مشهورة في نصوص الكتاب المقدس التي يراها المسلمون بشارة بالنبي ﷺ."
+    }
+  },
+  "brown-misquoting": {
+    "kind": "modern",
+    "year": "2014",
+    "author": {
+      "en": "Jonathan A. C. Brown",
+      "ar": "جوناثان براون"
+    },
+    "title": {
+      "en": "Misquoting Muhammad",
+      "ar": "Misquoting Muhammad"
+    },
+    "note": {
+      "en": "How Muslim scholars have understood and applied the Prophet's legacy across history.",
+      "ar": "كيف فهم علماء المسلمين الميراث النبوي وطبّقوه عبر التاريخ."
+    }
+  },
+  "brown-slavery": {
+    "kind": "modern",
+    "year": "2019",
+    "author": {
+      "en": "Jonathan A. C. Brown",
+      "ar": "جوناثان براون"
+    },
+    "title": {
+      "en": "Slavery and Islam",
+      "ar": "Slavery and Islam"
+    },
+    "note": {
+      "en": "A frank, scholarly study of slavery in Islamic law and history.",
+      "ar": "دراسة علمية صريحة للرق في الفقه والتاريخ الإسلامي."
+    }
+  },
+  "malcolm-autobiography": {
+    "kind": "modern",
+    "year": "1965",
+    "author": {
+      "en": "Malcolm X, with Alex Haley",
+      "ar": "مالكوم إكس، مع أليكس هيلي"
+    },
+    "title": {
+      "en": "The Autobiography of Malcolm X",
+      "ar": "السيرة الذاتية لمالكوم إكس"
+    },
+    "note": {
+      "en": "Includes his letter from Mecca on what the pilgrimage taught him about race.",
+      "ar": "وفيها رسالته من مكة عمّا علّمه الحج في شأن العنصرية."
+    }
+  },
+  "carlyle-heroes": {
+    "kind": "outside",
+    "year": "1841",
+    "author": {
+      "en": "Thomas Carlyle",
+      "ar": "توماس كارلايل"
+    },
+    "title": {
+      "en": "On Heroes, Hero-Worship, and the Heroic in History",
+      "ar": "الأبطال وعبادة البطولة"
+    },
+    "note": {
+      "en": "The Scottish essayist's lecture “The Hero as Prophet” defended Muhammad's sincerity to a European audience.",
+      "ar": "محاضرة «البطل في صورة نبي» دافع فيها الكاتب الاسكتلندي عن صدق محمد ﷺ أمام جمهور أوروبي."
+    },
+    "short": {
+      "en": "On Heroes",
+      "ar": "الأبطال"
+    }
+  },
+  "lamartine-turquie": {
+    "kind": "outside",
+    "year": "1854",
+    "author": {
+      "en": "Alphonse de Lamartine",
+      "ar": "ألفونس دو لامارتين"
+    },
+    "title": {
+      "en": "Histoire de la Turquie",
+      "ar": "تاريخ تركيا"
+    },
+    "note": {
+      "en": "The French poet and statesman's famous assessment of Muhammad's greatness.",
+      "ar": "وفيه شهادة الشاعر والسياسي الفرنسي المشهورة في عظمة محمد ﷺ."
+    }
+  },
+  "hart-100": {
+    "kind": "outside",
+    "year": "1978",
+    "author": {
+      "en": "Michael H. Hart",
+      "ar": "مايكل هارت"
+    },
+    "title": {
+      "en": "The 100: A Ranking of the Most Influential Persons in History",
+      "ar": "الخالدون مئة أعظمهم محمد ﷺ"
+    },
+    "note": {
+      "en": "An American author's ranking of history's most influential people, with Muhammad placed first.",
+      "ar": "ترتيب كاتب أمريكي لأكثر الناس أثرًا في التاريخ، وقد جعل محمدًا ﷺ في المرتبة الأولى."
+    }
+  },
+  "watt-mecca": {
+    "kind": "outside",
+    "year": "1953",
+    "author": {
+      "en": "W. Montgomery Watt",
+      "ar": "مونتغمري وات"
+    },
+    "title": {
+      "en": "Muhammad at Mecca",
+      "ar": "محمد في مكة"
+    },
+    "note": {
+      "en": "A Scottish historian and Anglican priest's academic study of the Prophet's early mission.",
+      "ar": "دراسة أكاديمية لمؤرخ وقسّ اسكتلندي عن العهد المكي."
+    }
+  },
+  "arnold-preaching": {
+    "kind": "outside",
+    "year": "1896",
+    "author": {
+      "en": "Thomas W. Arnold",
+      "ar": "توماس أرنولد"
+    },
+    "title": {
+      "en": "The Preaching of Islam",
+      "ar": "الدعوة إلى الإسلام"
+    },
+    "note": {
+      "en": "A British historian's classic study of how Islam actually spread: by preaching, trade and example.",
+      "ar": "دراسة كلاسيكية لمؤرخ بريطاني عن انتشار الإسلام بالدعوة والتجارة والقدوة."
+    }
+  },
+  "oleary-crossroads": {
+    "kind": "outside",
+    "year": "1923",
+    "author": {
+      "en": "De Lacy O'Leary",
+      "ar": "دي لاسي أوليري"
+    },
+    "title": {
+      "en": "Islam at the Cross Roads",
+      "ar": "الإسلام في مفترق الطرق"
+    },
+    "note": {
+      "en": "A British orientalist who called the forced-conversion story a myth.",
+      "ar": "مستشرق بريطاني وصف دعوى الإكراه على الإسلام بأنها خرافة."
+    }
+  },
+  "gandhi-young-india": {
+    "kind": "outside",
+    "year": "1924",
+    "author": {
+      "en": "Mahatma Gandhi",
+      "ar": "المهاتما غاندي"
+    },
+    "title": {
+      "en": "Young India",
+      "ar": "مجلة «يونغ إنديا»"
+    },
+    "note": {
+      "en": "Gandhi's reflections after reading the life of the Prophet ﷺ.",
+      "ar": "خواطر غاندي بعد قراءته سيرة النبي ﷺ."
+    }
+  },
+  "armstrong-muhammad": {
+    "kind": "outside",
+    "year": "2006",
+    "author": {
+      "en": "Karen Armstrong",
+      "ar": "كارين أرمسترونغ"
+    },
+    "title": {
+      "en": "Muhammad: A Prophet for Our Time",
+      "ar": "محمد: نبي لزماننا"
+    },
+    "note": {
+      "en": "A British historian of religion presents the Prophet's life to Western readers.",
+      "ar": "مؤرخة أديان بريطانية تقدّم سيرة النبي ﷺ للقارئ الغربي."
+    }
+  },
+  "esposito-who-speaks": {
+    "kind": "outside",
+    "year": "2007",
+    "author": {
+      "en": "John L. Esposito & Dalia Mogahed",
+      "ar": "جون إسبوزيتو وداليا مجاهد"
+    },
+    "title": {
+      "en": "Who Speaks for Islam? What a Billion Muslims Really Think",
+      "ar": "من يتحدث باسم الإسلام؟"
+    },
+    "note": {
+      "en": "Based on Gallup's multi-year poll of Muslims in more than 35 countries.",
+      "ar": "مبني على استطلاع غالوب الذي شمل المسلمين في أكثر من 35 بلدًا."
+    }
+  },
+  "alkhalili-house": {
+    "kind": "outside",
+    "year": "2010",
+    "author": {
+      "en": "Jim Al-Khalili",
+      "ar": "جيم الخليلي"
+    },
+    "title": {
+      "en": "The House of Wisdom (Pathfinders)",
+      "ar": "بيت الحكمة"
+    },
+    "note": {
+      "en": "A physicist tells the story of science in the Islamic golden age.",
+      "ar": "عالم فيزياء يروي قصة العلم في العصر الذهبي للحضارة الإسلامية."
+    },
+    "short": {
+      "en": "The House of Wisdom",
+      "ar": "بيت الحكمة"
+    }
+  },
+  "menocal-ornament": {
+    "kind": "outside",
+    "year": "2002",
+    "author": {
+      "en": "María Rosa Menocal",
+      "ar": "ماريا روزا مينوكال"
+    },
+    "title": {
+      "en": "The Ornament of the World",
+      "ar": "زينة الدنيا"
+    },
+    "note": {
+      "en": "How Muslims, Jews and Christians lived and created together in medieval Spain.",
+      "ar": "كيف عاش المسلمون واليهود والنصارى وأبدعوا معًا في الأندلس."
+    }
+  },
+  "ehrman-misquoting": {
+    "kind": "outside",
+    "year": "2005",
+    "author": {
+      "en": "Bart D. Ehrman",
+      "ar": "بارت إيرمان"
+    },
+    "title": {
+      "en": "Misquoting Jesus",
+      "ar": "سوء اقتباس يسوع"
+    },
+    "note": {
+      "en": "A leading New Testament scholar on how the biblical text changed in copying.",
+      "ar": "أحد كبار علماء العهد الجديد يشرح كيف تغيّر نص الكتاب المقدس أثناء النسخ."
+    }
+  },
+  "bucaille-science": {
+    "kind": "outside",
+    "year": "1976",
+    "author": {
+      "en": "Maurice Bucaille",
+      "ar": "موريس بوكاي"
+    },
+    "title": {
+      "en": "The Bible, the Qur'an and Science",
+      "ar": "القرآن والتوراة والإنجيل والعلم"
+    },
+    "note": {
+      "en": "A French physician compares the scriptures with modern scientific knowledge.",
+      "ar": "طبيب فرنسي يقارن الكتب المقدسة بمعطيات العلم الحديث."
+    }
+  }
+}
