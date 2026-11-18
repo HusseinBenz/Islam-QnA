@@ -2,28 +2,58 @@
 id: 37
 order: 37
 question: Why do the same questions about Islam keep coming up?
-summary: Online discussion carries the same questions across countries and communities. Some people ask from conviction, curiosity, or personal concern. The answer starts by finding out what the question means to the person asking.
+summary: The Qur'an itself notes that the same objections return in every generation. Today online platforms carry them further and faster. A good answer starts by working out what kind of question is being asked and judging the evidence by one consistent standard.
 created_at: 2026-11-17
 tags:
   - misconceptions
   - heart
 sources:
-  - sabighat
+  - muslim-sahih
+  - bukhari-sahih
+  - tabari-tafsir
+  - ibn-kathir-tafsir
 ---
 
-A recent clip may repeat an old question about God, the Quran, the life of Muhammad, or an Islamic law. Al-Sayyid observed that these conversations often took place privately among young people in his community. A family or teacher may hear little about them, so he was cautious about estimating their scale. He distinguishes questions about the basis of Islam from disagreements over particular scholars or schools.
+A short video posted this week may repeat an objection that was first raised in Mecca fourteen centuries ago. That is not a coincidence, and it does not by itself show that the objection is strong or weak.
 
-Questions can come from different places. Someone may be weighing a philosophical objection, questioning a long-standing interpretation, or looking for a way to bring Islamic teachings into conversation with contemporary values. That leads to another question. Is the claim about faith itself, an established teaching, or how a particular person reads it?
+## The Qur'an expects objections to recur
 
-A memorable slogan can contain several claims. If someone says religious heritage needs criticism, what is being evaluated, and by what standard? Al-Sayyid asks that critiques apply the same standard to evidence they welcome and evidence they find difficult. He illustrates the point through his readings of Richard Dawkins’s discussions about the Night Journey, the origin of life and the multiverse, and through his criticisms of Adnan Ibrahim’s use of Sahih al-Bukhari and Muhammad Shahrur’s readings of scripture. These are the author's examples and interpretations. His personal accounts of readers changing their views do not establish what caused a wider trend.
+The Qur'an records the objections of Muhammad's opponents in their own words: that the revelation was "legends of the ancients" (25:5), that "a human being teaches him" (16:103), and *"Who will give life to bones when they have rotted?"* (36:78). Each is followed by an answer. The Qur'an also remarks on the pattern itself:
 
-The Night Journey illustrates why wording matters. The Quran describes a journey between two places of worship. Sahih Muslim describes Muhammad riding a mount called al-Buraq to Jerusalem, then ascending from there. The discussion about the report can start with what that account actually describes.
+> *"Those who do not know say, 'Why does God not speak to us, or a sign come to us?' Likewise said those before them, words like theirs. Their hearts are alike."* (Quran 2:118)
 
-The same questions can lead to an informed faith, better research and dialogue, and more thoughtful religious teaching. Al-Sayyid points to the first Muslims’ willingness to examine Muhammad’s message as an example of conviction taking shape through inquiry.
+> *"Did they pass this on to one another as a legacy?"* (Quran 51:53)
+
+The commentators, including al-Tabari and Ibn Kathir, explain that the same objections recur because the same assumptions and the same motives recur, not because one generation copies the words of another. Seen this way, a repeated question is an old conversation that each generation has to take up again, not a new emergency.
+
+## Why they spread so quickly now
+
+What has changed is speed and reach. A question that once travelled through a few conversations can now reach millions of people in a day, often stripped of context and set beside a confident voice. Much of it is discussed privately among young people, so parents and teachers may not know how widespread it is. A small set of recurring topics (God and evil, the Qur'an's origin, the Prophet's marriages, certain laws, the reliability of hadith) accounts for most of what circulates. The topics are predictable, which means people can prepare for them. [Media and culture](article.html?id=38) shape this in other ways too.
+
+## First, sort the question
+
+It helps to ask what the question is actually about:
+
+- **The foundations:** does God exist, is the Qur'an from God, was Muhammad a prophet?
+- **An established teaching:** something Muslims across the schools agree on, such as the authority of the Sunnah.
+- **A particular interpretation:** the view of one scholar, school or community.
+
+Each needs different evidence. A strong objection to one scholar's opinion is not an objection to Islam's foundations. An objection to the foundations cannot be settled by quoting a favourite scholar. People asking may also have different aims: some are convinced of a critique, some are curious, and some are worried about something personal. [The personal side of doubt](article.html?id=39) deserves its own attention.
+
+## Then, use one standard
+
+The Qur'an commands fairness even toward people one dislikes: *"Do not let hatred of a people lead you to be unjust. Be just; that is nearer to righteousness"* (5:8). In inquiry, this means applying the same test to evidence you welcome and evidence you find awkward. "Religious heritage must be criticised" is a reasonable slogan only if it comes with a stated method: what is being assessed, against which sources, and by what criteria.
+
+The Night Journey is a good example of why exact wording matters. The Qur'an mentions a night journey from the Sacred Mosque in Mecca to "the Farthest Mosque" (17:1). Sahih Muslim (162) describes the Prophet riding a mount called al-Buraq to Jerusalem and ascending from there. A fair discussion begins with what these sources actually say before deciding whether to accept them.
+
+## An opportunity, not only a threat
+
+The first Muslims accepted Islam after asking hard questions themselves. Even an outsider, the Byzantine emperor Heraclius, questioned Abu Sufyan, then an enemy of the Prophet, about Muhammad's lineage, honesty, followers and conduct, and reasoned from the answers (Sahih al-Bukhari 7). Recurring questions push Muslims to understand their faith more deeply and to [teach it better](article.html?id=40).
 
 ## References
 
-- Ahmad Yusuf al-Sayyid, *Sabighat*, 3rd ed., pp. 15–23.
-- Richard Dawkins’s [interview with Mehdi Hasan](https://www.youtube.com/watch?v=qk8Jmtjnz8I), [comments on the origins of life](https://www.youtube.com/watch?v=EMEZLEOCQ08) and [discussion with Steven Weinberg](https://www.youtube.com/watch?v=deM1zfy0v0g), cited on p. 16.
-- Quran 17:1 and [Sahih Muslim 162a](https://sunnah.com/muslim/1/316) on the Night Journey.
-- Sources suggested on pp. 20–21 include *Bayan al-Islam*, Munqidh al-Saqqar’s *Tanzih al-Quran al-Karim ‘an Da‘awa al-Mubtilin* (cited with a variant title), Sultan al-Umayri’s *Zahirat Naqd al-Din fi al-Falsafah al-Hadithah*, and Abdullah al-Ujayri’s *Milishiya al-Ilhad*.
+- Quran 2:118, 5:8, 16:103, 17:1, 25:5, 36:78 and 51:52–53.
+- Al-Tabari, *Jami' al-Bayan*, and Ibn Kathir, *Tafsir al-Qur'an al-'Azim*, commentary on 2:118 and 51:52–53.
+- [Sahih Muslim 162a](https://sunnah.com/muslim:162a), the Night Journey and Ascension.
+- [Sahih al-Bukhari 7](https://sunnah.com/bukhari:7), Heraclius and Abu Sufyan.
+- Further reading: Munqidh al-Saqqar, *Tanzih al-Qur'an al-Karim 'an Da'awa al-Mubtilin*. Sultan al-'Umayri, *Zahirat Naqd al-Din fi al-Falsafa al-Haditha*. The online encyclopedia *Bayan al-Islam*, which catalogues recurring objections with responses.

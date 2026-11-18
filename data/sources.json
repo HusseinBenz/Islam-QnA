@@ -1,24 +1,4 @@
 {
-  "sabighat": {
-    "kind": "modern",
-    "year": "2017",
-    "author": {
-      "en": "Ahmad Yusuf al-Sayyid",
-      "ar": "أحمد يوسف السيد"
-    },
-    "title": {
-      "en": "Sabighat: How Should We Respond to Contemporary Questions About Faith?",
-      "ar": "سابغات: كيف نتعامل مع الشبهات الفكرية المعاصرة"
-    },
-    "note": {
-      "en": "Third edition, Takween Studies and Research. The articles give the printed page numbers and identify the evidence and further reading relevant to each question.",
-      "ar": "الطبعة الثالثة، مركز تكوين للدراسات والأبحاث. تذكر الإجابات أرقام الصفحات المطبوعة، وتبيّن الأدلة والقراءات المرتبطة بكل سؤال."
-    },
-    "short": {
-      "en": "Sabighat",
-      "ar": "سابغات"
-    }
-  },
   "ghazali-munqidh": {
     "kind": "classical",
     "year": {
@@ -809,6 +789,1483 @@
     "note": {
       "en": "A French physician compares the scriptures with modern scientific knowledge.",
       "ar": "طبيب فرنسي يقارن الكتب المقدسة بمعطيات العلم الحديث."
+    }
+  },
+  "bukhari-sahih": {
+    "kind": "classical",
+    "year": {
+      "en": "9th century",
+      "ar": "القرن 9 الميلادي"
+    },
+    "author": {
+      "en": "Muhammad ibn Isma'il al-Bukhari",
+      "ar": "محمد بن إسماعيل البخاري"
+    },
+    "title": {
+      "en": "Sahih al-Bukhari",
+      "ar": "صحيح البخاري"
+    },
+    "note": {
+      "en": "The most trusted Sunni hadith collection. Hadith numbers in these answers follow sunnah.com.",
+      "ar": "أصح كتب الحديث عند أهل السنة. أرقام الأحاديث في الإجابات على ترقيم موقع sunnah.com."
+    },
+    "short": {
+      "en": "al-Bukhari",
+      "ar": "البخاري"
+    }
+  },
+  "muslim-sahih": {
+    "kind": "classical",
+    "year": {
+      "en": "9th century",
+      "ar": "القرن 9 الميلادي"
+    },
+    "author": {
+      "en": "Muslim ibn al-Hajjaj",
+      "ar": "مسلم بن الحجاج"
+    },
+    "title": {
+      "en": "Sahih Muslim",
+      "ar": "صحيح مسلم"
+    },
+    "note": {
+      "en": "The second of the two Sahih collections. Numbers follow sunnah.com, based on Muhammad Fu'ad 'Abd al-Baqi's edition.",
+      "ar": "ثاني الصحيحين. الترقيم على موقع sunnah.com المبني على ترقيم محمد فؤاد عبد الباقي."
+    },
+    "short": {
+      "en": "Muslim",
+      "ar": "مسلم"
+    }
+  },
+  "abu-dawud-sunan": {
+    "kind": "classical",
+    "year": {
+      "en": "9th century",
+      "ar": "القرن 9 الميلادي"
+    },
+    "author": {
+      "en": "Abu Dawud al-Sijistani",
+      "ar": "أبو داود السجستاني"
+    },
+    "title": {
+      "en": "Sunan Abi Dawud",
+      "ar": "سنن أبي داود"
+    },
+    "note": {
+      "en": "One of the six canonical collections, focused on hadith used in law.",
+      "ar": "أحد الكتب الستة، وعنايته بأحاديث الأحكام."
+    },
+    "short": {
+      "en": "Abu Dawud",
+      "ar": "أبو داود"
+    }
+  },
+  "tirmidhi-jami": {
+    "kind": "classical",
+    "year": {
+      "en": "9th century",
+      "ar": "القرن 9 الميلادي"
+    },
+    "author": {
+      "en": "Abu 'Isa al-Tirmidhi",
+      "ar": "أبو عيسى الترمذي"
+    },
+    "title": {
+      "en": "Jami' al-Tirmidhi",
+      "ar": "جامع الترمذي"
+    },
+    "note": {
+      "en": "A canonical collection that grades many of its own reports and records how jurists used them.",
+      "ar": "أحد الكتب الستة، يحكم مؤلفه على كثير من أحاديثه ويذكر عمل الفقهاء بها."
+    },
+    "short": {
+      "en": "al-Tirmidhi",
+      "ar": "الترمذي"
+    }
+  },
+  "ibn-majah-sunan": {
+    "kind": "classical",
+    "year": {
+      "en": "9th century",
+      "ar": "القرن 9 الميلادي"
+    },
+    "author": {
+      "en": "Ibn Majah",
+      "ar": "ابن ماجه"
+    },
+    "title": {
+      "en": "Sunan Ibn Majah",
+      "ar": "سنن ابن ماجه"
+    },
+    "note": {
+      "en": "The sixth of the canonical collections; its reports vary in strength and are graded individually.",
+      "ar": "سادس الكتب الستة، وأحاديثه متفاوتة الدرجة فيُحكم على كل حديث بمفرده."
+    },
+    "short": {
+      "en": "Ibn Majah",
+      "ar": "ابن ماجه"
+    }
+  },
+  "ahmad-musnad": {
+    "kind": "classical",
+    "year": {
+      "en": "9th century",
+      "ar": "القرن 9 الميلادي"
+    },
+    "author": {
+      "en": "Ahmad ibn Hanbal",
+      "ar": "أحمد بن حنبل"
+    },
+    "title": {
+      "en": "al-Musnad",
+      "ar": "مسند الإمام أحمد"
+    },
+    "note": {
+      "en": "One of the largest early hadith collections, arranged by Companion. Cited in the al-Risala edition edited by Shu'ayb al-Arna'ut and others.",
+      "ar": "من أكبر دواوين الحديث المتقدمة، مرتب على مسانيد الصحابة. يُحال إلى طبعة مؤسسة الرسالة بتحقيق شعيب الأرناؤوط وآخرين."
+    },
+    "short": {
+      "en": "Musnad Ahmad",
+      "ar": "مسند أحمد"
+    }
+  },
+  "bazzar-musnad": {
+    "kind": "classical",
+    "year": {
+      "en": "9th century",
+      "ar": "القرن 9 الميلادي"
+    },
+    "author": {
+      "en": "Abu Bakr al-Bazzar",
+      "ar": "أبو بكر البزار"
+    },
+    "title": {
+      "en": "Musnad al-Bazzar (al-Bahr al-Zakhkhar)",
+      "ar": "مسند البزار (البحر الزخار)"
+    },
+    "note": {
+      "en": "A large musnad notable for the author's comments on which chains are unique or defective.",
+      "ar": "مسند كبير يتميز بتعليقات مؤلفه على تفرد الأسانيد وعللها."
+    },
+    "short": {
+      "en": "al-Bazzar",
+      "ar": "البزار"
+    }
+  },
+  "tayalisi-musnad": {
+    "kind": "classical",
+    "year": {
+      "en": "9th century",
+      "ar": "القرن 9 الميلادي"
+    },
+    "author": {
+      "en": "Abu Dawud al-Tayalisi",
+      "ar": "أبو داود الطيالسي"
+    },
+    "title": {
+      "en": "Musnad Abi Dawud al-Tayalisi",
+      "ar": "مسند أبي داود الطيالسي"
+    },
+    "note": {
+      "en": "One of the earliest surviving musnad collections. Cited in Muhammad al-Turki's edition (Dar Hajr, 1999).",
+      "ar": "من أقدم المسانيد الباقية. يُحال إلى طبعة دار هجر بتحقيق محمد التركي، 1999."
+    },
+    "short": {
+      "en": "al-Tayalisi",
+      "ar": "الطيالسي"
+    }
+  },
+  "abd-al-razzaq-musannaf": {
+    "kind": "classical",
+    "year": {
+      "en": "9th century",
+      "ar": "القرن 9 الميلادي"
+    },
+    "author": {
+      "en": "'Abd al-Razzaq al-San'ani",
+      "ar": "عبد الرزاق الصنعاني"
+    },
+    "title": {
+      "en": "al-Musannaf",
+      "ar": "المصنف"
+    },
+    "note": {
+      "en": "An early collection of prophetic hadith together with the rulings of Companions and Successors. Cited in Habib al-Rahman al-A'zami's edition.",
+      "ar": "من أقدم المصنفات، يجمع الأحاديث المرفوعة وآثار الصحابة والتابعين. يُحال إلى طبعة حبيب الرحمن الأعظمي."
+    },
+    "short": {
+      "en": "Musannaf",
+      "ar": "المصنف"
+    }
+  },
+  "bukhari-adab": {
+    "kind": "classical",
+    "year": {
+      "en": "9th century",
+      "ar": "القرن 9 الميلادي"
+    },
+    "author": {
+      "en": "Muhammad ibn Isma'il al-Bukhari",
+      "ar": "محمد بن إسماعيل البخاري"
+    },
+    "title": {
+      "en": "al-Adab al-Mufrad",
+      "ar": "الأدب المفرد"
+    },
+    "note": {
+      "en": "Al-Bukhari's separate collection on manners, family life and character.",
+      "ar": "كتاب البخاري المفرد في الآداب والأخلاق وصلة الرحم."
+    },
+    "short": {
+      "en": "al-Adab al-Mufrad",
+      "ar": "الأدب المفرد"
+    }
+  },
+  "bayhaqi-dalail": {
+    "kind": "classical",
+    "year": {
+      "en": "11th century",
+      "ar": "القرن 11 الميلادي"
+    },
+    "author": {
+      "en": "Abu Bakr al-Bayhaqi",
+      "ar": "أبو بكر البيهقي"
+    },
+    "title": {
+      "en": "Dala'il al-Nubuwwa",
+      "ar": "دلائل النبوة"
+    },
+    "note": {
+      "en": "A classic collection of the reports about the signs of Muhammad's prophethood, with notes on their chains.",
+      "ar": "من أوسع ما جُمع في أخبار دلائل النبوة، مع الكلام على أسانيدها."
+    },
+    "short": {
+      "en": "Dala'il",
+      "ar": "دلائل النبوة"
+    }
+  },
+  "ibn-hajar-fath": {
+    "kind": "classical",
+    "year": {
+      "en": "15th century",
+      "ar": "القرن 15 الميلادي"
+    },
+    "author": {
+      "en": "Ibn Hajar al-'Asqalani",
+      "ar": "ابن حجر العسقلاني"
+    },
+    "title": {
+      "en": "Fath al-Bari",
+      "ar": "فتح الباري بشرح صحيح البخاري"
+    },
+    "note": {
+      "en": "The standard commentary on Sahih al-Bukhari, gathering the variant routes of each report and the views of earlier scholars.",
+      "ar": "الشرح المعتمد لصحيح البخاري، يجمع طرق الحديث وأقوال العلماء قبله."
+    },
+    "short": {
+      "en": "Fath al-Bari",
+      "ar": "فتح الباري"
+    }
+  },
+  "nawawi-sharh-muslim": {
+    "kind": "classical",
+    "year": {
+      "en": "13th century",
+      "ar": "القرن 13 الميلادي"
+    },
+    "author": {
+      "en": "Yahya ibn Sharaf al-Nawawi",
+      "ar": "يحيى بن شرف النووي"
+    },
+    "title": {
+      "en": "al-Minhaj: Commentary on Sahih Muslim",
+      "ar": "المنهاج شرح صحيح مسلم بن الحجاج"
+    },
+    "note": {
+      "en": "Al-Nawawi's widely read commentary on Sahih Muslim.",
+      "ar": "شرح النووي المشهور على صحيح مسلم."
+    },
+    "short": {
+      "en": "Sharh Muslim",
+      "ar": "شرح مسلم"
+    }
+  },
+  "ibn-battal-sharh": {
+    "kind": "classical",
+    "year": {
+      "en": "11th century",
+      "ar": "القرن 11 الميلادي"
+    },
+    "author": {
+      "en": "Ibn Battal",
+      "ar": "ابن بطال"
+    },
+    "title": {
+      "en": "Commentary on Sahih al-Bukhari",
+      "ar": "شرح صحيح البخاري"
+    },
+    "note": {
+      "en": "An early Andalusian commentary on al-Bukhari with an emphasis on law. Cited in the Maktabat al-Rushd edition.",
+      "ar": "من أقدم شروح البخاري، أندلسي، عنايته بالفقه. يُحال إلى طبعة مكتبة الرشد."
+    },
+    "short": {
+      "en": "Ibn Battal",
+      "ar": "ابن بطال"
+    }
+  },
+  "ibn-abd-al-barr-tamhid": {
+    "kind": "classical",
+    "year": {
+      "en": "11th century",
+      "ar": "القرن 11 الميلادي"
+    },
+    "author": {
+      "en": "Ibn 'Abd al-Barr",
+      "ar": "ابن عبد البر"
+    },
+    "title": {
+      "en": "al-Tamhid",
+      "ar": "التمهيد لما في الموطأ من المعاني والأسانيد"
+    },
+    "note": {
+      "en": "A vast study of the hadith in Malik's Muwatta', their chains and their legal meaning. Cited in the Moroccan Ministry of Endowments edition.",
+      "ar": "دراسة واسعة لأحاديث الموطأ وأسانيدها وفقهها. يُحال إلى طبعة وزارة الأوقاف المغربية."
+    },
+    "short": {
+      "en": "al-Tamhid",
+      "ar": "التمهيد"
+    }
+  },
+  "ibn-abd-al-barr-jami": {
+    "kind": "classical",
+    "year": {
+      "en": "11th century",
+      "ar": "القرن 11 الميلادي"
+    },
+    "author": {
+      "en": "Ibn 'Abd al-Barr",
+      "ar": "ابن عبد البر"
+    },
+    "title": {
+      "en": "Jami' Bayan al-'Ilm wa-Fadlih",
+      "ar": "جامع بيان العلم وفضله"
+    },
+    "note": {
+      "en": "On the value of knowledge and the early debates about writing it down. Cited in Abu al-Ashbal al-Zuhayri's edition (Dar Ibn al-Jawzi, 1994).",
+      "ar": "في فضل العلم وآدابه وما رُوي في كتابته. يُحال إلى طبعة دار ابن الجوزي بتحقيق أبي الأشبال الزهيري، 1994."
+    },
+    "short": {
+      "en": "Jami' Bayan al-'Ilm",
+      "ar": "جامع بيان العلم"
+    }
+  },
+  "ibn-abd-al-barr-istiab": {
+    "kind": "classical",
+    "year": {
+      "en": "11th century",
+      "ar": "القرن 11 الميلادي"
+    },
+    "author": {
+      "en": "Ibn 'Abd al-Barr",
+      "ar": "ابن عبد البر"
+    },
+    "title": {
+      "en": "al-Isti'ab fi Ma'rifat al-Ashab",
+      "ar": "الاستيعاب في معرفة الأصحاب"
+    },
+    "note": {
+      "en": "A biographical dictionary of the Companions. Its introduction sets out the case for their general reliability.",
+      "ar": "معجم في تراجم الصحابة، تقرر مقدمته عدالتهم."
+    },
+    "short": {
+      "en": "al-Isti'ab",
+      "ar": "الاستيعاب"
+    }
+  },
+  "ibn-salah-muqaddima": {
+    "kind": "classical",
+    "year": {
+      "en": "13th century",
+      "ar": "القرن 13 الميلادي"
+    },
+    "author": {
+      "en": "Ibn al-Salah",
+      "ar": "ابن الصلاح"
+    },
+    "title": {
+      "en": "An Introduction to the Science of Hadith (Ma'rifat Anwa' 'Ulum al-Hadith)",
+      "ar": "معرفة أنواع علوم الحديث (مقدمة ابن الصلاح)"
+    },
+    "note": {
+      "en": "The handbook on which most later works on hadith criticism are built. Cited in Nur al-Din 'Itr's edition.",
+      "ar": "الأصل الذي بُنيت عليه أكثر كتب المصطلح بعده. يُحال إلى طبعة نور الدين عتر."
+    },
+    "short": {
+      "en": "Ibn al-Salah",
+      "ar": "ابن الصلاح"
+    }
+  },
+  "alai-jami-tahsil": {
+    "kind": "classical",
+    "year": {
+      "en": "14th century",
+      "ar": "القرن 14 الميلادي"
+    },
+    "author": {
+      "en": "Salah al-Din al-'Ala'i",
+      "ar": "صلاح الدين العلائي"
+    },
+    "title": {
+      "en": "Jami' al-Tahsil fi Ahkam al-Marasil",
+      "ar": "جامع التحصيل في أحكام المراسيل"
+    },
+    "note": {
+      "en": "A study of reports with gaps in their chains. Its opening chapters discuss the standing of the Companions as transmitters.",
+      "ar": "في أحكام المرسل والمنقطع، وفي مقدمته كلام في عدالة الصحابة."
+    },
+    "short": {
+      "en": "Jami' al-Tahsil",
+      "ar": "جامع التحصيل"
+    }
+  },
+  "uqayli-duafa": {
+    "kind": "classical",
+    "year": {
+      "en": "10th century",
+      "ar": "القرن 10 الميلادي"
+    },
+    "author": {
+      "en": "Abu Ja'far al-'Uqayli",
+      "ar": "أبو جعفر العقيلي"
+    },
+    "title": {
+      "en": "al-Du'afa' al-Kabir",
+      "ar": "الضعفاء الكبير"
+    },
+    "note": {
+      "en": "A dictionary of weak and disputed transmitters, with examples of the reports that were held against them.",
+      "ar": "معجم في الرواة الضعفاء والمتكلم فيهم، مع أمثلة مما أُنكر عليهم."
+    },
+    "short": {
+      "en": "al-Du'afa'",
+      "ar": "الضعفاء"
+    }
+  },
+  "khatib-taqyid": {
+    "kind": "classical",
+    "year": {
+      "en": "11th century",
+      "ar": "القرن 11 الميلادي"
+    },
+    "author": {
+      "en": "al-Khatib al-Baghdadi",
+      "ar": "الخطيب البغدادي"
+    },
+    "title": {
+      "en": "Taqyid al-'Ilm",
+      "ar": "تقييد العلم"
+    },
+    "note": {
+      "en": "Gathers the early reports for and against writing hadith down, and shows how the practice of writing spread.",
+      "ar": "يجمع الآثار في كراهة كتابة الحديث وإباحتها، ويبين انتشار الكتابة."
+    },
+    "short": {
+      "en": "Taqyid al-'Ilm",
+      "ar": "تقييد العلم"
+    }
+  },
+  "dhahabi-siyar": {
+    "kind": "classical",
+    "year": {
+      "en": "14th century",
+      "ar": "القرن 14 الميلادي"
+    },
+    "author": {
+      "en": "Shams al-Din al-Dhahabi",
+      "ar": "شمس الدين الذهبي"
+    },
+    "title": {
+      "en": "Siyar A'lam al-Nubala'",
+      "ar": "سير أعلام النبلاء"
+    },
+    "note": {
+      "en": "A biographical encyclopedia of scholars and notable figures of the first seven Islamic centuries.",
+      "ar": "موسوعة في تراجم العلماء والأعلام في القرون السبعة الأولى."
+    },
+    "short": {
+      "en": "al-Siyar",
+      "ar": "السير"
+    }
+  },
+  "ibn-sad-tabaqat": {
+    "kind": "classical",
+    "year": {
+      "en": "9th century",
+      "ar": "القرن 9 الميلادي"
+    },
+    "author": {
+      "en": "Muhammad ibn Sa'd",
+      "ar": "محمد بن سعد"
+    },
+    "title": {
+      "en": "al-Tabaqat al-Kubra",
+      "ar": "الطبقات الكبرى"
+    },
+    "note": {
+      "en": "One of the earliest biographical works on the Prophet, the Companions and the Successors. Cited in Ihsan 'Abbas's edition (Dar Sadir, 1968).",
+      "ar": "من أقدم كتب التراجم في السيرة والصحابة والتابعين. يُحال إلى طبعة دار صادر بتحقيق إحسان عباس، 1968."
+    },
+    "short": {
+      "en": "al-Tabaqat",
+      "ar": "الطبقات"
+    }
+  },
+  "tahawi-mushkil": {
+    "kind": "classical",
+    "year": {
+      "en": "10th century",
+      "ar": "القرن 10 الميلادي"
+    },
+    "author": {
+      "en": "Abu Ja'far al-Tahawi",
+      "ar": "أبو جعفر الطحاوي"
+    },
+    "title": {
+      "en": "Sharh Mushkil al-Athar",
+      "ar": "شرح مشكل الآثار"
+    },
+    "note": {
+      "en": "Works through reports that appear to conflict with each other or with the Qur'an and explains how they fit together.",
+      "ar": "في الأحاديث التي يُظن تعارضها فيما بينها أو مع القرآن، وبيان وجه الجمع بينها."
+    },
+    "short": {
+      "en": "Mushkil al-Athar",
+      "ar": "مشكل الآثار"
+    }
+  },
+  "ibn-qutayba-tawil": {
+    "kind": "classical",
+    "year": {
+      "en": "9th century",
+      "ar": "القرن 9 الميلادي"
+    },
+    "author": {
+      "en": "Ibn Qutayba",
+      "ar": "ابن قتيبة"
+    },
+    "title": {
+      "en": "Ta'wil Mukhtalif al-Hadith",
+      "ar": "تأويل مختلف الحديث"
+    },
+    "note": {
+      "en": "An early reply to critics who claimed that the hadith contradict reason or each other.",
+      "ar": "رد مبكر على من زعم أن الأحاديث تناقض العقل أو يناقض بعضها بعضًا."
+    },
+    "short": {
+      "en": "Mukhtalif al-Hadith",
+      "ar": "مختلف الحديث"
+    }
+  },
+  "shafii-ikhtilaf": {
+    "kind": "classical",
+    "year": {
+      "en": "9th century",
+      "ar": "القرن 9 الميلادي"
+    },
+    "author": {
+      "en": "Muhammad ibn Idris al-Shafi'i",
+      "ar": "محمد بن إدريس الشافعي"
+    },
+    "title": {
+      "en": "Ikhtilaf al-Hadith",
+      "ar": "اختلاف الحديث"
+    },
+    "note": {
+      "en": "The first known book on reconciling reports that seem to conflict.",
+      "ar": "أول كتاب معروف في الجمع بين الأحاديث التي ظاهرها التعارض."
+    },
+    "short": {
+      "en": "Ikhtilaf al-Hadith",
+      "ar": "اختلاف الحديث"
+    }
+  },
+  "shafii-jima": {
+    "kind": "classical",
+    "year": {
+      "en": "9th century",
+      "ar": "القرن 9 الميلادي"
+    },
+    "author": {
+      "en": "Muhammad ibn Idris al-Shafi'i",
+      "ar": "محمد بن إدريس الشافعي"
+    },
+    "title": {
+      "en": "Jima' al-'Ilm",
+      "ar": "جماع العلم"
+    },
+    "note": {
+      "en": "Al-Shafi'i's debate with those who accepted the Qur'an but rejected the reports of the Sunnah. Cited in Ahmad Shakir's edition.",
+      "ar": "مناظرة الشافعي لمن قبل القرآن وردّ أخبار السنة. يُحال إلى طبعة أحمد شاكر."
+    },
+    "short": {
+      "en": "Jima' al-'Ilm",
+      "ar": "جماع العلم"
+    }
+  },
+  "tabari-tafsir": {
+    "kind": "classical",
+    "year": {
+      "en": "10th century",
+      "ar": "القرن 10 الميلادي"
+    },
+    "author": {
+      "en": "Muhammad ibn Jarir al-Tabari",
+      "ar": "محمد بن جرير الطبري"
+    },
+    "title": {
+      "en": "Jami' al-Bayan (The Commentary of al-Tabari)",
+      "ar": "جامع البيان عن تأويل آي القرآن"
+    },
+    "note": {
+      "en": "The foundational Qur'an commentary, collecting the explanations of the Companions and their students with their chains. Cited in 'Abd Allah al-Turki's edition (Dar Hajr).",
+      "ar": "أصل كتب التفسير بالمأثور، يجمع أقوال الصحابة والتابعين بأسانيدها. يُحال إلى طبعة دار هجر بتحقيق عبد الله التركي."
+    },
+    "short": {
+      "en": "al-Tabari",
+      "ar": "الطبري"
+    }
+  },
+  "tabari-tarikh": {
+    "kind": "classical",
+    "year": {
+      "en": "10th century",
+      "ar": "القرن 10 الميلادي"
+    },
+    "author": {
+      "en": "Muhammad ibn Jarir al-Tabari",
+      "ar": "محمد بن جرير الطبري"
+    },
+    "title": {
+      "en": "The History of Prophets and Kings (Tarikh al-Rusul wa-l-Muluk)",
+      "ar": "تاريخ الرسل والملوك"
+    },
+    "note": {
+      "en": "A chronicle that preserves many competing accounts with their chains, and leaves the reader to judge them.",
+      "ar": "تاريخ يحفظ الروايات المختلفة بأسانيدها، ويترك الحكم عليها للقارئ."
+    },
+    "short": {
+      "en": "Tarikh al-Tabari",
+      "ar": "تاريخ الطبري"
+    }
+  },
+  "qurtubi-tafsir": {
+    "kind": "classical",
+    "year": {
+      "en": "13th century",
+      "ar": "القرن 13 الميلادي"
+    },
+    "author": {
+      "en": "Abu 'Abd Allah al-Qurtubi",
+      "ar": "أبو عبد الله القرطبي"
+    },
+    "title": {
+      "en": "al-Jami' li-Ahkam al-Qur'an",
+      "ar": "الجامع لأحكام القرآن"
+    },
+    "note": {
+      "en": "A Qur'an commentary with a special interest in law and in the differences between the schools. Cited in 'Abd Allah al-Turki's edition (al-Risala, 2006).",
+      "ar": "تفسير عنايته بالأحكام وخلاف المذاهب. يُحال إلى طبعة مؤسسة الرسالة بتحقيق عبد الله التركي، 2006."
+    },
+    "short": {
+      "en": "al-Qurtubi",
+      "ar": "القرطبي"
+    }
+  },
+  "razi-tafsir": {
+    "kind": "classical",
+    "year": {
+      "en": "13th century",
+      "ar": "القرن 13 الميلادي"
+    },
+    "author": {
+      "en": "Fakhr al-Din al-Razi",
+      "ar": "فخر الدين الرازي"
+    },
+    "title": {
+      "en": "Mafatih al-Ghayb (The Great Commentary)",
+      "ar": "مفاتيح الغيب (التفسير الكبير)"
+    },
+    "note": {
+      "en": "A theologian's commentary that weighs rational objections to each passage. Cited in the Dar al-Fikr edition (1981).",
+      "ar": "تفسير متكلم يناقش الاعتراضات العقلية على الآيات. يُحال إلى طبعة دار الفكر، 1981."
+    },
+    "short": {
+      "en": "al-Razi",
+      "ar": "الرازي"
+    }
+  },
+  "baydawi-tafsir": {
+    "kind": "classical",
+    "year": {
+      "en": "13th century",
+      "ar": "القرن 13 الميلادي"
+    },
+    "author": {
+      "en": "Nasir al-Din al-Baydawi",
+      "ar": "ناصر الدين البيضاوي"
+    },
+    "title": {
+      "en": "Anwar al-Tanzil wa-Asrar al-Ta'wil",
+      "ar": "أنوار التنزيل وأسرار التأويل"
+    },
+    "note": {
+      "en": "A concise commentary long used as a teaching text. Cited in the Dar Ihya' al-Turath al-'Arabi edition (1418 AH).",
+      "ar": "تفسير موجز طال اعتماده في التدريس. يُحال إلى طبعة دار إحياء التراث العربي، 1418هـ."
+    },
+    "short": {
+      "en": "al-Baydawi",
+      "ar": "البيضاوي"
+    }
+  },
+  "jalalayn-tafsir": {
+    "kind": "classical",
+    "year": {
+      "en": "15th century",
+      "ar": "القرن 15 الميلادي"
+    },
+    "author": {
+      "en": "Jalal al-Din al-Mahalli and Jalal al-Din al-Suyuti",
+      "ar": "جلال الدين المحلي وجلال الدين السيوطي"
+    },
+    "title": {
+      "en": "Tafsir al-Jalalayn",
+      "ar": "تفسير الجلالين"
+    },
+    "note": {
+      "en": "A brief line-by-line commentary, one of the most widely read in the Muslim world.",
+      "ar": "تفسير مختصر يشرح الآيات كلمة كلمة، من أوسع التفاسير انتشارًا."
+    },
+    "short": {
+      "en": "al-Jalalayn",
+      "ar": "الجلالين"
+    }
+  },
+  "alusi-ruh": {
+    "kind": "classical",
+    "year": {
+      "en": "19th century",
+      "ar": "القرن 19 الميلادي"
+    },
+    "author": {
+      "en": "Mahmud al-Alusi",
+      "ar": "محمود الآلوسي"
+    },
+    "title": {
+      "en": "Ruh al-Ma'ani",
+      "ar": "روح المعاني في تفسير القرآن العظيم والسبع المثاني"
+    },
+    "note": {
+      "en": "A large late-Ottoman commentary that summarises much of the earlier tradition.",
+      "ar": "تفسير كبير من أواخر العهد العثماني، يلخص كثيرًا مما سبقه."
+    },
+    "short": {
+      "en": "Ruh al-Ma'ani",
+      "ar": "روح المعاني"
+    }
+  },
+  "shawkani-fath": {
+    "kind": "classical",
+    "year": {
+      "en": "19th century",
+      "ar": "القرن 19 الميلادي"
+    },
+    "author": {
+      "en": "Muhammad ibn 'Ali al-Shawkani",
+      "ar": "محمد بن علي الشوكاني"
+    },
+    "title": {
+      "en": "Fath al-Qadir",
+      "ar": "فتح القدير"
+    },
+    "note": {
+      "en": "A Qur'an commentary that combines transmitted explanations with linguistic analysis. Cited in the Dar al-Ma'rifa edition (2010).",
+      "ar": "تفسير يجمع بين الرواية والدراية. يُحال إلى طبعة دار المعرفة، 2010."
+    },
+    "short": {
+      "en": "Fath al-Qadir",
+      "ar": "فتح القدير"
+    }
+  },
+  "ibn-ashur-tahrir": {
+    "kind": "modern",
+    "year": "1984",
+    "author": {
+      "en": "Muhammad al-Tahir ibn 'Ashur",
+      "ar": "محمد الطاهر ابن عاشور"
+    },
+    "title": {
+      "en": "al-Tahrir wa-l-Tanwir",
+      "ar": "التحرير والتنوير"
+    },
+    "note": {
+      "en": "A twentieth-century Tunisian commentary, especially strong on Arabic rhetoric and on the purposes of the law. Cited in the Tunis edition (1984).",
+      "ar": "تفسير تونسي في القرن العشرين، متميز في البلاغة ومقاصد الشريعة. يُحال إلى طبعة الدار التونسية، 1984."
+    },
+    "short": {
+      "en": "Ibn 'Ashur",
+      "ar": "ابن عاشور"
+    }
+  },
+  "sadi-tafsir": {
+    "kind": "modern",
+    "year": "2000",
+    "author": {
+      "en": "'Abd al-Rahman al-Sa'di",
+      "ar": "عبد الرحمن السعدي"
+    },
+    "title": {
+      "en": "Taysir al-Karim al-Rahman",
+      "ar": "تيسير الكريم الرحمن في تفسير كلام المنان"
+    },
+    "note": {
+      "en": "A clear, short twentieth-century commentary focused on the meaning and guidance of each passage. Cited in the al-Risala edition (2000).",
+      "ar": "تفسير معاصر واضح مختصر، يعتني بالمعنى والهداية. يُحال إلى طبعة مؤسسة الرسالة، 2000."
+    },
+    "short": {
+      "en": "al-Sa'di",
+      "ar": "السعدي"
+    }
+  },
+  "shinqiti-adwa": {
+    "kind": "modern",
+    "year": {
+      "en": "20th century",
+      "ar": "القرن 20 الميلادي"
+    },
+    "author": {
+      "en": "Muhammad al-Amin al-Shinqiti",
+      "ar": "محمد الأمين الشنقيطي"
+    },
+    "title": {
+      "en": "Adwa' al-Bayan",
+      "ar": "أضواء البيان في إيضاح القرآن بالقرآن"
+    },
+    "note": {
+      "en": "A commentary that explains the Qur'an primarily by other verses of the Qur'an, with long legal discussions.",
+      "ar": "تفسير يبين القرآن بالقرآن، مع مباحث فقهية وأصولية مطولة."
+    },
+    "short": {
+      "en": "Adwa' al-Bayan",
+      "ar": "أضواء البيان"
+    }
+  },
+  "shinqiti-daf": {
+    "kind": "modern",
+    "year": {
+      "en": "20th century",
+      "ar": "القرن 20 الميلادي"
+    },
+    "author": {
+      "en": "Muhammad al-Amin al-Shinqiti",
+      "ar": "محمد الأمين الشنقيطي"
+    },
+    "title": {
+      "en": "Daf' Iham al-Idtirab 'an Ay al-Kitab",
+      "ar": "دفع إيهام الاضطراب عن آيات الكتاب"
+    },
+    "note": {
+      "en": "A short study of verses that some readers take to conflict, showing how each pair is reconciled.",
+      "ar": "رسالة في الآيات التي يُتوهم تعارضها، وبيان وجه الجمع بينها."
+    },
+    "short": {
+      "en": "Daf' Iham al-Idtirab",
+      "ar": "دفع إيهام الاضطراب"
+    }
+  },
+  "ibn-taymiyya-dar": {
+    "kind": "classical",
+    "year": {
+      "en": "14th century",
+      "ar": "القرن 14 الميلادي"
+    },
+    "author": {
+      "en": "Ibn Taymiyya",
+      "ar": "ابن تيمية"
+    },
+    "title": {
+      "en": "Averting the Conflict between Reason and Revelation (Dar' Ta'arud al-'Aql wa-l-Naql)",
+      "ar": "درء تعارض العقل والنقل"
+    },
+    "note": {
+      "en": "Ibn Taymiyya's major work on reason and revelation. Cited in Muhammad Rashad Salim's edition (Imam University, 1991).",
+      "ar": "أكبر كتب ابن تيمية في العلاقة بين العقل والنقل. يُحال إلى طبعة جامعة الإمام بتحقيق محمد رشاد سالم، 1991."
+    },
+    "short": {
+      "en": "Dar' Ta'arud",
+      "ar": "درء التعارض"
+    }
+  },
+  "ibn-taymiyya-majmu": {
+    "kind": "classical",
+    "year": {
+      "en": "14th century",
+      "ar": "القرن 14 الميلادي"
+    },
+    "author": {
+      "en": "Ibn Taymiyya",
+      "ar": "ابن تيمية"
+    },
+    "title": {
+      "en": "Collected Fatwas (Majmu' al-Fatawa)",
+      "ar": "مجموع الفتاوى"
+    },
+    "note": {
+      "en": "The collected treatises and legal opinions of Ibn Taymiyya. Volume and page follow the standard 37-volume numbering.",
+      "ar": "رسائل ابن تيمية وفتاواه مجموعة. الأجزاء والصفحات على الترقيم المعروف في سبعة وثلاثين مجلدًا."
+    },
+    "short": {
+      "en": "Majmu' al-Fatawa",
+      "ar": "مجموع الفتاوى"
+    }
+  },
+  "ibn-taymiyya-asfahaniyya": {
+    "kind": "classical",
+    "year": {
+      "en": "14th century",
+      "ar": "القرن 14 الميلادي"
+    },
+    "author": {
+      "en": "Ibn Taymiyya",
+      "ar": "ابن تيمية"
+    },
+    "title": {
+      "en": "Commentary on the Isfahani Creed (Sharh al-'Aqida al-Asfahaniyya)",
+      "ar": "شرح العقيدة الأصفهانية"
+    },
+    "note": {
+      "en": "Includes Ibn Taymiyya's discussion of how a prophet's character and teaching serve as evidence for his truthfulness.",
+      "ar": "فيه كلام ابن تيمية في الاستدلال على صدق النبي بسيرته وما جاء به."
+    },
+    "short": {
+      "en": "al-Asfahaniyya",
+      "ar": "الأصفهانية"
+    }
+  },
+  "ibn-taymiyya-nubuwwat": {
+    "kind": "classical",
+    "year": {
+      "en": "14th century",
+      "ar": "القرن 14 الميلادي"
+    },
+    "author": {
+      "en": "Ibn Taymiyya",
+      "ar": "ابن تيمية"
+    },
+    "title": {
+      "en": "Prophecies (al-Nubuwwat)",
+      "ar": "النبوات"
+    },
+    "note": {
+      "en": "A study of the evidence for prophethood and how a true prophet is distinguished from a false claimant.",
+      "ar": "في دلائل النبوة والفرق بين النبي والمتنبئ."
+    },
+    "short": {
+      "en": "al-Nubuwwat",
+      "ar": "النبوات"
+    }
+  },
+  "ibn-abi-al-izz-tahawiyya": {
+    "kind": "classical",
+    "year": {
+      "en": "14th century",
+      "ar": "القرن 14 الميلادي"
+    },
+    "author": {
+      "en": "Ibn Abi al-'Izz al-Hanafi",
+      "ar": "ابن أبي العز الحنفي"
+    },
+    "title": {
+      "en": "Commentary on the Creed of al-Tahawi",
+      "ar": "شرح العقيدة الطحاوية"
+    },
+    "note": {
+      "en": "A widely taught commentary on al-Tahawi's statement of Sunni belief. Cited in 'Abd Allah al-Turki's edition.",
+      "ar": "شرح متداول في التدريس لمتن الطحاوي في عقيدة أهل السنة. يُحال إلى طبعة عبد الله التركي."
+    },
+    "short": {
+      "en": "Sharh al-Tahawiyya",
+      "ar": "شرح الطحاوية"
+    }
+  },
+  "ibn-qayyim-dawa": {
+    "kind": "classical",
+    "year": {
+      "en": "14th century",
+      "ar": "القرن 14 الميلادي"
+    },
+    "author": {
+      "en": "Ibn Qayyim al-Jawziyya",
+      "ar": "ابن قيم الجوزية"
+    },
+    "title": {
+      "en": "The Sickness and the Cure (al-Da' wa-l-Dawa')",
+      "ar": "الداء والدواء (الجواب الكافي)"
+    },
+    "note": {
+      "en": "On sin, repentance and prayer, including why a prayer may seem to go unanswered.",
+      "ar": "في الذنوب وأثرها والتوبة والدعاء، ومنه موانع إجابة الدعاء."
+    },
+    "short": {
+      "en": "al-Da' wa-l-Dawa'",
+      "ar": "الداء والدواء"
+    }
+  },
+  "ibn-qayyim-sawaiq": {
+    "kind": "classical",
+    "year": {
+      "en": "14th century",
+      "ar": "القرن 14 الميلادي"
+    },
+    "author": {
+      "en": "Ibn Qayyim al-Jawziyya (abridged by Ibn al-Mawsili)",
+      "ar": "ابن قيم الجوزية (اختصار ابن الموصلي)"
+    },
+    "title": {
+      "en": "Mukhtasar al-Sawa'iq al-Mursala",
+      "ar": "مختصر الصواعق المرسلة"
+    },
+    "note": {
+      "en": "On interpreting revelation and answering the claim that reason must override it.",
+      "ar": "في تفسير النصوص والرد على تقديم العقل عليها."
+    },
+    "short": {
+      "en": "al-Sawa'iq",
+      "ar": "الصواعق"
+    }
+  },
+  "ibn-qayyim-ahkam-dhimma": {
+    "kind": "classical",
+    "year": {
+      "en": "14th century",
+      "ar": "القرن 14 الميلادي"
+    },
+    "author": {
+      "en": "Ibn Qayyim al-Jawziyya",
+      "ar": "ابن قيم الجوزية"
+    },
+    "title": {
+      "en": "Ahkam Ahl al-Dhimma",
+      "ar": "أحكام أهل الذمة"
+    },
+    "note": {
+      "en": "The classical legal treatment of non-Muslims living under Muslim rule.",
+      "ar": "المرجع الفقهي في أحكام غير المسلمين المقيمين في بلاد المسلمين."
+    },
+    "short": {
+      "en": "Ahkam Ahl al-Dhimma",
+      "ar": "أحكام أهل الذمة"
+    }
+  },
+  "ibn-hazm-fasl": {
+    "kind": "classical",
+    "year": {
+      "en": "11th century",
+      "ar": "القرن 11 الميلادي"
+    },
+    "author": {
+      "en": "Ibn Hazm",
+      "ar": "ابن حزم"
+    },
+    "title": {
+      "en": "al-Fasl fi al-Milal wa-l-Ahwa' wa-l-Nihal",
+      "ar": "الفصل في الملل والأهواء والنحل"
+    },
+    "note": {
+      "en": "A classical study of religions and sects. It contains Ibn Hazm's argument that the earth is round.",
+      "ar": "دراسة في الأديان والفرق، وفيها استدلال ابن حزم على كروية الأرض."
+    },
+    "short": {
+      "en": "al-Fasl",
+      "ar": "الفصل"
+    }
+  },
+  "kinani-hayda": {
+    "kind": "classical",
+    "year": {
+      "en": "9th century",
+      "ar": "القرن 9 الميلادي"
+    },
+    "author": {
+      "en": "'Abd al-'Aziz al-Kinani",
+      "ar": "عبد العزيز الكناني"
+    },
+    "title": {
+      "en": "al-Hayda wa-l-I'tidhar",
+      "ar": "الحيدة والاعتذار في الرد على من قال بخلق القرآن"
+    },
+    "note": {
+      "en": "An account of a debate held at the court of al-Ma'mun over the createdness of the Qur'an.",
+      "ar": "خبر مناظرة جرت في مجلس المأمون في مسألة خلق القرآن."
+    },
+    "short": {
+      "en": "al-Hayda",
+      "ar": "الحيدة"
+    }
+  },
+  "ibn-hazm-ihkam": {
+    "kind": "classical",
+    "year": {
+      "en": "11th century",
+      "ar": "القرن 11 الميلادي"
+    },
+    "author": {
+      "en": "Ibn Hazm",
+      "ar": "ابن حزم"
+    },
+    "title": {
+      "en": "al-Ihkam fi Usul al-Ahkam",
+      "ar": "الإحكام في أصول الأحكام"
+    },
+    "note": {
+      "en": "Ibn Hazm's legal theory, with a long defence of solitary reports as a source of knowledge. Cited in Ahmad Shakir's edition.",
+      "ar": "أصول الفقه عند ابن حزم، وفيه احتجاج مطول لخبر الواحد. يُحال إلى طبعة أحمد شاكر."
+    },
+    "short": {
+      "en": "Ibn Hazm, al-Ihkam",
+      "ar": "الإحكام لابن حزم"
+    }
+  },
+  "ghazali-mustasfa": {
+    "kind": "classical",
+    "year": {
+      "en": "12th century",
+      "ar": "القرن 12 الميلادي"
+    },
+    "author": {
+      "en": "Abu Hamid al-Ghazali",
+      "ar": "أبو حامد الغزالي"
+    },
+    "title": {
+      "en": "al-Mustasfa min 'Ilm al-Usul",
+      "ar": "المستصفى من علم الأصول"
+    },
+    "note": {
+      "en": "Al-Ghazali's mature work on legal theory, a standard reference on consensus and on the Companions.",
+      "ar": "آخر كتب الغزالي في أصول الفقه، ومرجع في الإجماع وعدالة الصحابة."
+    },
+    "short": {
+      "en": "al-Mustasfa",
+      "ar": "المستصفى"
+    }
+  },
+  "juwayni-burhan": {
+    "kind": "classical",
+    "year": {
+      "en": "11th century",
+      "ar": "القرن 11 الميلادي"
+    },
+    "author": {
+      "en": "Imam al-Haramayn al-Juwayni",
+      "ar": "إمام الحرمين الجويني"
+    },
+    "title": {
+      "en": "al-Burhan fi Usul al-Fiqh",
+      "ar": "البرهان في أصول الفقه"
+    },
+    "note": {
+      "en": "A foundational Shafi'i work of legal theory. Cited in 'Abd al-'Azim al-Dib's edition.",
+      "ar": "من أصول كتب أصول الفقه عند الشافعية. يُحال إلى طبعة عبد العظيم الديب."
+    },
+    "short": {
+      "en": "al-Burhan",
+      "ar": "البرهان"
+    }
+  },
+  "abu-yala-udda": {
+    "kind": "classical",
+    "year": {
+      "en": "11th century",
+      "ar": "القرن 11 الميلادي"
+    },
+    "author": {
+      "en": "Abu Ya'la ibn al-Farra'",
+      "ar": "أبو يعلى ابن الفراء"
+    },
+    "title": {
+      "en": "al-'Udda fi Usul al-Fiqh",
+      "ar": "العدة في أصول الفقه"
+    },
+    "note": {
+      "en": "An early Hanbali work of legal theory that explains Ahmad ibn Hanbal's statements on consensus.",
+      "ar": "من أقدم كتب الأصول عند الحنابلة، وفيه توجيه كلام الإمام أحمد في الإجماع."
+    },
+    "short": {
+      "en": "al-'Udda",
+      "ar": "العدة"
+    }
+  },
+  "mardawi-tahbir": {
+    "kind": "classical",
+    "year": {
+      "en": "15th century",
+      "ar": "القرن 15 الميلادي"
+    },
+    "author": {
+      "en": "'Ala' al-Din al-Mardawi",
+      "ar": "علاء الدين المرداوي"
+    },
+    "title": {
+      "en": "al-Tahbir Sharh al-Tahrir",
+      "ar": "التحبير شرح التحرير في أصول الفقه"
+    },
+    "note": {
+      "en": "A late Hanbali summary of legal theory that records the school's readings of Ahmad. Cited in the Maktabat al-Rushd edition (2000).",
+      "ar": "شرح حنبلي متأخر في الأصول يحرر أقوال المذهب. يُحال إلى طبعة مكتبة الرشد، 2000."
+    },
+    "short": {
+      "en": "al-Tahbir",
+      "ar": "التحبير"
+    }
+  },
+  "al-taymiyya-musawwada": {
+    "kind": "classical",
+    "year": {
+      "en": "13th century",
+      "ar": "القرن 13 الميلادي"
+    },
+    "author": {
+      "en": "The Taymiyya family (Majd al-Din, 'Abd al-Halim and Taqi al-Din)",
+      "ar": "آل تيمية (مجد الدين وعبد الحليم وتقي الدين)"
+    },
+    "title": {
+      "en": "al-Musawwada fi Usul al-Fiqh",
+      "ar": "المسودة في أصول الفقه"
+    },
+    "note": {
+      "en": "A working notebook on legal theory compiled over three generations of the Taymiyya family.",
+      "ar": "مسودة في أصول الفقه تعاقب عليها ثلاثة أجيال من آل تيمية."
+    },
+    "short": {
+      "en": "al-Musawwada",
+      "ar": "المسودة"
+    }
+  },
+  "shatibi-itisam": {
+    "kind": "classical",
+    "year": {
+      "en": "14th century",
+      "ar": "القرن 14 الميلادي"
+    },
+    "author": {
+      "en": "Abu Ishaq al-Shatibi",
+      "ar": "أبو إسحاق الشاطبي"
+    },
+    "title": {
+      "en": "al-I'tisam",
+      "ar": "الاعتصام"
+    },
+    "note": {
+      "en": "On religious innovation, and on the proper place of reason in understanding revelation. Cited in Salim al-Hilali's edition.",
+      "ar": "في البدع، وفي حدود العقل في فهم الشرع. يُحال إلى طبعة سليم الهلالي."
+    },
+    "short": {
+      "en": "al-I'tisam",
+      "ar": "الاعتصام"
+    }
+  },
+  "ibn-mundhir-ijma": {
+    "kind": "classical",
+    "year": {
+      "en": "10th century",
+      "ar": "القرن 10 الميلادي"
+    },
+    "author": {
+      "en": "Ibn al-Mundhir",
+      "ar": "ابن المنذر"
+    },
+    "title": {
+      "en": "al-Ijma' (Points of Consensus)",
+      "ar": "الإجماع"
+    },
+    "note": {
+      "en": "A short list of legal questions on which the author found the scholars agreed.",
+      "ar": "كتاب مختصر في مسائل الفقه التي نقل مؤلفه اتفاق العلماء عليها."
+    },
+    "short": {
+      "en": "al-Ijma'",
+      "ar": "الإجماع"
+    }
+  },
+  "ibn-qudama-mughni": {
+    "kind": "classical",
+    "year": {
+      "en": "13th century",
+      "ar": "القرن 13 الميلادي"
+    },
+    "author": {
+      "en": "Ibn Qudama al-Maqdisi",
+      "ar": "ابن قدامة المقدسي"
+    },
+    "title": {
+      "en": "al-Mughni",
+      "ar": "المغني"
+    },
+    "note": {
+      "en": "An encyclopedic work of comparative law, recording the views of the schools and their evidence. Cited in the al-Turki and al-Hulw edition.",
+      "ar": "موسوعة في الفقه المقارن تذكر أقوال المذاهب وأدلتها. يُحال إلى طبعة التركي والحلو."
+    },
+    "short": {
+      "en": "al-Mughni",
+      "ar": "المغني"
+    }
+  },
+  "ibn-khaldun-muqaddima": {
+    "kind": "classical",
+    "year": {
+      "en": "14th century",
+      "ar": "القرن 14 الميلادي"
+    },
+    "author": {
+      "en": "Ibn Khaldun",
+      "ar": "ابن خلدون"
+    },
+    "title": {
+      "en": "The Muqaddima",
+      "ar": "المقدمة"
+    },
+    "note": {
+      "en": "Ibn Khaldun's introduction to history, famous for its analysis of how societies imitate those who dominate them.",
+      "ar": "مقدمة ابن خلدون في التاريخ والعمران، ومنها أن المغلوب مولع بتقليد الغالب."
+    },
+    "short": {
+      "en": "Muqaddima",
+      "ar": "المقدمة"
+    }
+  },
+  "ibn-aqil-sharh": {
+    "kind": "classical",
+    "year": {
+      "en": "14th century",
+      "ar": "القرن 14 الميلادي"
+    },
+    "author": {
+      "en": "Ibn 'Aqil",
+      "ar": "ابن عقيل"
+    },
+    "title": {
+      "en": "Commentary on the Alfiyya of Ibn Malik",
+      "ar": "شرح ابن عقيل على ألفية ابن مالك"
+    },
+    "note": {
+      "en": "The standard teaching commentary on Arabic grammar. Cited with Muhyi al-Din 'Abd al-Hamid's notes.",
+      "ar": "الشرح المعتمد في تدريس النحو. يُحال إلى طبعته مع تعليق محيي الدين عبد الحميد."
+    },
+    "short": {
+      "en": "Sharh Ibn 'Aqil",
+      "ar": "شرح ابن عقيل"
+    }
+  },
+  "ibn-faris-sahibi": {
+    "kind": "classical",
+    "year": {
+      "en": "10th century",
+      "ar": "القرن 10 الميلادي"
+    },
+    "author": {
+      "en": "Ahmad ibn Faris",
+      "ar": "أحمد بن فارس"
+    },
+    "title": {
+      "en": "al-Sahibi fi Fiqh al-Lugha",
+      "ar": "الصاحبي في فقه اللغة"
+    },
+    "note": {
+      "en": "An early study of the Arabic language, its dialects and its usage.",
+      "ar": "دراسة مبكرة في فقه العربية ولهجاتها وسنن العرب في كلامها."
+    },
+    "short": {
+      "en": "al-Sahibi",
+      "ar": "الصاحبي"
+    }
+  },
+  "draz-dustur": {
+    "kind": "modern",
+    "year": "1950",
+    "author": {
+      "en": "Muhammad Abdullah Draz",
+      "ar": "محمد عبد الله دراز"
+    },
+    "title": {
+      "en": "The Moral World of the Qur'an (Dustur al-Akhlaq fi al-Qur'an)",
+      "ar": "دستور الأخلاق في القرآن"
+    },
+    "note": {
+      "en": "Draz's Sorbonne thesis, a systematic account of the Qur'an's moral teaching.",
+      "ar": "أطروحة دراز في السوربون، عرض منهجي للنظام الأخلاقي في القرآن."
+    },
+    "short": {
+      "en": "Dustur al-Akhlaq",
+      "ar": "دستور الأخلاق"
+    }
+  },
+  "azami-studies": {
+    "kind": "modern",
+    "year": "1968",
+    "author": {
+      "en": "Muhammad Mustafa al-A'zami",
+      "ar": "محمد مصطفى الأعظمي"
+    },
+    "title": {
+      "en": "Studies in Early Hadith Literature (Dirasat fi al-Hadith al-Nabawi)",
+      "ar": "دراسات في الحديث النبوي وتاريخ تدوينه"
+    },
+    "note": {
+      "en": "A documented study of the written hadith collections that existed before the famous books were compiled.",
+      "ar": "دراسة موثقة للصحف الحديثية المكتوبة قبل تصنيف الكتب المشهورة."
+    },
+    "short": {
+      "en": "Early Hadith",
+      "ar": "دراسات في الحديث"
+    }
+  },
+  "sibai-sunna": {
+    "kind": "modern",
+    "year": "1949",
+    "author": {
+      "en": "Mustafa al-Siba'i",
+      "ar": "مصطفى السباعي"
+    },
+    "title": {
+      "en": "The Sunnah and Its Place in Islamic Law (al-Sunna wa-Makanatuha)",
+      "ar": "السنة ومكانتها في التشريع الإسلامي"
+    },
+    "note": {
+      "en": "A modern defence of the Sunnah's authority and a survey of the objections raised against it.",
+      "ar": "دفاع معاصر عن حجية السنة، وعرض لما أُثير حولها من شبهات."
+    },
+    "short": {
+      "en": "al-Sunna",
+      "ar": "السنة ومكانتها"
+    }
+  },
+  "saqqar-bible": {
+    "kind": "modern",
+    "year": "2007",
+    "author": {
+      "en": "Munqidh al-Saqqar",
+      "ar": "منقذ السقار"
+    },
+    "title": {
+      "en": "Did the Bible Foretell Muhammad?",
+      "ar": "هل بشر الكتاب المقدس بمحمد ﷺ؟"
+    },
+    "note": {
+      "en": "A modern Muslim study of the biblical passages read as references to Muhammad, citing the biblical text and Christian reference works.",
+      "ar": "دراسة معاصرة للنصوص الكتابية التي يُستدل بها على البشارة بمحمد ﷺ، تحيل إلى النص الكتابي ومراجع نصرانية."
+    },
+    "short": {
+      "en": "The Bible & Muhammad",
+      "ar": "البشارات"
     }
   }
 }
